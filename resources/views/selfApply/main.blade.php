@@ -66,6 +66,72 @@
 <section id="hero-201" class="bg--white-100 bg--fixed hero-section">
     <div class="container">
         <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-lg-6">
+                <div class="mt-30 mb-20">
+                    <h1 class="s-50 mb-20">Get Instant <span class="color--green-500">Cash</span></h1>
+                    <h3 class="s-24 mb-20">Up to <span class="color--green-500">₹15 Lakhs</span> in 24 Hours</h3>
+                    <p class="s-18">India's fastest digital loan platform with instant pre-approval.</p>
+                </div>
+
+                <div class="d-none d-md-block d-lg-block">
+                    <div class="row gx-2 gy-2 row-cols-1 row-cols-md-3 row-cols-lg-3 mb-10">
+                        <div class="col">
+                            <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
+                                <div class="fbox-ico ico-25 mb-2">
+                                    <div class="shape-ico color--theme">
+                                        <span class="flaticon-shield"></span>
+                                    </div>
+                                </div>
+                                <div class="fbox-txt">
+                                    <h4 class="s-16 w-700">Secure & Safe</h4>
+                                    <p class="mb-0">256-bit encryption</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
+                                <div class="fbox-ico ico-25 mb-2">
+                                    <div class="shape-ico color--theme">
+                                        <span class="flaticon-coin"></span>
+                                    </div>
+                                </div>
+                                <div class="fbox-txt">
+                                    <h4 class="s-16 w-700">Instant Approval</h4>
+                                    <p class="mb-0">Within 5 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
+                                <div class="fbox-ico ico-25 mb-2">
+                                    <div class="shape-ico color--theme">
+                                        <span class="flaticon-bar-chart"></span>
+                                    </div>
+                                </div>
+                                <div class="fbox-txt">
+                                    <h4 class="s-16 w-700">Low Interest Rate</h4>
+                                    <p class="mb-0">Starting at 10.5%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <p class="btn-txt mb-3 ico-15"><span class="flaticon-check color--theme"></span> No Collateral Required</p>
+                            <p class="btn-txt mb-3 ico-15"><span class="flaticon-check color--theme"></span> Flexible Repayment Options</p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <p class="btn-txt mb-3 ico-15"><span class="flaticon-check color--theme"></span> Pre-Approved Offers Available</p>
+                            <p class="btn-txt mb-3 ico-15"><span class="flaticon-check color--theme"></span> Minimal Documentation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-md-6 col-lg-6 align-items-center m-auto self-apply-form">
                 <div id="hero-8-form" class="border border-primary r-06">
                     <h4 class="s-20 w-700 mb-2">Apply in <span class="color--green-500">5 Minutes</span></h4>

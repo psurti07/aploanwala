@@ -9,9 +9,7 @@
 
 @endpush
 @section('content')
-<!-- main section starts -->
 <section id="hero-7" class="hero-section bg--green-100 bg--scroll">
-    <!-- <div class="hero-overlay"> -->
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-md-6 col-lg-6 col-12">
@@ -31,66 +29,96 @@
             </div>
         </div>
     </div>
-    <!-- </div> -->
 </section>
-<!-- main section ends -->
 
-<!-- Our Partners section start  -->
-<section id="integrations-2" class="py-80 integrations-section">
+<div id="statistic-1" class=" bg--green-400 ct-03 py-80 statistic-section division">
     <div class="container">
-        <div class="r-12 text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-10">
-                    <div class="section-title mb-50">
-                        <h2 class="s-28">Backed by Trusted <span class="color--green-500">Lending Institutions</span></h2>
-                        <p class="s-16 color--grey">We collaborate with top NBFCs to expand structured credit access across India.</p>
+        <div class="statistic-5-wrapper">
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col sec-1 border-end border-light">
+                    <div id="sb-5-1" class="text-center">
+                        <div class="statistic-block">
+                            <div class="statistic-digit">
+                                <h2 class="s-30 w-700 mb-10 text-white">
+                                    <span class="count-element">5000</span>+
+                                </h2>
+                            </div>
+                            <div class="statistic-txt">
+                                <h5 class="s-16 w-500 text-white">Applicants Assisted</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            @php
-            $lists = nbfcsList();
-            @endphp
-
-            <div class="bank-crousel">
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="owl-carousel brands-carousel-6 emi-carousel">
-                            {!! $lists['carousel'] !!}
+                <div class="col sec-2 border-end border-light">
+                    <div id="sb-5-3" class="text-center">
+                        <div class="statistic-block">
+                            <div class="statistic-digit">
+                                <h2 class="s-30 w-700 mb-10 text-white">
+                                    <span class="count-element">10</span>+
+                                </h2>
+                            </div>
+                            <div class="statistic-txt">
+                                <h5 class="s-16 w-500 text-white">NBFC Partners</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sec-3 border-end border-light">
+                    <div id="sb-5-2" class="text-center">
+                        <div class="statistic-block">
+                            <div class="statistic-digit">
+                                <h2 class="s-30 w-700 mb-10 text-white">
+                                    <span class="count-element">15</span>+
+                                </h2>
+                            </div>
+                            <div class="statistic-txt">
+                                <h5 class="s-16 w-500 text-white">Operational Team Members</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sec-4">
+                    <div id="sb-5-4" class="text-center">
+                        <div class="statistic-block">
+                            <div class="statistic-digit">
+                                <h2 class="s-30 w-700 mb-10 text-white">
+                                    <span class="count-element">100</span>%
+                                </h2>
+                            </div>
+                            <div class="statistic-txt">
+                                <h5 class="s-16 w-500 text-white">Digital Application Model</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- Our Partners section end  -->
+</div>
 
-<section class="py-80 ct-02 content-section division bg--green-100" id="company">
+<section class="py-80 ct-02 content-section division" id="company">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-40">
-                    <h2 class="s-28">About <span class="color--green-500">APloanwala</span></h2>
-                    <p class="s-16 color--grey">Enabling Better Financial Decisions with Smart, Personalized Support</p>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <div class="img-block left-column">
+                    <img class="img-fluid" src="{{ asset('front/images/Compny-page-1.png') }}" alt="content-image">
                 </div>
             </div>
-
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="txt-block left-column">
-                    <p class="">APloanwala is a financial consultation and services company dedicated to helping individuals choose the right loan with ease and confidence. We work closely with our clients to understand their needs and connect them with suitable options through our network of multiple NBFC partners, ensuring a smooth, transparent, and well-guided experience from start to finish.</p>
-                    <p class="">Our objective is simple – remove uncertainty from borrowing and replace it with clarity, process, and informed action.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-md-6">
                 <div class="txt-block right-column">
-                    <p class="w-700">Your Growth Is Our Priority</p>
+                    <p><span class="section-id s-16">About <span class="color--green-500">PaisaPocket</span></span></p>
+                    <h2 class="s-28 w-700">Enabling Better Financial Decisions with Smart, Personalized Support</h2>
                     <ul class="simple-list">
-                        <li class="list-item">
-                            <p>We recognize that every applicant’s financial profile is different. Instead of generic recommendations, our system evaluates individual inputs to present structured options aligned with user requirements.</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="mb-0">Transparency, guided steps, and clear communication form the foundation of our approach.</p>
-                        </li>
+                        <p>PaisaPocket is a financial consultation and services company dedicated to helping individuals choose the right loan with ease and confidence. We work closely with our clients to understand their needs and connect them with suitable options through our network of multiple NBFC partners.</p>
+
+                        <ul class="simple-list">
+                            <li class="list-item">
+                                <p>We recognize that every applicant’s financial profile is different. Instead of generic recommendations, our system evaluates individual inputs to present structured options aligned with user requirements.</p>
+                            </li>
+                            <li class="list-item">
+                                <p class="mb-0">Transparency, guided steps, and clear communication form the foundation of our approach.</p>
+                            </li>
+                        </ul>
                     </ul>
                 </div>
             </div>
@@ -100,8 +128,62 @@
 
 <hr class="divider">
 
+<section id="products" class="py-80 bg--green-100 features-section division">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-9">
+                <div class="section-title mb-70">
+                    <h2 class="s-28">Advance Your <span class="color--green-500">Financial Aspects Smartly</span></h2>
+                    <p class="s-16 color--grey">Select the option that matches your comfort level and application preference.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fbox-wrapper text-center">
+            <div class="row d-flex align-items-center justify-content-center m-auto">
+                <div class="col-md-5 mb-3">
+                    <div class="fbox-5 fb-2 bg--white-100 r-16 p-0">
+                        <div class="w-100 h-100">
+                            <img class="img-fluid w-100 h-100 rounded-top-4" src="{{ asset('front/images/Img-22.png') }}" alt="feature-image">
+                        </div>
+                        <div class="p-3">
+                            <div class="fbox-txt mb-3">
+                                <h5 class="s-20 w-700">Quick Self-Apply</h5>
+                                <p>Get instant access to professional digital loan consultation, direct loan application links, and personalized loan offers from our trusted NBFC and banking partners.</p>
+                            </div>
+                            <a href="{{ route('self.apply.main') }}"
+                                class="btn r-04 btn--theme hover--tra-black">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-3">
+                    <div class="fbox-5 fb-2 bg--white-100 r-16 p-0">
+                        <div class="w-100 h-100">
+                            <img class="img-fluid w-100 h-100  rounded-top-4" src="{{ asset('front/images/Img-23.png') }}" alt="feature-image">
+                        </div>
+                        <div class="p-3">
+                            <div class="fbox-txt mb-3">
+                                <h5 class="s-20 w-700">Hire Loan Agent</h5>
+                                <p> Sit back and relax while a dedicated expert loan agent manages the entire loan process for you, from application to bank coordination, helping improve your chances of approval.</p>
+                            </div>
+                            <a href="{{ route('loan.agent.main') }}"
+                                class="btn r-04 btn--theme hover--tra-black">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- why aploanwala section starts -->
-<section id="features-6" class="py-80 features-section division">
+<section id="features-6" class="py-80  features-section division">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
@@ -170,135 +252,8 @@
     </div>
 </section>
 <!-- why aploanwala section ends -->
+ 
 
-<!-- Trust Badges Section starts -->
-<div id="statistic-1" class=" bg--green-400 ct-03 py-50 statistic-section division">
-    <div class="container">
-        <div class="statistic-5-wrapper">
-            <div class="row row-cols-2 row-cols-md-4">
-                <div class="col sec-1">
-                    <div id="sb-5-1" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">5000</span>+
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Applicants Assisted</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col sec-2">
-                    <div id="sb-5-3" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">10</span>+
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">NBFC Partners</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col sec-3">
-                    <div id="sb-5-2" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">15</span>+
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Operational Team Members</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col sec-4">
-                    <div id="sb-5-4" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">100</span>%
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Digital Application Model</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Trust Badges Section ends -->
-
-<!-- Products Intro section starts -->
-<section id="products" class="py-80 features-section division">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-10">
-                <div class="section-title mb-40">
-                    <h2 class="s-28">Advance Your <span class="color--green-500">Financial Aspects Smartly</span></h2>
-                    <p class="s-16 color--grey">Select the option that matches your comfort level and application preference.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-10 align-items-center m-auto">
-            <div class="row fbox-wrapper text-center align-items-center m-auto border border--grey shadow rounded-3 mb-4">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="img-block right-column text-center">
-                        <img class="img-fluid light-theme-img"
-                            src="{{ asset('front/images/Easy-Self-Apply-ai.png') }}"
-                            alt="feature-image">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <div class="txt-block right-column">
-                        <h3 class="s-22 w-700 mb-2">Quick Self-Apply</h3>
-                        <p class="mb-2">
-                            Get instant access to professional digital loan consultation, direct loan application links, and personalized loan offers from our trusted NBFC and banking partners.
-                        </p>
-                        <a href="{{ route('self.apply.main') }}"
-                            class="btn r-04 btn--theme hover--tra-black">
-                            Apply Now
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row fbox-wrapper text-center align-items-center m-auto border border--grey shadow rounded-3">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="txt-block left-column">
-                        <h3 class="s-22 w-700 mb-2">Hire Loan Agent</h3>
-                        <p class="mb-2">
-                            Sit back and relax while a dedicated expert loan agent manages the entire loan process for you, from application to bank coordination, helping improve your chances of approval.
-                        </p>
-                        <a href="{{ route('loan.agent.main') }}"
-                            class="btn r-04 btn--theme hover--tra-black">
-                            Apply Now
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <div class="img-block right-column text-center">
-                        <img class="img-fluid light-theme-img"
-                            src="{{ asset('front/images/Hire-Loan-Agent-ai.png') }}"
-                            alt="feature-image">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</section>
-<!-- Products Intro section ends -->
 
 <!-- Quick and swift steps section starts -->
 <section id="features-2" class="py-80 bg--green-100 features-section division">
@@ -638,6 +593,35 @@
 </section>
 <!-- eligibility calculator ends -->
 {{--<hr class="divider">--}}
+<!-- Our Partners section start  -->
+<section id="integrations-2" class="py-80 bg--green-100 integrations-section">
+    <div class="container">
+        <div class="r-12 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-10">
+                    <div class="section-title mb-50">
+                        <h2 class="s-28">Backed by Trusted <span class="color--green-500">Lending Institutions</span></h2>
+                        <p class="s-16 color--grey">We collaborate with top NBFCs to expand structured credit access across India.</p>
+                    </div>
+                </div>
+            </div>
+            @php
+            $lists = nbfcsList();
+            @endphp
+
+            <div class="bank-crousel">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="owl-carousel brands-carousel-6 emi-carousel">
+                            {!! $lists['carousel'] !!}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our Partners section end  -->
 
 <!-- Testimonioals section starts -->
 <section id="reviews-1" class="py-80 reviews-section">
