@@ -31,7 +31,7 @@ class LegalController extends Controller
     {
         $meta = refundPolicyMeta();
         $mainTitle = 'Cancellation & Refund Policy';
-        $subTitle = 'Thank you for choosing our platform. We value the opportunity to assist you and aim to maintain transparency regarding cancellations and refunds.';
+        $subTitle = '';
         $description = InfoPages::select('content')->where('slug', 'refund-policy')->first()->content;
         return view('front.legalPages', compact('meta', 'description', 'mainTitle', 'subTitle'));
     }

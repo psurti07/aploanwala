@@ -73,7 +73,7 @@ class SALeadWhatsappServices
                         					"url" => $aisensy->media_url,
                         					"filename" => $aisensy->media_filename
                         				),
-                        				"userName" => 'APloanwala Admin',
+                        				"userName" => 'APloannwala Admin',
                         				"tags" => array("Get Offer"),
                         				"attributes" => array(
                         					"EligibleAmount" => strval($eligibilityAmt)

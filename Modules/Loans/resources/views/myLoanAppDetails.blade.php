@@ -104,7 +104,7 @@
                             <div class="d-flex flex-stack">
                                 <div class="text-gray-700 fw-semibold fs-6 me-2">Agent Name</div>
                                 <div class="d-flex align-items-senter">
-                                    <span class="text-gray-900 fw-bolder fs-6">{{ $agentDetails->fullname ?? 'APloanwala Support' }}</span>
+                                    <span class="text-gray-900 fw-bolder fs-6">{{ $agentDetails->fullname ?? 'APloannwala Support' }}</span>
                                 </div>
                             </div>
                             <div class="separator separator-dashed my-3"></div>

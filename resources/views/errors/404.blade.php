@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>404 Not Found :: APloanwala</title>
+    <title>404 Not Found :: APloannwala</title>
 
     <style id="" media="all">
         /* cyrillic-ext */
@@ -67,7 +67,7 @@
             font-size: 252px;
             font-weight: 900;
             margin: 0;
-            color: #0e5281;
+            color: #2c134d;
             text-transform: uppercase;
             letter-spacing: -40px;
             margin-left: -20px

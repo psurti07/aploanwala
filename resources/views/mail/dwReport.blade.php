@@ -88,13 +88,13 @@
                                                                             class="es-m-txt-c"
                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                             <a target="_blank"
-                                                                                href="https://aploanwala.com/uat/"
+                                                                                href="https://aploannwala.com/"
                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                            <img src="https://aploanwala.com/uat/front/images/logo/logo.png"
-                                                                                alt="APloanwala"
+                                                                            <img src="https://aploannwala.com/front/images/logo/logo.png"
+                                                                                alt="APloannwala"
                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                 width="190"
-                                                                                title="APloanwala">
+                                                                                title="APloannwala">
                                                                             </a>
                                                                         </td>
                                                                     </tr>
@@ -123,23 +123,23 @@
                                                             style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 align="left"
-                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #b4c7d5;  border-radius: 12px; display: block;">
+                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #f9f4ea;border: 1px solid #f9f4ea;  border-radius: 12px; display: block;">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #2c134d;font-family: Poppins, sans-serif;">
                                                                                 Personal Details / Subscription Details
                                                                             </h3>
                                                                             <hr>
                                                                             <table cellpadding="0" cellspacing="0"
                                                                                 width="100%" bgcolor="#ffffff"
-                                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: separate;border-spacing: 0; border-radius: 15px;/* border: 1px solid #b4c7d5; */ background-color: transparent;"
+                                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: separate;border-spacing: 0; border-radius: 15px;/* border: 1px solid #f9f4ea; */ background-color: transparent;"
                                                                                 role="presentation">
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td
-                                                                                            style="padding:0  20px; margin: 0; line-height: 1.5rem;background-color: #b4c7d5; color:#000;font-size:16px; border-radius: 12px;font-family: Poppins, sans-serif;">
+                                                                                            style="padding:0  20px; margin: 0; line-height: 1.5rem;background-color: #f9f4ea; color:#000;font-size:16px; border-radius: 12px;font-family: Poppins, sans-serif;">
                                                                                             <p style="margin: 0;">Full Name :<span></span>
                                                                                                 <h5 style="margin:0;">{{ $userData->first_name }}&nbsp;{{ $userData->last_name }}</h5>
                                                                                             </p>
@@ -151,7 +151,7 @@
                                                                                             </p>
                                                                                         </td>
                                                                                         <td align="left"
-                                                                                            style="padding:0 20px; margin: 0; line-height: 1.5rem;background-color: #b4c7d5;  color:#000;font-size:16px;border-radius: 12px;font-family: Poppins, sans-serif;">
+                                                                                            style="padding:0 20px; margin: 0; line-height: 1.5rem;background-color: #f9f4ea;  color:#000;font-size:16px;border-radius: 12px;font-family: Poppins, sans-serif;">
                                                                                             <p style="margin: 0;">Subscription Name / Invoice No :
                                                                                             <h5 style="margin: 0;">{{ $plan }} / {{ $invoice->inv_prefix }}{{ $invoice->inv_number }}</h5>
                                                                                             </p>
@@ -195,18 +195,18 @@
                                                             style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 align="left"
-                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #b4c7d5;  border-radius: 12px; display: block;">
+                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #f9f4ea;border: 1px solid #f9f4ea;  border-radius: 12px; display: block;">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #2c134d;font-family: Poppins, sans-serif;">
                                                                                 Agent Details
                                                                             </h3>
                                                                             <hr>
                                                                             <table width="100%" bgcolor="#ffffff" style="border-radius: 15px; background-color: transparent;margin-bottom:15px;">
                                                                                 <tr>
-                                                                                    <td style="padding: 0 20px; background-color: #b4c7d5; color: #000; font-size: 16px; border-radius: 12px;font-family: Poppins, sans-serif;">
+                                                                                    <td style="padding: 0 20px; background-color: #f9f4ea; color: #000; font-size: 16px; border-radius: 12px;font-family: Poppins, sans-serif;">
                                                                                         <table width="100%" style="width: 100%;">
                                                                                             <tr>
                                                                                                 <td><p style="margin:0">Agent Name :</p></td>
@@ -214,7 +214,7 @@
                                                                                                 <td><p style="margin:0">Email :</p></td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <td><h5 style="margin:0">{{ $agent->fullname ?? 'APloanwala Support' }}</h5></td>
+                                                                                                <td><h5 style="margin:0">{{ $agent->fullname ?? 'APloannwala Support' }}</h5></td>
                                                                                                 <td><h5 style="margin:0">+91 {{ $agent->mobile ?? '97242 06519' }}</h5></td>
                                                                                                 <td><h5 style="margin:0">{{ $agent->emailid ?? 'info@ailoans.com' }}</h5></td>
                                                                                             </tr>
@@ -252,15 +252,15 @@
                                                             style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 align="left"
-                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #b4c7d5;  border-radius: 12px; display: block;">
+                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #f9f4ea;border: 1px solid #f9f4ea;  border-radius: 12px; display: block;">
                                                                 <tbody>
                                                                                                                                         <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #2c134d;font-family: Poppins, sans-serif;">
                                                                                 Pre-Approved Offers
                                                                             </h3>
-                                                                            <span style="display:flex; justify-content:center; color: #0e5281;font-family: Poppins, sans-serif;">Loan Amount - ₹&nbsp;<strong>{{ formatePriceIndia($offers[0]->loanAmount) }}</strong></span>
+                                                                            <span style="display:flex; justify-content:center; color: #2c134d;font-family: Poppins, sans-serif;">Loan Amount - ₹&nbsp;<strong>{{ formatePriceIndia($offers[0]->loanAmount) }}</strong></span>
                                                                             <hr>
                                                                             <table class="offers-table">
                                                                                 <thead>
@@ -279,7 +279,7 @@
                                                                                     @endphp
                                                                                     <tr style="font-family: Poppins, sans-serif;">
                                                                                         <td>{{ $loop->iteration }}</td>
-                                                                                        <td><img src="https://manage.aploanwala.com/upload/banks/{{ $offer->bank_image }}" alt="{{ $offer->bank_name }}" class="bank-logo"></td>
+                                                                                        <td><img src="https://manage.aploannwala.com/upload/banks/{{ $offer->bank_image }}" alt="{{ $offer->bank_name }}" class="bank-logo"></td>
                                                                                         <td>{{ $offer->bank_name }}</td>
                                                                                         <td>{{ $offer->tenures }}&nbsp;Months<br><span class="subtext">({{ $offer->roi }}%)</span></td>
                                                                                         <td><strong>{{ $click }}</strong> Clicked</td>
@@ -316,12 +316,12 @@
                                                             style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 align="left"
-                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #b4c7d5;  border-radius: 12px; display: block;">
+                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #f9f4ea;border: 1px solid #f9f4ea;  border-radius: 12px; display: block;">
                                                                 <tbody>
                                                                                                                                         <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281; font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #2c134d; font-family: Poppins, sans-serif;">
                                                                                 Service Timeline
                                                                             </h3>
                                                                             <hr>

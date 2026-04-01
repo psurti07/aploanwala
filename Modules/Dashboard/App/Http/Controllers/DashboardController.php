@@ -179,7 +179,7 @@ class DashboardController extends Controller
                 }
             }
             $orderId = "ZPLAT" . number_format(microtime(true) * 1000, 0, '.', '');
-            // $returnUrl = "https://aploanwala.com/api/customer/plan-upgrade";
+            // $returnUrl = "https://aploannwala.com/api/customer/plan-upgrade";
             $returnUrl = route('api.customer.upgradePlan');
             
             /*zaakpay code starts*/
@@ -384,7 +384,7 @@ class DashboardController extends Controller
                     $invoiceData = view('mail.invoice', $invAttach)->render();
                     Log::info($invoiceData);
                     $pdf = Pdf::loadHTML($invoiceData)->setPaper('A4', 'portrait')->output();
-                    sendBrevoHtmlMail2($mailData, 'Congratulations! Successful Plan Renewal for APloanwala.', $sendGreetings, 3, $pdf);
+                    sendBrevoHtmlMail2($mailData, 'Congratulations! Successful Plan Renewal for APloannwala.', $sendGreetings, 3, $pdf);
                     return redirect("customer/dashboard")->with('success', 'Your plan has been successfully renewed!');
                 } else {
                     Log::info('response code not success');

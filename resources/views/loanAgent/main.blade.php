@@ -13,8 +13,8 @@
     }
 
     .radio:checked {
-        background: #0e5281;
-        border-color: #0e5281;
+        background: #2c134d;
+        border-color: #2c134d;
     }
 
     .owl-carousel .owl-item img {
@@ -197,7 +197,7 @@
                             <div class="col-md-12"><span class="text-danger" id="usererrormsg"></span></div>
                         </div>
 
-                        <p class="mb-0 s-14 text-start text-dark">By submitting the form and proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms of Use</a> and <a href="{{ route('front.privacy.policy') }}" class="text-dark text-decoration-none" target="_blank">Privacy Policy</a> of <a href="{{ route('front.home') }}" class="text-dark text-decoration-none" target="_blank">APloanwala.com.</a></p>
+                        <p class="mb-0 s-14 text-start text-dark">By submitting the form and proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms of Use</a> and <a href="{{ route('front.privacy.policy') }}" class="text-dark text-decoration-none" target="_blank">Privacy Policy</a> of <a href="{{ route('front.home') }}" class="text-dark text-decoration-none" target="_blank">aploannwala.com.</a></p>
                     </form>
                 </div>
             </div>
@@ -239,7 +239,7 @@
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-50">
-                    <h2 class="s-28">Why <span class="color--green-500">APloanwala</span></h2>
+                    <h2 class="s-28">Why <span class="color--green-500">APloannwala</span></h2>
                     <p class="s-16 color--grey">Here's What Sets Our Platform Apart</p>
                 </div>
             </div>

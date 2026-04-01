@@ -9,7 +9,7 @@
                     <!-- Title -->
                     <h2 class="s-34 w-700">Know Loan Criteria, Apply Confidently!</h2>
                     <!-- Text -->
-                    <p class="s-16">Quick and Simple Requirements to Avail a {{ isset($pageamount) ? $pageamount : '' }} Personal Loan through APloanwala</p>
+                    <p class="s-16">Quick and Simple Requirements to Avail a {{ isset($pageamount) ? $pageamount : '' }} Personal Loan through APloannwala</p>
                 </div>
             </div>
         </div>

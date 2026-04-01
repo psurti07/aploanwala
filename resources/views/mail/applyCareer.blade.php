@@ -5,6 +5,6 @@
     <p>In case you've any queries/doubts, please write to us at info@ailoans.com</p>
     <p>
         Thanks & Regards,<br />
-        APloanwala
+        APloannwala
     </p>
 @endsection

@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Log;
 if(!function_exists('homeMeta')){
     function homeMeta(){
         $meta = [
-            'keywords' => 'instant online personal loans in India, low-interest personal loans with fast approval, quick loan application process, minimal documentation loans, personalized loan solutions, APloanwala loans',
+            'keywords' => 'instant online personal loans in India, low-interest personal loans with fast approval, quick loan application process, minimal documentation loans, personalized loan solutions, APloannwala loans',
             'title' => 'Instant Online Personal Loans With Low Interest Rates And Fast Approvals',
             'description' => 'Apply for instant online personal loans at low interest rates. Experience quick approvals, minimal documentation, and personalized loan solutions tailored to your financial needs.'
         ];
@@ -18,9 +18,9 @@ if(!function_exists('homeMeta')){
 if(!function_exists('privacyPolicyMeta')){
     function privacyPolicyMeta(){
         $meta = [
-            'keywords' => 'privacy policy, data protection, personal information security, APloanwala, data privacy, information security',
-            'title' => 'Privacy Policy - How We Protect Your Data | APloanwala',
-            'description' => 'Review APloanwala`s privacy policy to understand how we protect your personal information. Your data security and privacy are our top priorities.'
+            'keywords' => 'privacy policy, data protection, personal information security, APloannwala, data privacy, information security',
+            'title' => 'Privacy Policy - How We Protect Your Data | APloannwala',
+            'description' => 'Review APloannwala`s privacy policy to understand how we protect your personal information. Your data security and privacy are our top priorities.'
         ];
         return $meta;
     }
@@ -30,9 +30,9 @@ if(!function_exists('privacyPolicyMeta')){
 if(!function_exists('termsConditionsMeta')){
     function termsConditionsMeta(){
         $meta = [
-            'keywords' => 'terms and conditions, loan services terms, legal terms, APloanwala, service usage, loan application terms',
-            'title' => 'Terms and Conditions for Using APloanwala Services',
-            'description' => 'Read the terms and conditions for using APloanwala`s personal loan services. Ensure you understand the legal aspects before applying for a loan.'
+            'keywords' => 'terms and conditions, loan services terms, legal terms, APloannwala, service usage, loan application terms',
+            'title' => 'Terms and Conditions for Using APloannwala Services',
+            'description' => 'Read the terms and conditions for using APloannwala`s personal loan services. Ensure you understand the legal aspects before applying for a loan.'
         ];
         return $meta;
     }
@@ -42,9 +42,9 @@ if(!function_exists('termsConditionsMeta')){
 if(!function_exists('refundPolicyMeta')){
     function refundPolicyMeta(){
         $meta = [
-            'keywords' => 'refund policy, loan application refund, refund conditions, loan services, customer support, APloanwala',
-            'title' => 'Refund Policy for Loan Application Services | APloanwala',
-            'description' => 'Review APloanwala`s refund policy for loan application services. Understand the conditions under which refunds may be processed. Customer satisfaction is our priority.'
+            'keywords' => 'refund policy, loan application refund, refund conditions, loan services, customer support, APloannwala',
+            'title' => 'Refund Policy for Loan Application Services | APloannwala',
+            'description' => 'Review APloannwala`s refund policy for loan application services. Understand the conditions under which refunds may be processed. Customer satisfaction is our priority.'
         ];
         return $meta;
     }
@@ -54,9 +54,9 @@ if(!function_exists('refundPolicyMeta')){
 if(!function_exists('disclaimerMeta')){
     function disclaimerMeta(){
         $meta = [
-            'keywords' => 'legal disclaimer, personal loans information, loan terms, financial services, APloanwala, liability, legal notice',
-            'title' => 'Legal Disclaimer for Personal Loans Information | APloanwala',
-            'description' => 'Read the legal disclaimer for information provided on personal loans and financial services by APloanwala. Ensure you understand the terms before proceeding.'
+            'keywords' => 'legal disclaimer, personal loans information, loan terms, financial services, APloannwala, liability, legal notice',
+            'title' => 'Legal Disclaimer for Personal Loans Information | APloannwala',
+            'description' => 'Read the legal disclaimer for information provided on personal loans and financial services by APloannwala. Ensure you understand the terms before proceeding.'
         ];
         return $meta;
     }
@@ -67,8 +67,8 @@ if(!function_exists('raiseRequestMeta')){
     function raiseRequestMeta(){
         $meta = [
             'keywords' => 'raise a request for personal loan assistance, personal loan inquiry form, personal loan request submission, personal loan customer support request, apply for personal loan online, personal loan assistance request, how to raise a request for a loan, submit personal loan request India, loan request support team, loan inquiry assistance',
-            'title' => 'Raise a Request for Personal Loan Assistance | APloanwala',
-            'description' => 'Submit your personal loan inquiry with APloanwala and get quick assistance. Our team helps you find the best loan options tailored to your financial needs.'
+            'title' => 'Raise a Request for Personal Loan Assistance | APloannwala',
+            'description' => 'Submit your personal loan inquiry with APloannwala and get quick assistance. Our team helps you find the best loan options tailored to your financial needs.'
         ];
         return $meta;
     }
@@ -80,7 +80,7 @@ if(!function_exists('creditScoreMeta')){
         $meta = [
             'keywords' => 'Free CIBIL score check online, Instant credit score check without affecting credit, Check CIBIL score for free, Online CIBIL score checker, Free credit score report India, How to improve CIBIL score, Understand CIBIL score range, Importance of credit score in India, Free CIBIL score analysis tool, Easy way to check CIBIL score, Benefits of maintaining a good credit score, Credit score monitoring services, Free credit report generator, CIBIL score check for loan eligibility, Impact of credit score on personal loans',
             'title' => 'Free CIBIL Score Check Online | Instant Credit Score Report',
-            'description' => 'Check your CIBIL score for free with APloanwala`s online tool. Get your instant credit score report and learn how to improve your score for better loan eligibility.'
+            'description' => 'Check your CIBIL score for free with APloannwala`s online tool. Get your instant credit score report and learn how to improve your score for better loan eligibility.'
         ];
         return $meta;
     }
@@ -90,8 +90,8 @@ if(!function_exists('creditScoreMeta')){
 if(!function_exists('faqsMeta')){
     function faqsMeta(){
         $meta = [
-            'keywords' => 'FAQs on CIBIL score, Free credit score check FAQs, How to improve CIBIL score, What is a good CIBIL score, CIBIL score check process, Free CIBIL score checker FAQs, APloanwala credit score FAQs, Importance of credit score, Online CIBIL score check guide, Does checking credit score affect CIBIL score, CIBIL score for loan approval, CIBIL score improvement tips, Credit report FAQs, Impact of CIBIL score on loans, CIBIL score for credit card eligibility',
-            'title' => 'FAQs on CIBIL Score Check | APloanwala Free Credit Score Checker',
+            'keywords' => 'FAQs on CIBIL score, Free credit score check FAQs, How to improve CIBIL score, What is a good CIBIL score, CIBIL score check process, Free CIBIL score checker FAQs, APloannwala credit score FAQs, Importance of credit score, Online CIBIL score check guide, Does checking credit score affect CIBIL score, CIBIL score for loan approval, CIBIL score improvement tips, Credit report FAQs, Impact of CIBIL score on loans, CIBIL score for credit card eligibility',
+            'title' => 'FAQs on CIBIL Score Check | APloannwala Free Credit Score Checker',
             'description' => 'Find answers to frequently asked questions about checking your CIBIL score, improving your credit score, and understanding credit reports.'
         ];
         return $meta;
@@ -102,9 +102,9 @@ if(!function_exists('faqsMeta')){
 if(!function_exists('serviceMeta')){
     function serviceMeta(){
         $meta = [
-            'keywords' => 'personal loan services with fast approval, flexible loan options in India, APloanwala loan services, online loan application India, personal loan options, apply for a loan online',
+            'keywords' => 'personal loan services with fast approval, flexible loan options in India, APloannwala loan services, online loan application India, personal loan options, apply for a loan online',
             'title' => 'Explore Our Personal Loan Services - Fast Approval and Flexible Options',
-            'description' => 'APloanwala offers a variety of personal loan services with fast approval and flexible repayment options. Find the right loan to meet your financial needs and apply online easily.'
+            'description' => 'APloannwala offers a variety of personal loan services with fast approval and flexible repayment options. Find the right loan to meet your financial needs and apply online easily.'
         ];
         return $meta;
     }
@@ -114,9 +114,9 @@ if(!function_exists('serviceMeta')){
 if(!function_exists('contactUsMeta')){
     function contactUsMeta(){
         $meta = [
-            'keywords' => 'Contact APloanwala, General inquiries contact, APloanwala support, Contact us for assistance, APloanwala contact details, Customer service APloanwala, Contact form APloanwala, APloanwala help and support, Get in touch with APloanwala, APloanwala inquiry form, General support contact page',
-            'title' => 'Contact Us | Get in Touch with APloanwala',
-            'description' => 'Get in touch with APloanwala for any inquiries, support, or assistance. Whether it`s about services, partnerships, or general queries, we`re here to help!'
+            'keywords' => 'Contact APloannwala, General inquiries contact, APloannwala support, Contact us for assistance, APloannwala contact details, Customer service APloannwala, Contact form APloannwala, APloannwala help and support, Get in touch with APloannwala, APloannwala inquiry form, General support contact page',
+            'title' => 'Contact Us | Get in Touch with APloannwala',
+            'description' => 'Get in touch with APloannwala for any inquiries, support, or assistance. Whether it`s about services, partnerships, or general queries, we`re here to help!'
         ];
         return $meta;
     }
@@ -126,9 +126,9 @@ if(!function_exists('contactUsMeta')){
 if(!function_exists('careerMeta')){
     function careerMeta(){
         $meta = [
-            'keywords' => 'career opportunities, job openings, work at APloanwala, personal loan provider jobs, join our team, job applications',
-            'title' => 'Career Opportunities at APloanwala - Join Our Team',
-            'description' => 'Explore exciting career opportunities at APloanwala. Join our team and grow with a leading personal loan provider in India. Apply now to be part of our success story.'
+            'keywords' => 'career opportunities, job openings, work at APloannwala, personal loan provider jobs, join our team, job applications',
+            'title' => 'Career Opportunities at APloannwala - Join Our Team',
+            'description' => 'Explore exciting career opportunities at APloannwala. Join our team and grow with a leading personal loan provider in India. Apply now to be part of our success story.'
         ];
         return $meta;
     }
@@ -138,9 +138,9 @@ if(!function_exists('careerMeta')){
 if(!function_exists('companyMeta')){
     function companyMeta(){
         $meta = [
-            'keywords' => 'about APloanwala, personal loans, company information, loan provider India, mission and vision, financial services',
-            'title' => 'About APloanwala - Your Loan Partner in India',
-            'description' => 'Learn more about APloanwala, your trusted partner in providing personal loans in India. Discover our mission, vision, and values in the financial sector.'
+            'keywords' => 'about APloannwala, personal loans, company information, loan provider India, mission and vision, financial services',
+            'title' => 'About APloannwala - Your Loan Partner in India',
+            'description' => 'Learn more about APloannwala, your trusted partner in providing personal loans in India. Discover our mission, vision, and values in the financial sector.'
         ];
         return $meta;
     }
@@ -150,9 +150,9 @@ if(!function_exists('companyMeta')){
 if(!function_exists('emiCalcMeta')){
     function emiCalcMeta(){
         $meta = [
-            'keywords' => 'EMI calculator for personal loans in India, estimate loan payments online, monthly EMI calculation, personal loan repayment planning, APloanwala EMI tool',
+            'keywords' => 'EMI calculator for personal loans in India, estimate loan payments online, monthly EMI calculation, personal loan repayment planning, APloannwala EMI tool',
             'title' => 'EMI Calculator for Personal Loans - Calculate Your Monthly EMI',
-            'description' => 'Use APloanwala`s EMI calculator to estimate your monthly loan payments. Plan your finances better with accurate EMI calculations for personal loans.'
+            'description' => 'Use APloannwala`s EMI calculator to estimate your monthly loan payments. Plan your finances better with accurate EMI calculations for personal loans.'
         ];
         return $meta;
     }
@@ -162,9 +162,9 @@ if(!function_exists('emiCalcMeta')){
 if(!function_exists('selfApplyMeta')){
     function selfApplyMeta(){
         $meta = [
-            'keywords' => 'apply for a personal loan online, easy loan application process, fast personal loan approval, APloanwala online loan application, hassle-free loan application',
+            'keywords' => 'apply for a personal loan online, easy loan application process, fast personal loan approval, APloannwala online loan application, hassle-free loan application',
             'title' => 'Apply for a Personal Loan Online - Fast and Easy Application Process',
-            'description' => 'Easily apply for a personal loan online through APloanwala`s quick and hassle-free application process with minimal documentation and fast approval.',
+            'description' => 'Easily apply for a personal loan online through APloannwala`s quick and hassle-free application process with minimal documentation and fast approval.',
             'robots' => 'follow, index,  max-snippet:-1, max-video-preview:-1, max-image-preview:large'
         ];
         return $meta;
@@ -175,9 +175,9 @@ if(!function_exists('selfApplyMeta')){
 if(!function_exists('customerAuth')){
     function customerAuth(){
         $meta = [
-            'keywords' => 'personal loan, loan login, login page, customer login, APloanwala login, personal loan login, APloanwala customer login, track personal loan status, loan account access, login to loan account, personal loan customer login at APloanwala, how to access personal loan details via APloanwala login, secure customer login for personal loan applications, manage personal loan account on APloanwala',
-            'title' => 'APloanwala Customer Login - Access Your Account',
-            'description' => 'Login to your APloanwala account to manage personal loan details, track applications, and check loan status securely and quickly.',
+            'keywords' => 'personal loan, loan login, login page, customer login, APloannwala login, personal loan login, APloannwala customer login, track personal loan status, loan account access, login to loan account, personal loan customer login at APloannwala, how to access personal loan details via APloannwala login, secure customer login for personal loan applications, manage personal loan account on APloannwala',
+            'title' => 'APloannwala Customer Login - Access Your Account',
+            'description' => 'Login to your APloannwala account to manage personal loan details, track applications, and check loan status securely and quickly.',
             'robots' => 'follow, index,  max-snippet:-1, max-video-preview:-1, max-image-preview:large'
         ];
         return $meta;
@@ -666,8 +666,8 @@ if(!function_exists('travel')){
     function travel()
     {
         $meta = [
-            'keywords' => 'Get Small Personal Loan Online – Instant Approval | APloanwala',
-            'title' => 'Instant Travel Loan Online – Finance Your Trip | APloanwala',
+            'keywords' => 'Get Small Personal Loan Online – Instant Approval | APloannwala',
+            'title' => 'Instant Travel Loan Online – Finance Your Trip | APloannwala',
             'description' => 'Get an instant travel loan with easy EMIs and low interest. Finance your dream vacation with quick approval, minimal paperwork & fast disbursal.',
         ];
         return $meta;
@@ -679,7 +679,7 @@ if(!function_exists('smallPersonalLoan')){
     {
         $meta = [
             'keywords' => 'small personal loan, instant small loan, ₹5000 loan, low amount loan, quick personal loan, mini personal loan, fast approval loan India',
-            'title' => 'Get Small Personal Loan Online – Instant Approval | APloanwala',
+            'title' => 'Get Small Personal Loan Online – Instant Approval | APloannwala',
             'description' => 'Apply for a small personal loan from ₹5,000 to ₹1,00,000 with quick approval, low interest rates & flexible EMIs. Instant disbursal with minimal documents.',
         ];
         return $meta;
@@ -689,9 +689,9 @@ if(!function_exists('aadhaar')){
     function aadhaar()
     {
         $meta = [
-            'keywords' => 'loan on Aadhaar card, Aadhaar card loan, personal loan with Aadhaar, Aadhaar based loan, instant Aadhaar loan, APloanwala Aadhaar loan',
-            'title' => 'Get Instant Loan on Aadhaar Card – Paperless Process | APloanwala',
-            'description' => 'Apply for a personal loan using only your Aadhaar Card. No physical documents required. 100% online and fast approval via APloanwala. Check eligibility now!',
+            'keywords' => 'loan on Aadhaar card, Aadhaar card loan, personal loan with Aadhaar, Aadhaar based loan, instant Aadhaar loan, APloannwala Aadhaar loan',
+            'title' => 'Get Instant Loan on Aadhaar Card – Paperless Process | APloannwala',
+            'description' => 'Apply for a personal loan using only your Aadhaar Card. No physical documents required. 100% online and fast approval via APloannwala. Check eligibility now!',
         ];
         return $meta;
     }
@@ -700,9 +700,9 @@ if(!function_exists('wedding')){
     function wedding()
     {
         $meta = [
-            'keywords' => 'loan for wedding, wedding loan India, marriage loan, personal loan for marriage, instant wedding loan, APloanwala wedding loan',
-            'title' => 'Wedding Loan – Instant Personal Loan for Marriage | APloanwala',
-            'description' => 'Apply for a wedding loan online with APloanwala. Get funds instantly for marriage expenses with flexible EMIs & quick approval. No collateral needed!'
+            'keywords' => 'loan for wedding, wedding loan India, marriage loan, personal loan for marriage, instant wedding loan, APloannwala wedding loan',
+            'title' => 'Wedding Loan – Instant Personal Loan for Marriage | APloannwala',
+            'description' => 'Apply for a wedding loan online with APloannwala. Get funds instantly for marriage expenses with flexible EMIs & quick approval. No collateral needed!'
         ];
         return $meta;
     }
@@ -711,9 +711,9 @@ if(!function_exists('doctors')){
     function doctors()
     {
         $meta = [
-            'keywords' => 'loan for doctors, personal loan for doctors, doctor loan India, clinic loan, loan for medical professionals, APloanwala doctor loan',
-            'title' => 'Personal Loan for Doctors – Instant Approval | APloanwala',
-            'description' => 'Get personal loan for doctors with quick approval, minimal documents, and low interest rates. Ideal for clinic setup or medical equipment. Apply via APloanwala now!',
+            'keywords' => 'loan for doctors, personal loan for doctors, doctor loan India, clinic loan, loan for medical professionals, APloannwala doctor loan',
+            'title' => 'Personal Loan for Doctors – Instant Approval | APloannwala',
+            'description' => 'Get personal loan for doctors with quick approval, minimal documents, and low interest rates. Ideal for clinic setup or medical equipment. Apply via APloannwala now!',
         ];
         return $meta;
     }
@@ -722,9 +722,9 @@ if(!function_exists('insurance')){
     function insurance()
     {
         $meta = [
-            'keywords' => 'loan for insurance, insurance premium loan, personal loan for insurance, loan to pay insurance, insurance loan India, APloanwala insurance loan',
-            'title' => 'Loan for Insurance Premium Payment – Instant Approval | APloanwala',
-            'description' => 'Need funds to pay your insurance premium? Get an instant personal loan for insurance with low interest and fast processing via APloanwala. Apply today!',
+            'keywords' => 'loan for insurance, insurance premium loan, personal loan for insurance, loan to pay insurance, insurance loan India, APloannwala insurance loan',
+            'title' => 'Loan for Insurance Premium Payment – Instant Approval | APloannwala',
+            'description' => 'Need funds to pay your insurance premium? Get an instant personal loan for insurance with low interest and fast processing via APloannwala. Apply today!',
         ];
         return $meta;
     }
@@ -734,9 +734,9 @@ if(!function_exists('cibilDefaulters')){
     function cibilDefaulters()
     {
         $meta = [
-            'keywords' => 'loan for CIBIL defaulters, bad credit loan India, APloanwala CIBIL loan, personal loan low CIBIL score, loan for low credit score, unsecured loan with bad credit',
-            'title' => 'Loan for CIBIL Defaulters in India – Apply with Low Credit Score | APloanwala',
-            'description' => 'Struggling with a low CIBIL score? APloanwala helps you get a personal loan even if you`re a CIBIL defaulter. Quick approval, easy process. Apply now!',
+            'keywords' => 'loan for CIBIL defaulters, bad credit loan India, APloannwala CIBIL loan, personal loan low CIBIL score, loan for low credit score, unsecured loan with bad credit',
+            'title' => 'Loan for CIBIL Defaulters in India – Apply with Low Credit Score | APloannwala',
+            'description' => 'Struggling with a low CIBIL score? APloannwala helps you get a personal loan even if you`re a CIBIL defaulter. Quick approval, easy process. Apply now!',
         ];
         return $meta;
     }
@@ -746,9 +746,9 @@ if(!function_exists('construction')){
     function construction()
     {
         $meta = [
-            'keywords' => 'loan for home construction, home construction loan India, APloanwala construction loan, personal loan for house construction, building loan approval',
-            'title' => 'Home Construction Loan – Build Your Dream House with APloanwala',
-            'description' => 'Looking to build your home? Get a personal loan for home construction at low interest rates and fast approval. Apply for a construction loan with APloanwala today!',
+            'keywords' => 'loan for home construction, home construction loan India, APloannwala construction loan, personal loan for house construction, building loan approval',
+            'title' => 'Home Construction Loan – Build Your Dream House with APloannwala',
+            'description' => 'Looking to build your home? Get a personal loan for home construction at low interest rates and fast approval. Apply for a construction loan with APloannwala today!',
         ];
         return $meta;
     }
@@ -758,9 +758,9 @@ if(!function_exists('lowCreditScore')){
     function lowCreditScore()
     {
         $meta = [
-            'keywords' => 'loan with low credit score, APloanwala poor credit loan, bad credit personal loan India, unsecured loan low score, loan approval low CIBIL',
-            'title' => 'Personal Loan with Low Credit Score – Easy Approval | APloanwala',
-            'description' => 'Worried about a low credit score? APloanwala offers personal loans for individuals with low CIBIL scores. Get fast approval and flexible repayment options.',
+            'keywords' => 'loan with low credit score, APloannwala poor credit loan, bad credit personal loan India, unsecured loan low score, loan approval low CIBIL',
+            'title' => 'Personal Loan with Low Credit Score – Easy Approval | APloannwala',
+            'description' => 'Worried about a low credit score? APloannwala offers personal loans for individuals with low CIBIL scores. Get fast approval and flexible repayment options.',
         ];
         return $meta;
     }
@@ -771,7 +771,7 @@ if(!function_exists('sitemapMeta')){
     {
         $meta = [
             'keywords' => 'sitemap',
-            'title' => 'Sitemap | APloanwala',
+            'title' => 'Sitemap | APloannwala',
             'description' => 'sitemap',
         ];
         return $meta;

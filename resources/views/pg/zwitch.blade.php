@@ -15,7 +15,7 @@
                 <div class="row d-flex align-items-bottom">
                     <div class="col-md-5 order-2 order-md-1">
                         <div class="hero-7-img home-img d-flex justify-content-center align-items-start">
-                            <img src="{{ asset('front/images/offer/offer-img.webp') }}" alt="APloanwala" class="img-fluid">
+                            <img src="{{ asset('front/images/offer/offer-img.webp') }}" alt="APloannwala" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 self-apply-form  form-container order-1 order-md-2">
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <p class="p-sm mt-3 mb-0">By submitting the form & proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms</a>  and <a href="{{ route('front.privacy.policy') }}" target="_blank" class="text-dark text-decoration-none"> Privacy Policy</a> of APloanwala.</p>
+                            <p class="p-sm mt-3 mb-0">By submitting the form & proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms</a>  and <a href="{{ route('front.privacy.policy') }}" target="_blank" class="text-dark text-decoration-none"> Privacy Policy</a> of APloannwala.</p>
                         </div>
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                             </p>
                             
                             <p class="s-14">
-                                <strong>Important Note:</strong> BE AWARE! We ask our customers to make payments ONLY on our website https://APloanwala.com and NOT through any other source, directly or indirectly. Thanks!
+                                <strong>Important Note:</strong> BE AWARE! We ask our customers to make payments ONLY on our website https://aploannwala.com and NOT through any other source, directly or indirectly. Thanks!
                             </p>
                         </div>
                     </div>

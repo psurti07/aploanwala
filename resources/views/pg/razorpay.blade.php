@@ -43,8 +43,8 @@
           "amount": amount * 100,
           "currency": "INR",
           "order_id": orderid,
-          "name": "APloanwala",
-          "image": "https://aploanwala.com/uat/assets/images/logo/favicon.ico",
+          "name": "APloannwala",
+          "image": "https://aploannwala.com/assets/images/logo/favicon.ico",
           "description": description,
           "prefill": {
             "name": fullname,

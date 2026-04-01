@@ -32,7 +32,7 @@
                     @else
                     <h2 class="">Sorry!!</h2>
                     <p class="color--grey">We currently do not have any vacancies.</p>
-                    <p class="color--grey">Kindly send your updated CV to: info@aploanwala.com. We will contact you if your profile matches any of our future requirements</p>
+                    <p class="color--grey">Kindly send your updated CV to: info@aploannwala.com. We will contact you if your profile matches any of our future requirements</p>
                     @endif
                 </div>
             </div>

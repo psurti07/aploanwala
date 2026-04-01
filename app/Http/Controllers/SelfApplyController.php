@@ -69,7 +69,7 @@ class SelfApplyController extends Controller
             /* check the entered mobile number is present or not */
             $user = singleUserDetails(['mobile' => $inputs['mobile']]);
             if (!$user || (Cookie::has('user_mobile') && Cookie::get('user_mobile') != $inputs['mobile'])) {
-                $keysToKeep = ['XSRF-TOKEN', 'aploanwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
+                $keysToKeep = ['XSRF-TOKEN', 'aploannwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
                 foreach (Cookie::get() as $key => $value) {
                     if (!in_array($key, $keysToKeep)) {
                         Cookie::queue(Cookie::forget($key));
@@ -822,7 +822,7 @@ class SelfApplyController extends Controller
                         ];
 
                         /* send email in brevo */
-                        sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloanwala Self-Apply Plan.', $sendGreetings, 3, $attachments);
+                        sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloannwala Self-Apply Plan.', $sendGreetings, 3, $attachments);
                     }
                     if ($response2 > 0) {
                         $redRoute = 'self-apply/paymentSuccess'; // Row was updated
@@ -1067,7 +1067,7 @@ class SelfApplyController extends Controller
                 ];
 
                 /* send email in brevo */
-                sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloanwala Self-Apply Plan.', $sendGreetings, 3, $attachments);
+                sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloannwala Self-Apply Plan.', $sendGreetings, 3, $attachments);
 
                 // application remarks data insert
                 DB::table('application_remarks')->updateOrInsert(
@@ -1183,7 +1183,7 @@ class SelfApplyController extends Controller
 						'zip' => $userData->pincode,
 						'orderid' => $orderId,
 						'odamount' => $orderData->orderamount,
-						// 'sourceurl' => 'https://aploanwala.com/self-apply/paymentSuccess'
+						// 'sourceurl' => 'https://aploannwala.com/self-apply/paymentSuccess'
 						'sourceurl' => route('payment.success'),
 					);
 				
@@ -1400,7 +1400,7 @@ class SelfApplyController extends Controller
             $offerId = $record->id;
             //Log::info('offerId - '.$offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
-            // $returnUrl = 'https://aploanwala.com/api/self-apply/prime-offer-response';
+            // $returnUrl = 'https://aploannwala.com/api/self-apply/prime-offer-response';
             $returnUrl = route('api.self.apply.prime-offer-response');
             
             if (env('LYRA_MODE') == "PROD") {
@@ -1621,7 +1621,7 @@ class SelfApplyController extends Controller
 
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            // $returnUrl = 'https://aploanwala.com/api/self-apply/mega-offer-response';
+            // $returnUrl = 'https://aploannwala.com/api/self-apply/mega-offer-response';
             $returnUrl = route('api.self.apply.mega-offer-response');
 
             if (env('SABPAISA_MODE') == "PROD") {
@@ -1906,7 +1906,7 @@ class SelfApplyController extends Controller
             //Log::info('Offer data - '. $offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            // $returnUrl = 'https://aploanwala.com/api/self-apply/premium-offer-response';
+            // $returnUrl = 'https://aploannwala.com/api/self-apply/premium-offer-response';
             $returnUrl = route('api.self.apply.premium-offer-response');
 
             /* cipherPay PG starts */
@@ -1916,7 +1916,7 @@ class SelfApplyController extends Controller
                 "url" => "payin/dynamic-qr",
                 "parameter" => [
                     //'receiver_vpa' => "cpy.kredbaz@fin",
-                    'receiver_vpa' => "cpy.aploanwala@finobank",
+                    'receiver_vpa' => "cpy.aploannwala@finobank",
                     'amount' => round($grandAmount), // amount
                     'remarks' => "Dynamic QR", // remarks
                     'refid' => 'KRED'.$refId, //refrence id
@@ -2090,7 +2090,7 @@ class SelfApplyController extends Controller
             //Log::info('Offer data - '. $offerId);
             $orderId = 'KRBZVGP'.number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            // $returnUrl = 'https://aploanwala.com/api/self-apply/premium-offer-response';
+            // $returnUrl = 'https://aploannwala.com/api/self-apply/premium-offer-response';
             $returnUrl = route('api.self.apply.premium-offer-response');
 
             /* veegah PG starts */
@@ -2366,7 +2366,7 @@ class SelfApplyController extends Controller
             Cache::put('user_password', $password, $this->lifetime);
             //Log::info('order ID - ' .$orderid);
 
-            // $returnUrl = 'https://aploanwala.com/api/self-apply/star-offer-response';
+            // $returnUrl = 'https://aploannwala.com/api/self-apply/star-offer-response';
             $returnUrl = route('api.self.apply.offer4Response')
 ;
 

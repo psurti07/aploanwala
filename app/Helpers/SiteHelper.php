@@ -110,7 +110,7 @@ if (!function_exists('nbfcsList')) {
             $data['list'] .= '<div class="col company" data-index="' . $loop . '">
                             <a href="javascript:;" class="in_tool it-1 r-10">
                                 <div class="bg--white-100 border border-primary block-shadow r-10 mb-20">
-                                    <img class="img-fluid" src="https://manage.easyailoans.com/upload/banks/' . $bank->bank_image . '" alt="' . $bank->bank_name . '" width="auto">
+                                    <img class="img-fluid" src="https://manage.aploannwala.com/upload/banks/' . $bank->bank_image . '" alt="' . $bank->bank_name . '" width="auto">
                                 </div>
                                 <h6 class="s-14 w-700">' . $bank->bank_name . '</h6>
                             </a>
@@ -118,7 +118,7 @@ if (!function_exists('nbfcsList')) {
 
             $data['carousel'] .= '<div class="bg--white-100 border border-primary r-10 mb-20">
                                     <a href="javascript:;">
-                                        <img class="img-fluid" src="https://manage.easyailoans.com/upload/banks/' . $bank->bank_image . '" alt="' . $bank->bank_name . '" width="auto">
+                                        <img class="img-fluid" src="https://manage.aploannwala.com/upload/banks/' . $bank->bank_image . '" alt="' . $bank->bank_name . '" width="auto">
                                     </a>
                                 </div>';
             $loop++;
@@ -135,26 +135,26 @@ if (!function_exists('raiseRequestFaqs')) {
             <ul class="accordion">
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">My payment was successful, but my account has not been created yet. Why?</h6>
+                        <h6 class="s-16 w-500">I made the payment but the account is still not created. What should I do?</h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                In some cases, the payment may still be under processing by the payment gateway or banking network. Your account will be activated once the payment is successfully credited to the company’s account. If the transaction fails or is not completed, the payment gateway may automatically initiate a refund according to their policies.</p>
+                               This may happen if your amount is held by the payment gateway and yet to be credited to the company account. Do not worry; once the funds are credited to the company account, your account will be created and you will be notified via email. Otherwise, the payment gateway will refund your funds in accordance with their policies. </p>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I made the payment but later realized I did not fully understand the services. Can I request a refund?</h6>
+                        <h6 class="s-16 w-500">Even after so many days, I have not received my refund. What should I do?</h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    Subscription charges are refundable only as per the company’s Cancellation and Refund Policy. To review the detailed policy guidelines, please refer to the relevant section on the website.
+                                   This could happen if your money is held by the bank or payment gateway. It will be refunded as per the bank/payment gateway’s rules and regulations.
                                 </p>
                             </div>
                         </div>
@@ -162,13 +162,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I am not satisfied with the services. What should I do?</h6>
+                        <h6 class="s-16 w-500">I misunderstood the company’s service/made payment by mistake. Can I get a refund?</h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    We recommend contacting our support team to discuss your concerns so that we can assist you appropriately. You may reach us at +91-{#VAR#} between 10:00 AM and 5:00 PM on working days.
+                                    The subscription plan payment is only refundable under the company cancellation and refund policy. Click here to know more. 
                                 </p>
                             </div>
                         </div>
@@ -176,13 +176,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">Who is eligible for a GST refund?</h6>
+                        <h6 class="s-16 w-500">I was shown pre-approved loan offers based on my eligibility, but I did not receive an actual loan. Why? </h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    Customers who provide valid GST details on the platform during the application process may be eligible for a GST-related adjustment or refund as per applicable policies.
+                                    Please read the terms and conditions to get a clear understanding of what a pre-approval loan offer is. Click here
                                 </p>
                             </div>
                         </div>
@@ -190,13 +190,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I accidentally made multiple payments. Can I get the extra amount refunded?</h6>
+                        <h6 class="s-16 w-500">Who can get a GST return? </h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    If multiple payments were made unintentionally, you can submit a request through the “Raise a Request” section on the platform or contact the support team within 48 hours of the transaction.
+                                    Anyone who has updated their GST information in the portal will receive a GST return.
                                 </p>
                             </div>
                         </div>
@@ -204,13 +204,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I purchased a subscription from another company within the same group. Can I request a refund?</h6>
+                        <h6 class="s-16 w-500">I have changed my mind and do not want to use the company services. Can I get the refund? </h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    If multiple memberships or subscriptions have been purchased across companies belonging to the same group, you may request assistance through the “Raise a Request” section or contact the support team within 48 hours of the transaction
+                                    The subscription plan payment is only refundable under the company cancellation and refund policy. 
                                 </p>
                             </div>
                         </div>
@@ -218,13 +218,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I submitted a refund request but have not received the refund yet. What should I do?</h6>
+                        <h6 class="s-16 w-500">I am not happy with the company service. What should I do? </h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    Refund timelines may sometimes be affected if the payment gateway or bank is holding the funds temporarily. Once processed, the refund will be credited according to the policies and timelines of the respective bank or payment gateway.
+                                    We request you to kindly call the company on +91-{#VAR#} between 10 AM to 5 PM- Monday to Saturday (only business days). Allow us to discuss your concerns, and we will ensure that you receive the best solutions possible. 
                                 </p>
                             </div>
                         </div>
@@ -232,13 +232,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I saw pre-approved loan offers on the platform but did not receive the final loan. Why?</h6>
+                        <h6 class="s-16 w-500">What happens if I make more than one payment by mistake? Am I eligible for a refund? </h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                    Pre-approved offers are indicative and based on the preliminary information provided by the applicant. Final approval, sanction, and disbursement decisions are made solely by the respective lending institution after reviewing the complete profile and documents. For more information, please review the Terms & Conditions section.
+                                    If a customer makes more than one payment, they are eligible for a refund. You can request a refund within 48 hours of making the payment via the website Raising A Request section or by calling the company registered contact number.
                                 </p>
                             </div>
                         </div>
@@ -246,13 +246,13 @@ if (!function_exists('raiseRequestFaqs')) {
                 </li>
                 <li class="accordion-item mb-10">
                     <div class="accordion-thumb">
-                        <h6 class="s-16 w-500">I changed my mind and no longer wish to continue with the services. Can I get a refund?</h6>
+                        <h6 class="s-16 w-500">Can I get a refund if I purchase subscriptions/memberships from multiple companies in your group of companies? </h6>
                     </div>
                     <div class="accordion-panel">
                         <div class="accordion-panel-item">
                             <div class="faqs-2-answer">
                                 <p>
-                                   Refunds for subscription payments are governed strictly by the company’s Cancellation and Refund Policy. Please refer to the policy section on the website for eligibility criteria and applicable timelines.
+                                  If a customer purchased Subscriptions/Memberships from multiple companies in our group of companies, the customer is eligible for a refund. You can request a refund within 48 hours of payment through the Raising A Request section of the website or by calling the company registered contact number.
                                 </p>
                             </div>
                         </div>
@@ -749,12 +749,12 @@ if (!function_exists('sendPaymentGreetings')) {
     function sendPaymentGreetings($fullname, $mobile, $email)
     {
         /*if($mobile != '') {
-            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, APloanwala";
+            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, APloannwala";
             $smsresponse = sendtextSMSobb($mobile, $smsmessage, 'main');
         }*/
         if ($email != '') {
             // Send email
-            $subject = "Welcome to APloanwala";
+            $subject = "Welcome to APloannwala";
             $content = view('mail.simpleEmailTemplate', compact('fullname'))->render();
             if ($content != '') {
                 $maildata = array(
@@ -774,7 +774,7 @@ if (!function_exists('sendForgetPassword')) {
     function sendForgetPassword($fullname, $mobile, $email, $pswd)
     {
         /*if($mobile != '') {
-            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, APloanwala";
+            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, APloannwala";
             $smsresponse = sendtextSMSobb($mobile, $smsmessage, 'main');
         }*/
         if ($email != '') {

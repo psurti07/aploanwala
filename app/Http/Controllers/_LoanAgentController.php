@@ -111,7 +111,7 @@ dwIDAQAB
             /* store all request in $inputs variable */
             $inputs = $request->all();
             if(Cookie::has('user_mobile') && Cookie::get('user_mobile') != $inputs['mobile']){
-                $keysToKeep = ['XSRF-TOKEN', 'aploanwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
+                $keysToKeep = ['XSRF-TOKEN', 'aploannwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
                 foreach (Cookie::get() as $key => $value) {
                     if (!in_array($key, $keysToKeep)) {
                         Cookie::queue(Cookie::forget($key));
@@ -776,7 +776,7 @@ dwIDAQAB
                     );
                     $invoiceData = view('mail.invoice', $invAttach)->render();
                     $pdf = Pdf::loadHTML($invoiceData)->setPaper('A4', 'portrait')->output();
-                    sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloanwala Hire Agent Plan.', $sendGreetings, 3, $pdf);
+                    sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloannwala Hire Agent Plan.', $sendGreetings, 3, $pdf);
 
 
                     if ($response2 > 0) {
@@ -1019,7 +1019,7 @@ dwIDAQAB
                     );
                     $invoiceData = view('mail.invoice', $invAttach)->render();
                     $pdf = Pdf::loadHTML($invoiceData)->setPaper('A4', 'portrait')->output();
-                    sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloanwala Hire Agent Plan.', $sendGreetings, 3, $pdf);
+                    sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloannwala Hire Agent Plan.', $sendGreetings, 3, $pdf);
 
 
                     if ($response2 > 0) {
@@ -1231,7 +1231,7 @@ dwIDAQAB
 
             //Log::info('Offer data - '. $offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
-            $returnUrl = 'https://APloanwala.com/api/loan-agent/great-deal-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/loan-agent/great-deal-offer-response';
 
             if (env('LYRA_MODE') == "PROD") {
                 $curlurl = "https://api.in.lyra.com/pg/rest/v1/charge";
@@ -1434,7 +1434,7 @@ dwIDAQAB
             //Log::info('Offer data - '. $offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            $returnUrl = 'https://APloanwala.com/api/loan-agent/elite-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/loan-agent/elite-offer-response';
 
             if (env('SABPAISA_MODE') == "PROD") {
                 $curlurl = "https://securepay.sabpaisa.in/SabPaisa/sabPaisaInit?v=1";
@@ -1714,7 +1714,7 @@ dwIDAQAB
             //Log::info('Offer data - '. $offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            $returnUrl = 'https://APloanwala.com/api/loan-agent/ultra-saver-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/loan-agent/ultra-saver-offer-response';
 
             /* cipherPay PG starts */
             $refId = rand(1000,9999);
@@ -1723,7 +1723,7 @@ dwIDAQAB
                 "url" => "payin/dynamic-qr",
                 "parameter" => [
                     //'receiver_vpa' => "cpy.kredbaz@fin",
-                    'receiver_vpa' => "cpy.APloanwala@finobank",
+                    'receiver_vpa' => "cpy.APloannwala@finobank",
                     'amount' => round($grandAmount), // amount
                     'remarks' => "Dynamic QR", // remarks
                     'refid' => $refId, //refrence id
@@ -1902,7 +1902,7 @@ dwIDAQAB
             Session::save();
             Cache::put('user_password', $password, $this->lifetime);
             //Log::info('order ID - ' .$orderid);
-            $returnUrl = 'https://APloanwala.com/api/loan-agent/big-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/loan-agent/big-offer-response';
             $curlurl = "https://api.zaakpay.com/api/paymentTransact/V8";
 
             $firstname = ($first_name != "") ? $first_name : $email;
@@ -2108,7 +2108,7 @@ dwIDAQAB
 
             $orderid = "APLive" . number_format(microtime(true) * 1000, 0, '.', '');
             $url = "https://payments.airpay.co.in/pay/index.php";
-            $returnUrl = 'https://APloanwala.com/api/loan-agent/big-benefit-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/loan-agent/big-benefit-offer-response';
 
             $hiddenmod = "";
 

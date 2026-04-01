@@ -112,7 +112,7 @@ dwIDAQAB
             /* store all request in $inputs variable */
             $inputs = $request->all();
             if (Cookie::has('user_mobile') && Cookie::get('user_mobile') != $inputs['mobile']) {
-                $keysToKeep = ['XSRF-TOKEN', 'aploanwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
+                $keysToKeep = ['XSRF-TOKEN', 'aploannwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
                 foreach (Cookie::get() as $key => $value) {
                     if (!in_array($key, $keysToKeep)) {
                         Cookie::queue(Cookie::forget($key));
@@ -441,7 +441,7 @@ dwIDAQAB
         $meta = selfApplyMeta();
         $eligibilityAmt = calEligiblity(Cookie::get('monthly_income'), Cookie::get('current_emi'), ((Cookie::get('loan_type') == 2) ? 11.5 : 12.5), Cookie::get('loan_amount'));
         $encUserId = customEncrypt(Cookie::get('userid'));
-        $pdfUrl = 'https://aploanwala.com/application-pdf/'.$encUserId;
+        $pdfUrl = 'https://aploannwala.com/application-pdf/'.$encUserId;
         
         /* send get offer message starts */
         $msg = DB::table('sms_list')->where('type',1)->where('slug','get_offer')->first()->message;
@@ -793,7 +793,7 @@ dwIDAQAB
                     );
                     $invoiceData = view('mail.invoice', $invAttach)->render();
                     $pdf = Pdf::loadHTML($invoiceData)->setPaper('A4', 'portrait')->output();
-                    sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloanwala Self-Apply Plan.', $sendGreetings, 3, $pdf);
+                    sendBrevoHtmlMail2($mailData, 'Congratulations! Payment Successful for APloannwala Self-Apply Plan.', $sendGreetings, 3, $pdf);
                     if ($response2 > 0) {
                         $redRoute = 'self-apply/paymentSuccess'; // Row was updated
                     } else {
@@ -851,7 +851,7 @@ dwIDAQAB
     						'state' => $state,
     						'orderid' => $orderId,
     						'odamount' => $orderData->orderamount,
-    						'sourceurl' => 'https://aploanwala.com/self-apply/paymentSuccess'
+    						'sourceurl' => 'https://aploannwala.com/self-apply/paymentSuccess'
     					);
     				if ($fbleads->fbclid != "") {
     					$fbclidpl = "fb.0." . round(microtime(true) * 1000) . "." . $fbleads->fbclid;
@@ -1062,7 +1062,7 @@ dwIDAQAB
             $offerId = $record->id;
             //Log::info('offerId - '.$offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
-            $returnUrl = 'https://aploanwala.com/api/self-apply/prime-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/self-apply/prime-offer-response';
 
             if (env('LYRA_MODE') == "PROD") {
                 $curlurl = "https://api.in.lyra.com/pg/rest/v1/charge";
@@ -1261,7 +1261,7 @@ dwIDAQAB
 
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            $returnUrl = 'https://aploanwala.com/api/self-apply/mega-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/self-apply/mega-offer-response';
 
             if (env('SABPAISA_MODE') == "PROD") {
                 $curlurl = "https://securepay.sabpaisa.in/SabPaisa/sabPaisaInit?v=1";
@@ -1542,7 +1542,7 @@ dwIDAQAB
             //Log::info('Offer data - '. $offerId);
             $orderId = number_format(microtime(true) * 1000, 0, '.', '');
             $encData = null;
-            $returnUrl = 'https://aploanwala.com/api/self-apply/premium-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/self-apply/premium-offer-response';
 
             /* cipherPay PG starts */
             $refId = rand(1000, 9999);
@@ -1551,7 +1551,7 @@ dwIDAQAB
                 "url" => "payin/dynamic-qr",
                 "parameter" => [
                     //'receiver_vpa' => "cpy.kredbaz@fin",
-                    'receiver_vpa' => "cpy.aploanwala@finobank",
+                    'receiver_vpa' => "cpy.aploannwala@finobank",
                     'amount' => round($grandAmount), // amount
                     'remarks' => "Dynamic QR", // remarks
                     'refid' => 'KRED'.$refId, //refrence id
@@ -1728,7 +1728,7 @@ dwIDAQAB
             Session::save();
             Cache::put('user_password', $password, $this->lifetime);
             //Log::info('order ID - ' .$orderid);
-            $returnUrl = 'https://aploanwala.com/api/self-apply/star-offer-response';
+            $returnUrl = 'https://aploannwala.com/api/self-apply/star-offer-response';
             $callbackUrl = route('self.apply.callbackUrl');
 
             if (env('PHONEPE_ENV') == "PRODUCTION") {
@@ -1932,7 +1932,7 @@ dwIDAQAB
 
             $orderid = "APLive" . number_format(microtime(true) * 1000, 0, '.', '');
             $url = "https://payments.airpay.co.in/pay/index.php";
-            $returnUrl = 'https://aploanwala.com/airpay-response';
+            $returnUrl = 'https://aploannwala.com/airpay-response';
 
             $hiddenmod = "";
 
@@ -2365,7 +2365,7 @@ dwIDAQAB
             $payment_name = $firstName.' '.$lastName;         // Optional - 3-30 characters
             $payment_phone = $mobile;        // Optional - 7-15 digit numeric
             $payment_email = $email;        // Optional - Valid email address
-            $redirect_url = 'https://aploanwala.com/api/self-apply/offer-7-response';         // Required - http://, https://, http://www, https://www
+            $redirect_url = 'https://aploannwala.com/api/self-apply/offer-7-response';         // Required - http://, https://, http://www, https://www
 
             # Put the data into an array
             $data = [

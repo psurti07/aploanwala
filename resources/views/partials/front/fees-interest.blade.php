@@ -5,7 +5,7 @@
             <div class="col-md-12 col-lg-12">
                 <div class="section-title mb-40">
                     <h2 class="s-34 w-700">Fees & Interest Rates for {{ isset($pageamount) ? $pageamount : '' }} Personal Loan</h2>
-                    <p class="s-16">APloanwala provides access to personal loans with <strong>competitive interest rates</strong> and <strong>transparent fees</strong>. Since we partner with multiple NBFCs, you can choose from a variety of loan offers that suit your financial requirements.</p>
+                    <p class="s-16">APloannwala provides access to personal loans with <strong>competitive interest rates</strong> and <strong>transparent fees</strong>. Since we partner with multiple NBFCs, you can choose from a variety of loan offers that suit your financial requirements.</p>
                 </div>
             </div>
         </div>

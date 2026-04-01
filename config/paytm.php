@@ -20,7 +20,7 @@ return [
     'website'         => env('PAYTM_WEBSITE', 'WEBSTAGING'), // staging or configured
     'initiate_url'    => 'https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction?mid=%s&orderId=%s',
     'status_api_url'  => 'https://securegw-stage.paytm.in/v3/order/status',
-    'callback_url'    => env('PAYTM_CALLBACK_URL', 'https://aploanwala.com/api/paytm/callback'),
+    'callback_url'    => env('PAYTM_CALLBACK_URL', 'https://aploannwala.com/api/paytm/callback'),
     'js_sdk_url'      => 'https://securegw-stage.paytm.in/merchantpgpui/checkoutjs/merchants/%s.js',
     'env'             => env('PAYTM_ENVIRONMENT', 'staging'), // production or staging
 ];

@@ -107,7 +107,7 @@ dwIDAQAB
             $inputs = $request->all();
 
             if(Cookie::has('user_mobile') && Cookie::get('user_mobile') != $inputs['mobile']){
-                $keysToKeep = ['XSRF-TOKEN', 'aploanwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
+                $keysToKeep = ['XSRF-TOKEN', 'aploannwala_session', 'utm_campaign', 'utm_medium', 'utm_source'];
                 foreach (Cookie::get() as $key => $value) {
                     if (!in_array($key, $keysToKeep)) {
                         Cookie::queue(Cookie::forget($key));
@@ -1306,7 +1306,7 @@ dwIDAQAB
                 "url" => "payin/dynamic-qr",
                 "parameter" => [
                     //'receiver_vpa' => "cpy.kredbaz@fin",
-                    'receiver_vpa' => "cpy.APloanwala@finobank",
+                    'receiver_vpa' => "cpy.APloannwala@finobank",
                     'amount' => round($grandAmount), // amount
                     'remarks' => "Dynamic QR", // remarks
                     'refid' => $refId, //refrence id

@@ -370,9 +370,9 @@
                 height: 100%;
                 background-repeat: repeat;
                 background-position: center top;
-                background-image: url(https://aploanwala.com/uat/assets/images/mail-bgm.png);
+                background-image: url(https://aploannwala.com/assets/images/mail-bgm.png);
                 background-color: #f9f9f9;
-                " background="https://aploanwala.com/uat/front/images/bg-01.webp">
+                " background="https://aploannwala.com/front/images/bg-01.webp">
                 <tbody>
                     <tr>
                         <td class="es-m-margin" valign="top" style="padding: 0; margin: 0;">
@@ -412,13 +412,13 @@
                                                                                             class="es-m-txt-c"
                                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                                             <a target="_blank"
-                                                                                                href="https://aploanwala.com/uat/"
+                                                                                                href="https://aploannwala.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://aploanwala.com/uat/front/images/logo/logo.png"
-                                                                                                alt="APloanwala"
+                                                                                            <img src="https://aploannwala.com/front/images/logo/logo.png"
+                                                                                                alt="APloannwala"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
-                                                                                                title="APloanwala">
+                                                                                                title="APloannwala">
                                                                                             </a>
                                                                                         </td>
                                                                                     </tr>
@@ -460,9 +460,9 @@
                                                                     role="presentation"
                                                                     >
                                                                     <tr>
-                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid #0e5281;
+                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid #2c134d;
                                                                             border-radius: 12px;
-                                                                            background-color: #E9F2FB;">
+                                                                            background-color: #f9f4ea;">
                                                                             @yield('content')
                                                                         </td>
                                                                     </tr>
@@ -522,25 +522,25 @@
                                                                                                 ">
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://aploanwala.com/uat/privacy-policy">
+                                                                                                    href="https://aploannwala.com/privacy-policy">
                                                                                                 Privacy Policy
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://aploanwala.com/uat/terms-and-conditions">
+                                                                                                    href="https://aploannwala.com/terms-and-conditions">
                                                                                                 Terms &amp; Conditions
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://aploanwala.com/uat/contact-us">
+                                                                                                    href="https://aploannwala.com/contact-us">
                                                                                                 Raise a request
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://aploanwala.com/uat">
+                                                                                                    href="https://aploannwala.com/uat">
                                                                                                 Visit Website
                                                                                                 </a>
                                                                                             </p>
@@ -608,7 +608,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right: 10px;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://twitter.com/aploanwala"
+                                                                                                                href="https://twitter.com/aploannwala"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -636,7 +636,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right: 10px;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://in.pinterest.com/aploanwala/"
+                                                                                                                href="https://in.pinterest.com/aploannwala/"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -668,7 +668,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right:10px">
                                                                                                             <a target="_blank"
-                                                                                                                href="http://www.youtube.com/@aploanwala"
+                                                                                                                href="http://www.youtube.com/@aploannwala"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -701,7 +701,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0;padding-right:10px">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://www.facebook.com/@aploanwala.in"
+                                                                                                                href="https://www.facebook.com/@aploannwala.in"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -733,7 +733,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://www.instagram.com/aploanwala/"
+                                                                                                                href="https://www.instagram.com/aploannwala/"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;

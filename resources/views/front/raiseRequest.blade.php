@@ -23,7 +23,7 @@
                         <span class="section-id"></span>
                         <h2 class="w-700">Raise a <span class="color--green-500">Request</span></h2>
                         <p class="p-md w-400">
-                            Have a query? Raise a request with APloanwala and get quick assistance for all your loan needs.
+                            Have a query? Raise a request with APloannwala and get quick assistance for all your loan needs.
                         </p>
                     </div>
                 </div>

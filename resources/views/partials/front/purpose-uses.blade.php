@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="section-title mb-40">
                     <h2 class="s-34 w-700">Purpose & Uses of Personal Loan</h2>
-                    <p class="s-16">A {{ isset($pageamount) ? $pageamount : '' }} Personal Loan through APloanwala to Fulfill Your Various Financial Requirements</p>
+                    <p class="s-16">A {{ isset($pageamount) ? $pageamount : '' }} Personal Loan through APloannwala to Fulfill Your Various Financial Requirements</p>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APloanwala Offers</title>
+    <title>APloannwala Offers</title>
     <style>
         .card-wrapper {
               position: relative;
@@ -112,8 +112,8 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="es-m-txt-c" style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
-                                                                        <a target="_blank" href="https://aploanwala.com/uat/" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                            <img src="https://aploanwala.com/uat/front/images/logo/logo.png" alt="APloanwala" style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;" width="190" title="APloanwala">
+                                                                        <a target="_blank" href="https://aploannwala.com/" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
+                                                                            <img src="https://aploannwala.com/front/images/logo/logo.png" alt="APloannwala" style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;" width="190" title="APloannwala">
                                                                         </a>
                                                                     </td>
                                                                 </tr>
@@ -303,7 +303,7 @@
                                                     <td>
                                                         <div class="card-wrapper" style="position: relative;">
                                                             <div class="loan-card {{ $loop->index > 0 ? 'blurred' : '' }}">
-                                                                <img src="https://manage.aploanwala.com/upload/banks/{{$offer->bank_image}}" alt="{{ $offer->bank_name }}" class="logo">
+                                                                <img src="https://manage.aploannwala.com/upload/banks/{{$offer->bank_image}}" alt="{{ $offer->bank_name }}" class="logo">
                                                                 <div class="info-wrapper">
                                                                     <div class="info-block">
                                                                         Loan Amount
@@ -360,7 +360,7 @@
                                                                                                 margin-top: 25px;
                                                                                                 display: block;
                                                                                             ">
-                                                                                        <a href="{{ $userData->acc_type==1?'https://aploanwala.com/uat/self-apply':'https://aploanwala.com/uat/loan-agent' }}" style="
+                                                                                        <a href="{{ $userData->acc_type==1?'https://aploannwala.com/self-apply':'https://aploannwala.com/loan-agent' }}" style="
                                                                                                     background-color: #1ebc62;
                                                                                                     color: #fff;
                                                                                                     font-family: Poppins, sans-serif;
@@ -395,7 +395,7 @@
                                                                                                     text-align: start;
                                                                                                     padding: 0 8px;
                                                                                                 ">
-                                                                                            *The above data is tentative and purely on the information provided by you to aploanwala. Final EMI, loan sanction, loan approval, and loan amount depend on customer profile and NBFCs criteria and rules &amp; regulations.
+                                                                                            *The above data is tentative and purely on the information provided by you to aploannwala. Final EMI, loan sanction, loan approval, and loan amount depend on customer profile and NBFCs criteria and rules &amp; regulations.
                                                                                         </p>
                                                                                     </td>
                                                                                 </tr>

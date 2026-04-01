@@ -7,7 +7,7 @@
                 <div class="footer-info">
                     <img class="footer-logo" src="{{ asset('front/images/logo/logo-w.png') }}" alt="{{ env('APP_NAME') }}" width="140" height="50" />
                     <div class="fs-6 mt-3 mb-5 text-light">
-                        <p>APloanwala is India's thriving financial consultation and service provider that streamlines the loan process through its NBFC partners, giving you the option to apply on your own using the self-apply feature or hire a loan agent to make better borrowing decisions.</p>
+                        <p>APloannwala is India's thriving financial consultation and service provider that streamlines the loan process through its NBFC partners, giving you the option to apply on your own using the self-apply feature or hire a loan agent to make better borrowing decisions.</p>
                     </div>
                     <ul class="footer-socials mt-4 ico-25 text-center clearfix">
                         <li>

@@ -95,7 +95,7 @@ dwIDAQAB
                 "sender_vpa"=> "nikjaiswal33-4@okaxis",
                 "sender_name"=> "Vicky Jaiswal",
                 "sender_mobile"=> "+918530537178",
-                "receiver_vpa"=> "cpy.aploanwala@finobank",
+                "receiver_vpa"=> "cpy.aploannwala@finobank",
                 "amount"=> "10",
                 "remarks"=> "Initiate Collect",
                 "refid"=> rand(1000,9999),
@@ -134,9 +134,9 @@ dwIDAQAB
         $segments = explode('/', trim($path, '/'));
         $secondLastSegment = $segments[count($segments) - 2];
 
-        $actualReturnUrl = $secondLastSegment === 'self-apply' ? 'https://aploanwala.com/self-apply/premium-offer-response' : 'https://aploanwala.com/loan-agent/ultra-saver-offer-response';
+        $actualReturnUrl = $secondLastSegment === 'self-apply' ? 'https://aploannwala.com/self-apply/premium-offer-response' : 'https://aploannwala.com/loan-agent/ultra-saver-offer-response';
 
-        $redirectUrl = $paymentMessage === 'Transaction Successfull' ? $actualReturnUrl : 'https://aploanwala.com/cipher-payment-failed/';
+        $redirectUrl = $paymentMessage === 'Transaction Successfull' ? $actualReturnUrl : 'https://aploannwala.com/cipher-payment-failed/';
         Log::info($redirectUrl);
         return response()->json(array('type'=>'SUCCESS', 'message' => $paymentMessage, 'redirectUrl' => $redirectUrl, 'data' => $response));
     }
@@ -150,7 +150,7 @@ dwIDAQAB
             "url" => "payin/dynamic-qr",
             "parameter" => [
                 //'receiver_vpa' => "cpy.kredbaz@fin",
-                'receiver_vpa' => "cpy.aploanwala@finobank",
+                'receiver_vpa' => "cpy.aploannwala@finobank",
                 'amount' => "299", // amount
                 'remarks' => "Dynamic QR", // remarks
                 'refid' => $refId, //refrence id

@@ -93,14 +93,14 @@ body {
                     <div class="offer-card locked">
                     @endif
                         <div class="card {{ $isExpired ? 'card-content' : '' }} h-md-100">
-                            <div class="card-header d-flex justify-content-center align-items-center border-0" style="{{ $loop->index != 0 ? 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #f94, #D9455A) 0 0 no-repeat;' : 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #198b8c, #0e5281) 0 0 no-repeat;' }}min-height:20px!important">
+                            <div class="card-header d-flex justify-content-center align-items-center border-0" style="{{ $loop->index != 0 ? 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #f94, #D9455A) 0 0 no-repeat;' : 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #198b8c, #2c134d) 0 0 no-repeat;' }}min-height:20px!important">
                                 <h3 class="card-title">
                                     <span class="card-label fw-semibold fs-base text-light">{{ $loop->index == 0 ? 'Highly Recommended' : 'Pre-Approved Offers' }}</span>
                                 </h3>
                             </div>
                             <div class="card-body pt-7 px-0">
                                 <div class="px-5">
-                                    <img src="{{ 'https://manage.aploanwala.com/upload/banks/'.$offer->bank_image }}" alt="{{ $offer->bank_name }}" width="150">
+                                    <img src="{{ 'https://manage.aploannwala.com/upload/banks/'.$offer->bank_image }}" alt="{{ $offer->bank_name }}" width="150">
                                 </div>
                                 <div class="separator separator-dashed my-6"></div>
                                 <div class="px-5">
