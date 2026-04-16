@@ -370,6 +370,8 @@ if (!function_exists('cookieHelper')) {
             $sourceId = $request->input('fbclid');
         } elseif ($source === 'taboola') {
             $sourceId = $request->input('tbclid');
+        } else {
+            $sourceId = $request->input('fbclid') ?? null;
         }
 
         // Set cookies with standard parameters
@@ -529,7 +531,7 @@ if (!function_exists('sendBrevoHtmlMail')) {
     function sendBrevoHtmlMail($maildata, $subject = '', $message = '', $sendmail = '', $attachmentPath = '')
     {
         $data['sender']['name'] = env('APP_NAME');
-        $data["sender"]["email"] = 'info@ailoans.com';
+        $data["sender"]["email"] = 'info@aploannwala.com';
 
         $user_res["name"] = $maildata["fullname"];
         $user_res["email"] = $maildata["email"];
@@ -576,7 +578,9 @@ if (!function_exists('sendBrevoHtmlMail')) {
         $response = curl_exec($curl);
 
         $err = curl_error($curl);
-
+        
+        Log::info("response : " . $response);
+        Log::info("err : " . $err);
         curl_close($curl);
 
         return true;
@@ -587,7 +591,7 @@ if (!function_exists('sendBrevoHtmlMail2')) {
     function sendBrevoHtmlMail2($maildata, $subject = '', $message = '', $sendmail = '', $attachments = [])
     {
         $data['sender']['name'] = env('APP_NAME');
-        $data["sender"]["email"] = 'info@ailoans.com';
+        $data["sender"]["email"] = 'info@aploannwala.com';
 
         $user_res["name"] = $maildata["fullname"];
         $user_res["email"] = $maildata["email"];
@@ -637,6 +641,8 @@ if (!function_exists('sendBrevoHtmlMail2')) {
 
         $err = curl_error($curl);
 
+        Log::info("response : " . $response);
+        Log::info("err : " . $err);
         curl_close(handle: $curl);
 
         return true;
