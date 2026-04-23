@@ -31,6 +31,17 @@ use App\Http\Controllers\CipherPayController as CipherPay;
 
 class SelfApplyController extends Controller
 {
+    public $mainurl;
+    public $key;
+    public $partnerid;
+    public $headerJson;
+    public $publicKey;
+    public $privateKey;
+    public $aesKey;
+    public $aesIv;
+    public $publicKeyHeader;
+    public $partnerToken;
+    public $lifetime;
 
     public function __construct()
     {
@@ -180,7 +191,7 @@ dwIDAQAB
                     ]);
                 } else {
                     /* otp doesn't reach the limit */
-                    $generatedOtp = generateOtp($inputs['mobile']);
+                    $generatedOtp = generateOtp($inputs['mobile'],$inputs['acc_type']);
                     if ($generatedOtp) {
                         return response()->json(array('type' => 'SUCCESS', 'message' => 'OTP sent to mobile.', 'data' => $inputs['mobile']));
                     } else {

@@ -62,10 +62,10 @@
                                                                                             <a target="_blank"
                                                                                                 href="https://aploannwala.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://aploannwala.com//front/images/logo/logo.png"
+                                                                                            <img src="https://aploannwala.com/public/front/images/logo/logo.png"
                                                                                                 alt="APloannwala"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                                                width="190"
+                                                                                                width="150" height="50"
                                                                                                 title="APloannwala">
                                                                                             </a>
                                                                                         </td>
@@ -337,7 +337,7 @@
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://aploannwala.com/uat">
+                                                                                                    href="https://aploannwala.com">
                                                                                                 Visit Website
                                                                                                 </a>
                                                                                             </p>

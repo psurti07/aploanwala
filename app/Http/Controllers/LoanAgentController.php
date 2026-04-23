@@ -41,7 +41,8 @@ use Illuminate\Validation\Rule;
 
 class LoanAgentController extends Controller
 {
-
+    public $lifetime;
+    
     public function __construct()
     {
         $this->lifetime = config('session.lifetime');

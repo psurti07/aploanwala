@@ -77,23 +77,23 @@
                                                 style="mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse; border-spacing: 0; background-color: transparent; width: 600px;">
                                                 <tbody>
                                                     <tr>
-                                                        <td align="left"
+                                                        <td align="center"
                                                             style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                                             <table class="es-left" cellspacing="0" cellpadding="0"
-                                                                align="left"
+                                                                align="center"
                                                                 style="mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse; border-spacing: 0; float: center;">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td align="left"
+                                                                        <td align="center"
                                                                             class="es-m-txt-c"
                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                             <a target="_blank"
                                                                                 href="https://aploannwala.com/"
                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                            <img src="https://aploannwala.com/front/images/logo/logo.png"
+                                                                            <img src="https://aploannwala.com/public/front/images/logo/logo.png"
                                                                                 alt="APloannwala"
                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                                width="190"
+                                                                                width="150" height="50"
                                                                                 title="APloannwala">
                                                                             </a>
                                                                         </td>

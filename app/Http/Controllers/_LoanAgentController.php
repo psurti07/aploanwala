@@ -36,7 +36,18 @@ use App\Http\Controllers\CipherPayController as CipherPay;
 
 class LoanAgentController extends Controller
 {
-
+    public $mainurl;
+    public $key;
+    public $partnerid;
+    public $headerJson;
+    public $publicKey;
+    public $privateKey;
+    public $aesKey;
+    public $aesIv;
+    public $publicKeyHeader;
+    public $partnerToken;
+    public $lifetime;
+    
     public function __construct()
     {
         $this->mainurl = "https://api.cipherpay.in/api/v3/";
@@ -1692,7 +1703,7 @@ dwIDAQAB
                 }
             }
 
-            /* offerId = DB::table('cardoffer')->updateOrInsert(
+            $offerId = DB::table('cardoffer')->updateOrInsert(
                 ['mobile' => $mobile], // Search condition
                 [ // Values to update or insert
                     'rec_date' => date('Y-m-d H:i:s'),
@@ -1731,9 +1742,7 @@ dwIDAQAB
                     'type' => "QR"
                 ]
             );
-          "
-                ]
-            );
+       
             Session::forget('refid');
             Session::put('refid', $refId);
             Session::save();
