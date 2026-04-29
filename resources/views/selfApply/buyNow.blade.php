@@ -22,7 +22,7 @@
 @endpush
 
 @section('content')
-    <section id="contacts" class="bg--white-100 personal-details-form pb-100 inner-page-hero contacts-section division">
+    <section id="contacts" class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center mb-35">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -106,7 +106,7 @@
                                     <h5 class="fw-bolder s-16">Premium Subscription Offer</h5>
                                     <p class="mb-30 color--grey">Your pre-approved loan is waiting. Purchase a subscription to proceed. <span class="text-danger">- Offer Valid till 12 am only!</span></p>
 
-                                    <form method="post" class="buyNowForm" action="{{ route('self.apply.checkout') }}">
+                                    <form method="post" class="buyNowForm mb-0" action="{{ route('self.apply.checkout') }}">
                                         @csrf
                                         <input type="hidden" class="form-control" name="order_amount" id="order_amount" value="">
                                         <div class="row gx-3 gy-3">

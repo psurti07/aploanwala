@@ -1,7 +1,7 @@
-<footer id="footer-3" class="pt-80 footer">
+<footer id="footer-3" class="footer pt-0">
     <div class="container">
         <!-- FOOTER CONTENT -->
-        <div class="row">
+        <div class="row pt-80">
             <!-- FOOTER LOGO -->
             <div class="col-xl-4 mb-sm-20 mb-md-20">
                 <div class="footer-info">

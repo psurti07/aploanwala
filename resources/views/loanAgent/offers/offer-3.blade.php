@@ -9,7 +9,7 @@
 </style>
 @endpush
 @section('content')
-<section id="hero-201" class="bg--fixed hero-section">
+<section id="hero-7" class="bg--fixed hero-section pb-0">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-md-6 col-lg-6 order-2 order-md-1 order-lg-1">
@@ -105,9 +105,9 @@
         <div class="r-12 text-center">
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-12">
-                    <div class="section-title mb-50">
-                        <h2 class="s-34 w-700">Going Strong With Stronger Recommendations!</h2>
-                        <p class="s-16 color--grey">Our guidance will drive you towards the best NBFC personalized offers.</p>
+                    <div class="section-title mb-40">
+                        <h2 class="s-28 w-700 mb-5">Going Strong With Stronger Recommendations!</h2>
+                        <p class="s-16 color--grey mt-0">Our guidance will drive you towards the best NBFC personalized offers.</p>
                     </div>
                 </div>
             </div>
@@ -134,9 +134,9 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
-                <div class="section-title text-center mb-50">
-                    <h2 class="s-34 w-700">Our Happy Customer</h2>
-                    <p>We Give Many Reasons For Our Customers To Shower Praises On Us!</p>
+                <div class="section-title text-center mb-40">
+                    <h2 class="s-28 w-700 mb-5">Our Happy Customer</h2>
+                    <p class="s-16 color--grey mt-0">We Give Many Reasons For Our Customers To Shower Praises On Us!</p>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@
 @endpush
 
 @section('content')
-<section id="contacts" class="bg--white-100 personal-details-form pb-100 inner-page-hero contacts-section division">
+<section id="contacts" class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="row mb-35">
@@ -25,22 +25,22 @@
                                         <div class="row gy-2 gx-2">
                                             <div class="col-lg-4 col-md-4 col-12">
                                                 <div class="border rounded-3 p-2 bg--red-100">
-                                                    <p class="s-14 fw-bold mb-2">Card Issue</p>
-                                                    <p class="s-14">Insufficient balance or card limit exceeded.</p>
+                                                    <p class="fw-bold mb-2">Card Issue</p>
+                                                    <p>Insufficient balance or card limit exceeded.</p>
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-4 col-md-4 col-12">
                                                 <div class="border rounded-3 p-2 bg--red-100">
-                                                    <p class="s-14 fw-bold mb-2">Network</p>
-                                                    <p class="s-14">Connection timeout or bank service issue.</p>
+                                                    <p class="fw-bold mb-2">Network</p>
+                                                    <p>Connection timeout or bank service issue.</p>
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-4 col-md-4 col-12">
                                                 <div class="border rounded-3 p-2 bg--red-100">
-                                                    <p class="s-14 fw-bold mb-2">Cancelled</p>
-                                                    <p class="s-14">Transaction was cancelled by user.</p>
+                                                    <p class="fw-bold mb-2">Cancelled</p>
+                                                    <p>Transaction was cancelled by user.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@
                                     <div class="text-center">
                                         <a href="{{ route('self.apply.offer4') }}" class="btn btn-xs r-04 btn--theme hover--tra-black">Try another payment method</a>
 
-                                        <p class="text-center s-12 mt-20">If you've any queries/ issues, kindly raise a request here: <a href="{{ route('front.raise.request') }}" class="text-success">Click Here</a></p>
+                                        <p class="text-cente mt-20">If you've any queries/ issues, kindly raise a request here: <a href="{{ route('front.raise.request') }}" class="text-success">Click Here</a></p>
                                     </div>
 
                                 </div>

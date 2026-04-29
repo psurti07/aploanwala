@@ -22,7 +22,7 @@
 @endpush
 
 @section('content')
-    <section id="contacts" class="bg--white-100 personal-details-form pb-100 inner-page-hero contacts-section division">
+    <section id="contacts" class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center mb-35">
                 <div class="col-lg-12 col-md-12 col-sm-12">

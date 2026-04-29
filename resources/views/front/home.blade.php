@@ -35,7 +35,7 @@
     <div class="container">
         <div class="statistic-5-wrapper">
             <div class="row row-cols-2 row-cols-md-4">
-                <div class="col sec-1 border-end border-light">
+                <div class="col sec-1">
                     <div id="sb-5-1" class="text-center">
                         <div class="statistic-block">
                             <div class="statistic-digit">
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col sec-2 border-end border-light">
+                <div class="col sec-2">
                     <div id="sb-5-3" class="text-center">
                         <div class="statistic-block">
                             <div class="statistic-digit">
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col sec-3 border-end border-light">
+                <div class="col sec-3">
                     <div id="sb-5-2" class="text-center">
                         <div class="statistic-block">
                             <div class="statistic-digit">

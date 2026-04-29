@@ -4492,9 +4492,9 @@ span.sm-info {
 }
 
 .fbox-7.fbox--hover:hover {
-    transform: translateY(-10px);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-    border: 1px solid #2c134d !important;
+        border: 1px dashed #2c134d !important;
+    background: #f0ecf9;
 }
 
 .row-cols-md-2 .fbox-7 {
@@ -4509,9 +4509,9 @@ span.sm-info {
     margin-bottom: 20px;
 }
 .fbox-8.fbox--hover:hover {
-    transform: translateY(-10px);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-    border: 1px solid #2c134d !important;
+    border: 1px dashed #2c134d !important;
+    background: #f0ecf9;
 }
 .fbox-8.bg--white-100 { padding: 60px 40px; }
 
@@ -6241,9 +6241,8 @@ p.rbox-2-txt span {
 }
 
 .review-1:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-    border: 1px solid #2c134d !important;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+      border: 1px dashed #2c134d !important;
 }
 
 .inner-page-hero #rw-2-3, .inner-page-hero #rw-2-4 {
@@ -8776,7 +8775,7 @@ span.release-date span {
 
 .footer {
     background-color: #1a1a1a;
-    padding-bottom: 20px;
+    padding: 15px 0;
 }
 
 .footer-info,
@@ -9109,6 +9108,7 @@ img.footer-logo-dark {
 /*------------------------------------------*/
 
 .footer-copyright p {
+    margin-top: 0;
     margin-bottom: 0;
     font-size: 0.75rem!important;
 }
@@ -11313,7 +11313,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         height: 0.50rem;
         left: 25%;
         position: absolute;
-        top: 50%;
+        top: 45%;
         transform: rotate(45deg) translate(-50%, -50%);
         width: 0.25rem;
     }
@@ -11323,13 +11323,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         border-color: var(--color-green);
     }
 
-    .card:hover .radio {
-        border-color: var(--color-dark-gray);
-    }
-
-    .card:hover .radio:checked {
-        border-color: var(--color-dark-gray);
-    }
 }
 
 .plan-details {

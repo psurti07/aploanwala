@@ -8,9 +8,9 @@
 @endpush
 
 @section('content')
-    <section id="contacts" class="bg--white-100 personal-details-form pb-100 inner-page-hero contacts-section division">
+    <section class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-cente">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-35">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="row">
