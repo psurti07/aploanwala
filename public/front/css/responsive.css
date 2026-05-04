@@ -1733,7 +1733,7 @@
   .hero-8-txt { margin-top: -30px; }
   .hero-8-txt p, .hero-8-txt .hero-digits { padding-right: 0; }
 
-  #hero-8-form { padding: 26px 25px; margin-left: 25px; border-radius: 10px; }
+  #hero-8-form { padding: 26px 25px; margin-left: 0px; border-radius: 10px; }
   #hero-8-form h4, #hero-10-form p { margin-bottom: 15px; }
   #hero-8-form p.p-sm { padding: 0!important; }
 
@@ -3276,9 +3276,9 @@
 
   .fbox-5.fb-1, .fbox-5.fb-5, .fbox-5.fb-6 { display: flex; flex-flow: wrap; }
 
-  .fbox-8.fb-1 { padding-top: 0; margin-bottom: 0; }
-  .fbox-8.fb-2 { margin-bottom: 0; }
-  .fbox-8.fb-3 { padding-bottom: 0; margin-bottom: 0; }
+  .fbox-8.fb-1 { padding-top: 0; margin-bottom: 40px; }
+  .fbox-8.fb-2 { margin-bottom: 40px; }
+  .fbox-8.fb-3 { padding-bottom: 0; margin-bottom: 40px; }
 
   .fbox-9, .fbox-10 { text-align: center; }
 
@@ -3578,7 +3578,7 @@
   #footer-11 .bottom-footer-list.text-end { text-align: center!important; }
 
   /* INNER PAGE WRAPPER */
-  .inner-page-hero, .page-hero-section-overlay { padding-top: 80px; margin-top: 40px; margin-bottom: 0px; }
+  .inner-page-hero, .page-hero-section-overlay { padding-top: 70px; margin-top: 40px; margin-bottom: 0px; }
   .page-hero-section-overlay .txt-block { margin-top: 0; margin-bottom: 40px; }
 
   .inner-page-title { margin-bottom: 60px; }
@@ -3843,7 +3843,7 @@
   .hero-8-txt .hero-logo { display: none; }
   .hero-8-txt .hero-digits { padding: 0 10%; }
 
-  #hero-8-form { padding: 40px 30px; margin: 40px 5% 0; border-radius: 10px; }
+  #hero-8-form { padding: 40px 30px; margin: 0; border-radius: 10px; }
   #hero-8-form h4 { margin-bottom: 15px; }
   #hero-8-form p { padding: 0 3%; margin-bottom: 20px; }
   #hero-8-form p.p-sm { padding: 0 5%!important; }
@@ -3953,9 +3953,9 @@
   .row-cols-md-3 .fbox-4, .row-cols-md-2 .fbox-4 { padding: 45px 65px 40px; }
   .fbox-5 { padding: 50px 50px 45px; }
   .fbox-7, .row-cols-md-2 .fbox-7 { padding: 35px 20px 30px; }
-  .fbox-8.fb-1 { padding: 0 75px 50px; }
+  .fbox-8.fb-1 { padding: 25px; }
   .fbox-8.bg--white-100 {padding: 45px 75px; }
-  .fbox-8.fb-3 { padding: 55px 75px 0; }
+  .fbox-8.fb-3 { padding: 25px; }
   .fbox-9 { padding: 40px 75px 35px; }
 
   .fbox-12, .fbox-13 { padding: 20px 25px; }
@@ -4967,7 +4967,7 @@
   .row-cols-md-2 .fbox-7 { padding: 35px 20px 30px; }
   .fbox-8.fb-1 { padding: 25px; }
   .fbox-8.bg--white-100 {padding: 45px 25px; }
-  .fbox-8.fb-3 { padding: 45px 25px 0; }
+  .fbox-8.fb-3 { padding: 25px; }
 
   .fbox-12, .fbox-13 { padding: 20px 25px; }
   #fb-12-1, #fb-13-1 { margin-top: 65px; }
@@ -5998,7 +5998,7 @@
   .hero-8-txt .hero-logo { display: none; }
   .hero-8-txt .hero-digits { padding: 0; }
 
-  #hero-8-form { padding: 30px 18px; margin: 20px 2% 0; border-radius: 10px; }
+  #hero-8-form { padding: 30px 18px; margin:0; border-radius: 10px; }
   #hero-8-form h4 { margin-bottom: 15px; }
   #hero-8-form p { font-size: 1.0625rem; margin-bottom: 16px; }
   #hero-8-form p.p-sm { font-size: 1rem; padding: 0!important; }
@@ -6138,9 +6138,9 @@
   .row-cols-md-3 .fbox-4, .row-cols-md-2 .fbox-4, .fbox-7, .fbox-9 { padding: 40px 25px 35px; }
   .fbox-5 { padding: 45px 25px 40px; }
   .row-cols-md-2 .fbox-7 { padding: 35px 20px 30px; }
-  .fbox-8.fb-1 { padding: 0 25px 40px; }
+  .fbox-8.fb-1 { padding:25px; }
   .fbox-8.bg--white-100 { padding: 45px 25px; }
-  .fbox-8.fb-3 { padding: 45px 25px 0; }
+  .fbox-8.fb-3 { padding: 25px; }
   .fbox-12, .fbox-13 { padding: 20px 25px; }
   #fb-12-1, #fb-13-1 { margin-top: 60px; }
 
@@ -7273,7 +7273,7 @@
   .hero-section .hero-201-txt h2.s-48 { margin-bottom: 20px; }
 
   /* HERO-202 */
-  #hero-202 { padding-top: 100px; padding-bottom: 80px; }
+  #hero-202 { padding-top: 100px; padding-bottom: 50px; }
   .hero-202-txt { padding: 0 3%; }
   .hero-202-txt .hero-logo { display: none; }
   .hero-section .hero-202-txt h2.s-48 { margin-bottom: 20px; }
@@ -7984,7 +7984,7 @@
   .contact-form textarea.form-control { padding: 15px; }
 
   /* FOOTER */
-  .footer { padding-bottom: 30px; }
+ 
   .footer hr { margin-top: 5px; margin-bottom: 30px; }
 
   #footer-10.pt-50 { padding-top: 0; }
@@ -8418,7 +8418,7 @@
   .hero-6-img { margin: 30px 1% 0; }
 
   /* HERO-7 */
-  #hero-7 { padding-top: 70px; padding-bottom: 70px; }
+  #hero-7 { padding-top: 40px; padding-bottom: 40px; }
   .hero-7-txt h2 { padding: 0 3%; }
   #hero-7 .quick-form { margin-left: 3%; margin-right: 3%; }
   .hero-7-img { margin-top: 30px; }
@@ -8429,7 +8429,7 @@
   .hero-8-txt .hero-logo { display: none; }
   .hero-8-txt .hero-digits { padding: 0; }
 
-  #hero-8-form { padding: 26px 12px; margin: 20px 2% 0; border-radius: 10px; }
+  #hero-8-form { padding: 26px 12px; margin: 0; border-radius: 10px; }
   #hero-8-form h4 { margin-bottom: 12px; }
   #hero-8-form p { font-size: 1rem; margin-bottom: 15px; }
   #hero-8-form p.p-sm { font-size: 0.9375rem; padding: 0!important; }
@@ -9254,7 +9254,7 @@
   .contact-form textarea.form-control { padding: 15px; }
 
   /* FOOTER */
-  .footer { padding-bottom: 30px; }
+  .footer { padding-bottom: 15px; }
   .footer hr { margin-top: 5px; margin-bottom: 30px; }
 
   #footer-10.pt-50 { padding-top: 0; }

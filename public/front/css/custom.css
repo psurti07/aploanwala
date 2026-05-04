@@ -127,4 +127,33 @@
  .hero-section{
 min-height: auto !important;
 } 
+
+.feature-image .shape-ico {
+    width: 60px !important;
+    height: 60px !important;
 }
+}
+.feature-image .fbox-ico{
+position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature-image .shape-ico{
+      background: #2c134d;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistic-5-wrapper .staticts-1{
+border-right: 1px solid #dfd2ba;
+}
+.statistic-5-wrapper .staticts-1:last-child{
+  border-right: none;
+}
+ 

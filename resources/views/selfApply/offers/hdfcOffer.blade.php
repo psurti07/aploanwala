@@ -10,7 +10,7 @@
 @endpush
 @section('content')
     <section class="page-hero-section">
-        <div id="hero-202" class="page-hero-section-overlay bg--scroll pb-0">
+        <div id="hero-202" class="page-hero-section-overlay bg--scroll">
             <div class="container position-relative">
                 <div class="row d-flex align-items-bottom">
                     <div class="col-md-5 order-2 order-md-1">
@@ -114,13 +114,13 @@
         </div>
     </section>
 
-    <section id="integrations-2" class="pt-80 pb-40 integrations-section">
+    <section id="integrations-2" class="pt-80 pb-40 integrations-section bg--green-100">
         <div class="container">
             <div class="r-12 text-center">
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-lg-12">
                         <div class="section-title mb-40">
-                            <h2 class="s-28 w-700 mb-5">Going Strong With Stronger Recommendations!</h2>
+                            <h2 class="s-28 w-700 mb-5">Going Strong With <span class="color--green-500">Stronger Recommendations!</span></h2>
                             <p class="s-16 color--grey mt-0">Our guidance will drive you towards the best NBFC personalized offers.</p>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-12">
                     <div class="section-title text-center mb-40">
-                        <h2 class="s-28 w-700 mb-5">Our Happy Customer</h2>
+                        <h2 class="s-28 w-700 mb-5">Our <span class="color--green-500">Happy Customer</span></h2>
                         <p class="s-16 color--grey mt-0">We Give Many Reasons For Our Customers To Shower Praises On Us!</p>
                     </div>
                 </div>

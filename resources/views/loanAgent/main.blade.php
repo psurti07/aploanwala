@@ -63,9 +63,9 @@
 </style>
 @endpush
 @section('content')
-<section id="hero-202" class="bg--white-100 bg--fixed hero-section">
+<section id="hero-202" class="bg--white-100 bg--fixed hero-section pt-100 pb-80">
     <div class="container">
-        <div class="row d-flex align-items-center">
+        <div class="row">
             <div class="col-md-6 col-lg-6">
                 <div class="mt-30 mb-2">
                     <h1 class="s-40 mb-2">Get Instant <span class="color--green-500">Cash</span></h1>
@@ -131,8 +131,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-6 col-lg-6 align-items-center m-auto self-apply-form">
+            <div class="col-md-6 col-lg-6 align-items-center m-auto">
                 <div id="hero-8-form" class="border border-primary r-06">
                     <h4 class="s-20 w-700 mb-2">Apply in <span class="color--green-500">5 Minutes</span></h4>
                     <p class="s-16">Get instant pre-approved offers.</p>
@@ -206,7 +205,7 @@
 </section>
 
 <!-- Affiliate NBFCs section starts -->
-<section id="integrations-2" class="pt-0 pb-80 integrations-section">
+<section id="integrations-2" class="py-80 integrations-section bg--green-100">
     <div class="container">
         <div class="r-12 text-center">
             <div class="row justify-content-center">
@@ -234,7 +233,7 @@
 </section>
 <!-- Affiliate NBFCs section ends -->
 
-<section id="features-6" class="pt-0 pb-80 features-section division">
+<section id="features-6" class="py-80  features-section division">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
@@ -244,57 +243,58 @@
                 </div>
             </div>
         </div>
-        <div class="fbox-wrapper text-center">
+        <div class="fbox-wrapper text-center mt-40">
             <div class="row gx-3 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-1 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-layers-1"></span>
+                    <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico">
+                                <span class="flaticon-layers-1 text-white"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Strategic Lending Network</h4>
                             <p>Access multiple NBFC-backed lending options through a single digital interface.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-computer-1"></span>
+                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico">
+                                <span class="flaticon-computer-1 text-white"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Completely Online Process</h4>
                             <p>From eligibility check to document submission, everything happens digitally.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-click-1"></span>
+                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico">
+                                <span class="flaticon-click-1 text-white"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Self-Apply Feature</h4>
                             <p>Take control of your finances while enjoying the benefits of excellent provisions.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-3 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-tech-support"></span>
+                    <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico">
+                                <span class="flaticon-tech-support text-white"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Hire Loan Agent</h4>
-                            <p>Get guidance from experienced professionals to improve your loan approval possibilities.</p>
+                            <p>Get guidance from experienced professionals to improve your loan approval possibilities.
+                            </p>
                         </div>
                     </div>
                 </div>

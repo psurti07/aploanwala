@@ -9,162 +9,190 @@
 
 @endpush
 @section('content')
-<section id="hero-7" class="hero-section bg--green-100 bg--scroll">
+<section id="hero-7" class="hero-section  bg--scroll bg--green-100">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-lg-6 col-12">
+            <div class="col-md-5 col-lg-5 col-12 order-md-1 order-2">
+                <div class="hero-7-img">
+                    <img src="{{ asset('front/images/Compny-page-1.png') }}" alt="aploannwala"
+                        class="img-fluid p-0 w-100">
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-7 col-12 order-md-2 order-1">
                 <div class="hero-7-txt">
-                    <div class=" mt-lg-5 mb-lg-5">
-                        <h1 class="s-40 w-700">Give Your Financial Dreams a <span class="color--green-500">Smart Boost!</span></h1>
-                        <p class="mb-20">Get expert guidance and discover the right loan options tailored to your financial needs, with a simple process and trusted support at every step of your journey.</p>
-                        <a href="{{ route('self.apply.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Self Apply</a>
-                        <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire an Agent</a>
+                    <h1 class="s-40 w-700">Give Your Financial Dreams a <span class="color--green-500">Smart
+                            Boost!</span></h1>
+                    <p class="mb-20">Get expert guidance and discover the right loan options tailored to your
+                        financial needs, with a simple process and trusted support at every step of your journey.
+                    </p>
+                    <a href="{{ route('self.apply.main') }}"
+                        class="btn r-04 btn--theme hover--tra-black last-link me-2 mb-md-0 mb-0">Self
+                        Apply</a>
+                    <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire
+                        an Agent</a>
+                </div>
+                <div class="statistic-5-wrapper mt-5">
+                    <div class="row row-cols-2 row-cols-md-4">
+                        <div class="col sec-1 staticts-1">
+                            <div id="sb-5-1" class="text-center mb-0">
+                                <div class="statistic-block">
+                                    <div class="statistic-digit">
+                                        <h2 class="s-30 w-700 mb-10 color--green-500">
+                                            <span class="count-element">4000</span>+
+                                        </h2>
+                                    </div>
+                                    <div class="statistic-txt">
+                                        <h5 class="s-16 w-500 color--green-500">Happy Customer</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col sec-2 staticts-1">
+                            <div id="sb-5-3" class="text-center mb-0">
+                                <div class="statistic-block">
+                                    <div class="statistic-digit">
+                                        <h2 class="s-30 w-700 mb-10 color--green-500">
+                                            <span class="count-element">3.5</span>Cr+
+                                        </h2>
+                                    </div>
+                                    <div class="statistic-txt">
+                                        <h5 class="s-16 w-500 color--green-500">Disbursal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col sec-3 staticts-1">
+                            <div id="sb-5-2" class="text-center mb-0">
+                                <div class="statistic-block">
+                                    <div class="statistic-digit">
+                                        <h2 class="s-30 w-700 mb-10 color--green-500">
+                                            <span class="count-element">8</span>+
+                                        </h2>
+                                    </div>
+                                    <div class="statistic-txt">
+                                        <h5 class="s-16 w-500 color--green-500">NBFC Partners</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col sec-4 staticts-1">
+                            <div id="sb-5-4" class="text-center mb-0">
+                                <div class="statistic-block">
+                                    <div class="statistic-digit">
+                                        <h2 class="s-30 w-700 mb-10 color--green-500">
+                                            <span class="count-element">100</span>%
+                                        </h2>
+                                    </div>
+                                    <div class="statistic-txt">
+                                        <h5 class="s-16 w-500 color--green-500">Digital Process</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-12 ">
-                <div class="hero-7-img d-flex justify-content-center align-items-start">
-                    <img src="{{ asset('front/images/home-section.png') }}" alt="aploannwala" class="img-fluid p-0">
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
 
-<div id="statistic-1" class=" bg--green-400 ct-03 py-80 statistic-section division">
-    <div class="container">
-        <div class="statistic-5-wrapper">
-            <div class="row row-cols-2 row-cols-md-4">
-                <div class="col sec-1">
-                    <div id="sb-5-1" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">4000</span>+
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Happy Customer</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col sec-2">
-                    <div id="sb-5-3" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">3.5</span>Cr+
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Disbursal</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col sec-3">
-                    <div id="sb-5-2" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">8</span>+
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">NBFC Partners</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col sec-4">
-                    <div id="sb-5-4" class="text-center">
-                        <div class="statistic-block">
-                            <div class="statistic-digit">
-                                <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">100</span>%
-                                </h2>
-                            </div>
-                            <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Digital Process</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <section class="py-80 ct-02 content-section division" id="company">
     <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="txt-block right-column text-center">
+                    <p><span class="section-id s-16"><span class="color--green-500">About Us!</span></p>
+                    <h2 class="s-28 w-700">Helping you find the right financial solutions with expert guidance.</h2>
+                    <p>AP Loannwala is committed to making loan services straightforward and accessible for individuals
+                        who need reliable financial support</p>
+                    <p>We understand that every financial requirement is different, which is why we focus on guiding
+                        clients with clear information and practical assistance throughout the process. Our team works
+                        closely with customers to ensure their experience remains smooth and organized.</p>
+                    <p>With strong partnerships across multiple NBFCs, we help connect individuals to suitable loan
+                        options without unnecessary delays or confusion.</p>
+                    <p>At AP Loannwala, we believe in keeping things simple, transparent, and supportive – helping
+                        people take confident steps towards their financial goals.</p>
+                </div>
+            </div>
+            <!-- <div class="col-md-5">
                 <div class="img-block left-column">
                     <img class="img-fluid" src="{{ asset('front/images/Compny-page-1.png') }}" alt="content-image">
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="txt-block right-column">
-                    <p><span class="section-id s-16">About <span class="color--green-500">Us!</span></span></p>
-                    <h2 class="s-28 w-700">Helping you find the right financial solutions with expert guidance.</h2>
-                    <p>AP Loannwala is committed to making loan services straightforward and accessible for individuals who need reliable financial support</p>
-                    <p>We understand that every financial requirement is different, which is why we focus on guiding clients with clear information and practical assistance throughout the process. Our team works closely with customers to ensure their experience remains smooth and organized.</p>
-                    <p>With strong partnerships across multiple NBFCs, we help connect individuals to suitable loan options without unnecessary delays or confusion.</p>
-                    <p>At AP Loannwala, we believe in keeping things simple, transparent, and supportive – helping people take confident steps towards their financial goals.</p>
-                </div>
-            </div>
+       -->
         </div>
     </div>
 </section>
 
-<hr class="divider">
+ 
 
-<section id="products" class="py-80 bg--green-100 features-section division">
+
+<section id="products" class="py-80 features-section division bg--green-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-70">
-                    <h2 class="s-28">Take Your Finances Forward with <span class="color--green-500">Smart Strategy</span></h2>
-                    <p class="s-16 color--grey">Pick the plan that works best for your requirements.</p>
+                <div class="section-title mb-40">
+                    <h2 class="s-28 mb-5">Take Your Finances Forward with <span class="color--green-500">Smart
+                            Strategy</span></h2>
+                    <p class="s-16 color--grey mt-0">Pick the plan that works best for your requirements.</p>
                 </div>
             </div>
         </div>
-
-        <div class="fbox-wrapper text-center">
-            <div class="row d-flex align-items-center justify-content-center m-auto">
-                <div class="col-md-5 mb-3">
-                    <div class="fbox-5 fb-2 bg--white-100 r-16 p-0">
-                        <div class="w-100 h-100">
-                            <img class="img-fluid w-100 h-100 rounded-top-4" src="{{ asset('front/images/Img-22.png') }}" alt="feature-image">
-                        </div>
-                        <div class="p-3">
-                            <div class="fbox-txt mb-3">
-                                <h5 class="s-20 w-700">Quick Self-Apply</h5>
-                                <p>Enjoy instant access to expert consultation, convenient login links, and personalized loan offers from our NBFC partners.</p>
+        <div class="row position-relative mb-3">
+            <figure class="rounded position-absolute d-none d-lg-block text-end"
+                style="top: 50%; right:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2;"><img
+                    src="front/images/Img-22.png"></figure>
+            <div class="col-lg-9 text-center">
+                <div class="bg--white-100  border rounded-3 shadow">
+                    <div class="card-body p-3 m-lg-5 m-md-3 bg-none">
+                        <div class="row gx-0 justify-content-center">
+                            <div class="col-lg-8 ps-xl-10">
+                                <blockquote class="border-0 mb-0">
+                                    <div class="p-3">
+                                        <div class="fbox-txt mb-3">
+                                            <h2 class="s-28 w-700">Quick Self-Apply</h2>
+                                            <p>Enjoy instant access to expert consultation, convenient login links, and
+                                                personalized
+                                                loan offers from our NBFC partners.</p>
+                                        </div>
+                                        <a href="http://127.0.0.1:8000/self-apply"
+                                            class="btn r-04 btn--theme hover--tra-black">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                </blockquote>
                             </div>
-                            <a href="{{ route('self.apply.main') }}"
-                                class="btn r-04 btn--theme hover--tra-black">
-                                Apply Now
-                            </a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-5 mb-3">
-                    <div class="fbox-5 fb-2 bg--white-100 r-16 p-0">
-                        <div class="w-100 h-100">
-                            <img class="img-fluid w-100 h-100  rounded-top-4" src="{{ asset('front/images/Img-23.png') }}" alt="feature-image">
-                        </div>
-                        <div class="p-3">
-                            <div class="fbox-txt mb-3">
-                                <h5 class="s-20 w-700">Hire Loan Agent</h5>
-                                <p>Leave the loan process to our dedicated experts while you sit back and relax, with better chances of approval.</p>
+            </div>
+        </div>
+        <div class="row position-relative justify-content-end">
+            <figure class="rounded position-absolute d-none d-lg-block"
+                style="top: 50%; left:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2"><img
+                    src="front/images/Img-23.png"></figure>
+            <div class="col-lg-9 text-center">
+                <div class="bg--white-100  border rounded-3 shadow">
+                    <div class="card-body p-3 m-lg-5 m-md-3 bg-none">
+                        <div class="row gx-0 justify-content-center">
+                            <div class="col-lg-8 ps-xl-10">
+                                <blockquote class="border-0 mb-0">
+                                    <div class="p-3">
+                                        <div class="fbox-txt mb-3">
+                                            <h2 class="s-28 w-700">Hire Loan Agent</h5>
+                                                <p>Leave the loan process to our dedicated experts while you sit back
+                                                    and relax, with
+                                                    better chances of approval.</p>
+                                        </div>
+                                        <a href="{{ route('loan.agent.main') }}"
+                                            class="btn r-04 btn--theme hover--tra-black">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                </blockquote>
                             </div>
-                            <a href="{{ route('loan.agent.main') }}"
-                                class="btn r-04 btn--theme hover--tra-black">
-                                Apply Now
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -172,70 +200,70 @@
         </div>
     </div>
 </section>
-
 
 <!-- why aploannwala section starts -->
 <section id="features-6" class="py-80  features-section division">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-50">
-                    <h2 class="s-28">Why <span class="color--green-500">APloannwala</span></h2>
-                    <p class="s-16 color--grey">Here's What Sets Our Platform Apart</p>
+                <div class="section-title mb-40">
+                    <h2 class="s-28 mb-5">Why <span class="color--green-500">APloannwala</span></h2>
+                    <p class="s-16 color--grey mt-0">Here's What Sets Our Platform Apart</p>
                 </div>
             </div>
         </div>
-        <div class="fbox-wrapper text-center">
+        <div class="fbox-wrapper text-center mt-40">
             <div class="row gx-3 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-1 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
+                    <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border shadow">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico text-white">
                                 <span class="flaticon-layers-1"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Strategic Lending Network</h4>
                             <p>Access multiple NBFC-backed lending options through a single digital interface.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
+                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border shadow">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico text-white">
                                 <span class="flaticon-computer-1"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Completely Online Process</h4>
                             <p>From eligibility check to document submission, everything happens digitally.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
+                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border shadow">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico text-white">
                                 <span class="flaticon-click-1"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Self-Apply Feature</h4>
                             <p>Take control of your finances while enjoying the benefits of excellent provisions.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover fb-3 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
+                    <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border shadow">
+                        <div class="fbox-ico ico-30">
+                            <div class="shape-ico text-white">
                                 <span class="flaticon-tech-support"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
+                        <div class="fbox-txt mt-4">
                             <h4 class="s-18 w-700">Hire Loan Agent</h4>
-                            <p>Get guidance from experienced professionals to improve your loan approval possibilities.</p>
+                            <p>Get guidance from experienced professionals to improve your loan approval possibilities.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -247,98 +275,121 @@
 
 
 
+
+
+
 <!-- Quick and swift steps section starts -->
 <section id="features-2" class="py-80 bg--green-100 features-section division">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-40">
-                    <h2 class="s-28">How it <span class="color--green-500">works!</span></h2>
-                    <p class="s-16 color--grey">6 Easy Steps To Financial Success.</p>
+                    <h2 class="s-28 mb-5">How it <span class="color--green-500">works!</span></h2>
+                    <p class="s-16 color--grey mt-0">6 Easy Steps To Financial Success.</p>
                 </div>
             </div>
         </div>
 
         <div class="fbox-wrapper text-center">
-            <div class="row g-4 row-cols-1 row-cols-md-3 row-cols-lg-3">
-                <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-mobile-search"></span>
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="col d-flex">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
+                            <div class="fbox-ico ico-50">
+                                <div class="shape-ico color--theme">
+                                    <span class="flaticon-mobile-search"></span>
+                                </div>
+                            </div>
+                            <div class="fbox-txt ms-4 text-start">
+                                <p class="mt-0">Begin your process by entering your mobile number and bank-registered
+                                    name.</p>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Begin your process by entering your mobile number and bank-registered name.</p>
-                        </div>
                     </div>
-                </div>
 
-                <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-computer"></span>
+                    <div class="col d-flex">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
+                            <div class="fbox-ico ico-50">
+                                <div class="shape-ico color--theme">
+                                    <span class="flaticon-computer"></span>
+                                </div>
+                            </div>
+                            <div class="fbox-txt ms-4 text-start">
+                                <p class="mt-0">Fill out the remaining information, and our automated system will check
+                                    your
+                                    eligibility and display any pre-approved loan offers. This is not a final offer.</p>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Fill out the remaining information, and our automated system will check your eligibility and display any pre-approved loan offers. This is not a final offer.</p>
-                        </div>
                     </div>
-                </div>
 
-                <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-credit-card"></span>
+                    <div class="col d-flex">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
+                            <div class="fbox-ico ico-50">
+                                <div class="shape-ico color--theme">
+                                    <span class="flaticon-credit-card"></span>
+                                </div>
+                            </div>
+                            <div class="fbox-txt ms-4 text-start">
+                                <p class="mt-0">To gain access to the pre-approved loan offers displayed, purchase one
+                                    of our
+                                    subscription plans.</p>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>To gain access to the pre-approved loan offers displayed, purchase one of our subscription plans.</p>
-                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4  d-none d-md-none d-lg-block">
+                    <div class="img-block left-column">
+                        <img class="img-fluid" src="{{ asset('front/images/Compny-page-1.png') }}" alt="feature-image">
                     </div>
                 </div>
-
-                <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-time"></span>
+                <div class="col-lg-4">
+                    <div class="col d-flex">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
+                            <div class="fbox-ico ico-50">
+                                <div class="shape-ico color--theme">
+                                    <span class="flaticon-time"></span>
+                                </div>
+                            </div>
+                            <div class="fbox-txt ms-4 text-start">
+                                <p class="mt-0">Our login team will contact you within 24-48 hours to verify your
+                                    information and
+                                    guide you through the process.</p>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Our login team will contact you within 24-48 hours to verify your information and guide you through the process.</p>
-                        </div>
                     </div>
-                </div>
 
-                <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-check-1"></span>
+                    <div class="col d-flex">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
+                            <div class="fbox-ico ico-50">
+                                <div class="shape-ico color--theme">
+                                    <span class="flaticon-check-1"></span>
+                                </div>
+                            </div>
+                            <div class="fbox-txt ms-4 text-start">
+                                <p class="mt-0">The NBFC will verify your documents and profile in accordance with its
+                                    terms and
+                                    conditions.</p>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>The NBFC will verify your documents and profile in accordance with its terms and conditions.</p>
-                        </div>
                     </div>
-                </div>
 
-                <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-profits"></span>
+                    <div class="col d-flex">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
+                            <div class="fbox-ico ico-50">
+                                <div class="shape-ico color--theme">
+                                    <span class="flaticon-profits"></span>
+                                </div>
+                            </div>
+                            <div class="fbox-txt ms-4 text-start">
+                                <p class="mt-0">The NBFC will make the final decision on loan sanction, approval, and
+                                    disbursement in
+                                    accordance with its rules and regulations.</p>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>The NBFC will make the final decision on loan sanction, approval, and disbursement in accordance with its rules and regulations.</p>
-                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
@@ -351,8 +402,8 @@
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-10">
                 <div class="section-title mb-40">
-                    <h2 class="s-28">Calculate Your <span class="color--green-500">EMI Instantly</span></h2>
-                    <p class="s-16 color--grey">Make more confident financial decisions!</p>
+                    <h2 class="s-28 mb-5">Calculate Your <span class="color--green-500">EMI Instantly</span></h2>
+                    <p class="s-16 color--grey mt-0">Make more confident financial decisions!</p>
                 </div>
             </div>
         </div>
@@ -365,14 +416,16 @@
                                 <!-- Loan Amount slider section starts -->
                                 <div class="col-md-12">
                                     <div class="row form-group lamount flex-display align-items-center">
-                                        <label class="col-6 control-label s-18 w-500" for="loanamount">Loan amount</label>
+                                        <label class="col-6 control-label s-18 w-500" for="loanamount">Loan
+                                            amount</label>
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
                                                         <span class="input-group-text color--purple-500">₹</span>
                                                     </div>
-                                                    <input class="form-control custm-box w-400" id="loanamount" name="loanamount" value="10,00,000" type="text">
+                                                    <input class="form-control custm-box w-400" id="loanamount"
+                                                        name="loanamount" value="10,00,000" type="text">
                                                 </div>
                                             </div>
                                         </div>
@@ -412,13 +465,15 @@
                                 <!-- Interest Rate slider section starts -->
                                 <div class="col-md-12 mt-100">
                                     <div class="row form-group lint flex-display align-items-center">
-                                        <label class="col-6 s-18 w-500 control-label" for="loaninterest">Interest rate</label>
+                                        <label class="col-6 s-18 w-500 control-label" for="loaninterest">Interest
+                                            rate</label>
                                         <div class="col-6">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text">%</span>
                                                 </div>
-                                                <input class="form-control custm-box w-400" id="loaninterest" name="loaninterest" value="10.5" type="text">
+                                                <input class="form-control custm-box w-400" id="loaninterest"
+                                                    name="loaninterest" value="10.5" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -451,19 +506,25 @@
                                 <!-- Loan Tenure slider section starts -->
                                 <div class="col-md-12 mt-100">
                                     <div class="row form-group lterm flex-display align-items-center">
-                                        <label class="col-6 s-18 w-500 control-label" for="loanterm">Select EMI option</label>
+                                        <label class="col-6 s-18 w-500 control-label" for="loanterm">Select EMI
+                                            option</label>
                                         <div class="col-6">
                                             <div class="loantermwrapper">
                                                 <div class="input-group">
                                                     <div class="input-group-prepend d-none">
                                                         <label class="s-14 input-group-text">
-                                                            <input type="radio" class="mr-5" name="loantenure" id="loanyears" value="loanyears" tabindex="4" autocomplete="off"><span class="s-14">Yr</span>
+                                                            <input type="radio" class="mr-5" name="loantenure"
+                                                                id="loanyears" value="loanyears" tabindex="4"
+                                                                autocomplete="off"><span class="s-14">Yr</span>
                                                         </label>
                                                     </div>
-                                                    <input class="form-control custm-box-2 w-400" id="loanterm" name="loanterm" value="20" type="text">
+                                                    <input class="form-control custm-box-2 w-400" id="loanterm"
+                                                        name="loanterm" value="20" type="text">
                                                     <div class="input-group-prepend">
                                                         <label class="s-14 input-group-text months-input">
-                                                            <input type="radio" class="mr-5 d-none" name="loantenure" id="loanmonths" value="loanmonths" tabindex="5" autocomplete="off" checked="checked">
+                                                            <input type="radio" class="mr-5 d-none" name="loantenure"
+                                                                id="loanmonths" value="loanmonths" tabindex="5"
+                                                                autocomplete="off" checked="checked">
                                                             <span class="s-14">Months</span>
                                                         </label>
                                                     </div>
@@ -523,7 +584,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div id="emipiechart" class="d-none no-gutter-left no-gutter-right col-sm-7 col-md-6 highcharts-container"></div>
+                        <div id="emipiechart"
+                            class="d-none no-gutter-left no-gutter-right col-sm-7 col-md-6 highcharts-container"></div>
                     </div>
                 </div>
             </div>
@@ -531,7 +593,8 @@
             <div id="emipaymentdetails" class="d-none">
                 <form class="gutter-left gutter-right form-horizontal">
                     <div class="row form-group" id="emipaymentscheduleheader">
-                        <label class="col-md-4 col-lg-5 control-label" for="startmonthyear">Schedule showing EMI payments starting from</label>
+                        <label class="col-md-4 col-lg-5 control-label" for="startmonthyear">Schedule showing EMI
+                            payments starting from</label>
                         <div class="col-md-4 col-lg-3">
                             <div class="input-group">
                                 <input class="form-control" id="startmonthyear" name="startmonthyear" value type="text">
@@ -575,7 +638,8 @@
                                 <span class="s-16">Total amount</span>
                                 <span id="emitotalamount">₹<span>10,000</span></span>
                             </div>
-                            <a href="{{ route('loan.agent.main') }}" class="btn btn--green-400 hover--tra-black w-100">Apply for loan</a>
+                            <a href="{{ route('loan.agent.main') }}"
+                                class="btn btn--green-400 hover--tra-black w-100">Apply for loan</a>
                         </div>
                     </div>
                 </div>
@@ -591,9 +655,9 @@
         <div class="r-12 text-center">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-10">
-                    <div class="section-title mb-50">
-                        <h2 class="s-28">Our <span class="color--green-500">NBFC Partners</span></h2>
-                        <p class="s-16 color--grey">We collaborate with the best to bring you the best.</p>
+                    <div class="section-title mb-40">
+                        <h2 class="s-28 mb-5">Our <span class="color--green-500">NBFC Partners</span></h2>
+                        <p class="s-16 color--grey mt-0">We collaborate with the best to bring you the best.</p>
                     </div>
                 </div>
             </div>
@@ -621,8 +685,8 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <div class="section-title mb-40">
-                    <h2 class="s-28">Hear Straight From <span class="color--green-500">Our Customers</span></h2>
-                    <p class="s-16 color--grey">The words that inspire us to perform better.</p>
+                    <h2 class="s-28 mb-5">Hear Straight From <span class="color--green-500">Our Customers</span></h2>
+                    <p class="s-16 color--grey mt-0">The words that inspire us to perform better.</p>
                 </div>
             </div>
         </div>
@@ -640,18 +704,21 @@
 <!-- Contact Start -->
 <section id="contact" class="py-80 bg--green-100">
     <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6 md-mb-50">
+        <div class="row align-items-start justify-content-start">
+            <div class="col-lg-6  col-md-6 md-mb-50">
                 <div class="sec-title2 mb-40">
-                    <h2 class="s-28">We’re Here to <span class="color--green-500">Assist You</span></h2>
-                    <p class="description">Drop us a message with your basic information, and our team will get back to you shortly.</p>
+                    <h2 class="s-28 mb-5">We’re Here to <span class="color--green-500">Assist You</span></h2>
+                    <p class="description mt-0">Drop us a message with your basic information, and our team will get
+                        back to you shortly.</p>
                 </div>
                 <div class="row gy-3 gx-3">
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="address-item">
                             <div class="address-text">
                                 <h6> Customer Support </h6>
-                                <p class="address-txt"><a href="tel:{{ str_ireplace(" ","",env('COMPANY_MOBILE')) }}">{{ env('COMPANY_MOBILE') }}</a></p>
+                                <p class="address-txt"><a
+                                        href="tel:{{ str_ireplace(" ","",env('COMPANY_MOBILE')) }}">{{ env('COMPANY_MOBILE') }}</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -660,7 +727,9 @@
                         <div class="address-item">
                             <div class="address-text">
                                 <h6> Mail Us </h6>
-                                <p class="address-txt"><a href="mailto:{{ str_ireplace(" ","",env('COMPANY_SUPPORT_MAIL')) }}">{{ env('COMPANY_SUPPORT_MAIL') }}</a></p>
+                                <p class="address-txt"><a
+                                        href="mailto:{{ str_ireplace(" ","",env('COMPANY_SUPPORT_MAIL')) }}">{{ env('COMPANY_SUPPORT_MAIL') }}</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -687,52 +756,60 @@
                 </div>
             </div>
 
-            <div class="col-md-6 py-md-0 py-4">
+            <div class="col-lg-6 col-md-6 py-md-0 py-4">
                 <div class="h-100">
                     <div class="card shadow border h-100">
                         <div class="card-body">
                             <p class="w-400 mb-20">
                                 Fill out the form below and you'll hear from us soon.
                             </p>
-                            <form method="post" action="{{ route('front.contact.us.store') }}" class="contact-form career-form" enctype="multipart/form-data">
+                            <form method="post" action="{{ route('front.contact.us.store') }}"
+                                class="contact-form career-form" enctype="multipart/form-data">
                                 <div class="row gx-2 gy-2">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group form-floating s-15">
-                                            <input id="form_name" name="fullname" type="text" class="form-control name mb-0" placeholder="">
+                                            <input id="form_name" name="fullname" type="text"
+                                                class="form-control name mb-0" placeholder="">
                                             <label for="firstname">Full Name *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'fullname'])@endcomponent
                                     </div>
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group form-floating">
-                                            <input id="form_mobile" type="text" name="mobile" class="numeric-input mb-0 form-control mobile" placeholder="" minlength="10" maxlength="10" inputmode="numeric">
+                                            <input id="form_mobile" type="text" name="mobile"
+                                                class="numeric-input mb-0 form-control mobile" placeholder=""
+                                                minlength="10" maxlength="10" inputmode="numeric">
                                             <label for="form_mobile">Mobile *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'mobile'])@endcomponent
                                     </div>
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group form-floating">
-                                            <input id="form_email" type="email" name="email" class="mb-0 form-control email" placeholder="">
+                                            <input id="form_email" type="email" name="email"
+                                                class="mb-0 form-control email" placeholder="">
                                             <label for="form_email">Email *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'email'])@endcomponent
                                     </div>
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group form-floating">
-                                            <input id="form_subject" type="text" name="subject" class="mb-0 form-control subject" placeholder="">
+                                            <input id="form_subject" type="text" name="subject"
+                                                class="mb-0 form-control subject" placeholder="">
                                             <label for="form_subject">Subject *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'subject'])@endcomponent
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group form-floating">
-                                            <textarea id="form_message" name="desc" class="mb-0 form-control message" placeholder="" style="height: 150px"></textarea>
+                                            <textarea id="form_message" name="desc" class="mb-0 form-control message"
+                                                placeholder="" style="height: 150px"></textarea>
                                             <label for="form_message">Message *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'desc'])@endcomponent
                                     </div>
                                     <div class="col-12 text-center">
-                                        <button type="submit" class="s-14 btn btn--green-400 hover--tra-black submit" id="submit-btn">Submit Request</button>
+                                        <button type="submit" class="s-14 btn btn--green-400 hover--tra-black submit"
+                                            id="submit-btn">Submit Request</button>
                                     </div>
                                 </div>
                             </form>
@@ -747,7 +824,8 @@
 
 {{-- Wlecome message modal show here --}}
 @if($msg->status == 1)
-<div class="modal fade myModal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade myModal" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
@@ -773,113 +851,115 @@
 <script src="{{ asset('front/js/home.js') }}" type="text/javascript"></script>
 @if($msg->status == 1)
 <script>
-    $(document).ready(function() {
-        setTimeout(function() {
-            $(".myModal:not(.auto-off)").modal("show");
-        }, 3600);
-    })
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".myModal:not(.auto-off)").modal("show");
+    }, 3600);
+})
 </script>
 @endif
 
 <script>
-    const routes = {
-        'selfapply': "{{ route('self.apply.send.otp') }}",
-        'loan-agent': "{{ route('loan.agent.send.otp') }}"
-    };
+const routes = {
+    'selfapply': "{{ route('self.apply.send.otp') }}",
+    'loan-agent': "{{ route('loan.agent.send.otp') }}"
+};
 
-    document.addEventListener('DOMContentLoaded', () => {
-        const faqs = document.querySelectorAll('#faq-container li');
-        const loadMoreButton = document.getElementById('load-more-faq');
-        const viewLessButton = document.getElementById('view-less-faq');
-        let visibleCount = 5; // Number of FAQs initially shown
-        const batchSize = 5; // Number of FAQs to show on each click
+document.addEventListener('DOMContentLoaded', () => {
+    const faqs = document.querySelectorAll('#faq-container li');
+    const loadMoreButton = document.getElementById('load-more-faq');
+    const viewLessButton = document.getElementById('view-less-faq');
+    let visibleCount = 5; // Number of FAQs initially shown
+    const batchSize = 5; // Number of FAQs to show on each click
 
-        // Initial setup: Show the first 7 FAQs
+    // Initial setup: Show the first 7 FAQs
+    faqs.forEach((faq, index) => {
+        if (index >= visibleCount) {
+            faq.style.display = 'none';
+        }
+    });
+
+    // Event listener for Load More button
+    loadMoreButton.addEventListener('click', () => {
+        const hiddenFaqs = Array.from(faqs).filter(faq => faq.style.display === 'none');
+        for (let i = 0; i < batchSize && i < hiddenFaqs.length; i++) {
+            hiddenFaqs[i].style.display = 'list-item';
+        }
+
+        // Show the "View Less" button once more items are displayed
+        if (hiddenFaqs.length > 0) {
+            viewLessButton.style.display = 'inline-block';
+        }
+
+        // Hide the "Load More" button if no more FAQs to show
+        if (hiddenFaqs.length <= batchSize) {
+            loadMoreButton.style.display = 'none';
+        }
+    });
+
+    // Event listener for View Less button
+    viewLessButton.addEventListener('click', () => {
         faqs.forEach((faq, index) => {
             if (index >= visibleCount) {
                 faq.style.display = 'none';
             }
         });
 
-        // Event listener for Load More button
-        loadMoreButton.addEventListener('click', () => {
-            const hiddenFaqs = Array.from(faqs).filter(faq => faq.style.display === 'none');
-            for (let i = 0; i < batchSize && i < hiddenFaqs.length; i++) {
-                hiddenFaqs[i].style.display = 'list-item';
-            }
-
-            // Show the "View Less" button once more items are displayed
-            if (hiddenFaqs.length > 0) {
-                viewLessButton.style.display = 'inline-block';
-            }
-
-            // Hide the "Load More" button if no more FAQs to show
-            if (hiddenFaqs.length <= batchSize) {
-                loadMoreButton.style.display = 'none';
-            }
-        });
-
-        // Event listener for View Less button
-        viewLessButton.addEventListener('click', () => {
-            faqs.forEach((faq, index) => {
-                if (index >= visibleCount) {
-                    faq.style.display = 'none';
-                }
-            });
-
-            // Reset button visibility
-            loadMoreButton.style.display = 'inline-block';
-            viewLessButton.style.display = 'none';
-        });
+        // Reset button visibility
+        loadMoreButton.style.display = 'inline-block';
+        viewLessButton.style.display = 'none';
     });
+});
 
-    $(document).ready(function() {
-        $(".contact-form").submit(function(e) {
-            let status = document.activeElement.innerHTML;
-            e.preventDefault();
-            if (status) {
-                $('.ajax-error').html('');
-                let data = new FormData(this);
-                $.ajax({
-                    url: $(this).attr("action"),
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    },
-                    type: 'POST',
-                    data: data,
-                    processData: false,
-                    contentType: false,
-                    beforeSend: function() {
-                        $("#submit-btn").html('<span class="spinner-border spinner-border-sm"></span> Submit Request ')
-                        $("#submit-btn").attr('disabled', true);
-                    },
-                    success: function(result) {
-                        $(this).attr("disabled", false);
-                        if (result.type === 'SUCCESS') {
-                            toastr.success(result.message);
-                            setTimeout(function() {
-                                location.reload();
-                            }, 3000);
-                        } else {
-                            toastr.error(result.message);
-                            $('#submit-btn').html('Submit Request');
-                            $('#submit-btn').attr('disabled', false);
-                        }
-                    },
-                    error: function(error) {
-                        $(this).attr("disabled", false);
-                        let errors = error.responseJSON.errors,
-                            errorsHtml = '';
-                        $.each(errors, function(key, value) {
-                            errorsHtml = '<strong>' + value[0] + '</strong>';
-                            $('.' + key).html(errorsHtml);
-                        });
+$(document).ready(function() {
+    $(".contact-form").submit(function(e) {
+        let status = document.activeElement.innerHTML;
+        e.preventDefault();
+        if (status) {
+            $('.ajax-error').html('');
+            let data = new FormData(this);
+            $.ajax({
+                url: $(this).attr("action"),
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                type: 'POST',
+                data: data,
+                processData: false,
+                contentType: false,
+                beforeSend: function() {
+                    $("#submit-btn").html(
+                        '<span class="spinner-border spinner-border-sm"></span> Submit Request '
+                    )
+                    $("#submit-btn").attr('disabled', true);
+                },
+                success: function(result) {
+                    $(this).attr("disabled", false);
+                    if (result.type === 'SUCCESS') {
+                        toastr.success(result.message);
+                        setTimeout(function() {
+                            location.reload();
+                        }, 3000);
+                    } else {
+                        toastr.error(result.message);
                         $('#submit-btn').html('Submit Request');
                         $('#submit-btn').attr('disabled', false);
                     }
-                });
-            }
-        });
+                },
+                error: function(error) {
+                    $(this).attr("disabled", false);
+                    let errors = error.responseJSON.errors,
+                        errorsHtml = '';
+                    $.each(errors, function(key, value) {
+                        errorsHtml = '<strong>' + value[0] + '</strong>';
+                        $('.' + key).html(errorsHtml);
+                    });
+                    $('#submit-btn').html('Submit Request');
+                    $('#submit-btn').attr('disabled', false);
+                }
+            });
+        }
     });
+});
 </script>
 @endpush

@@ -3342,7 +3342,7 @@ span.sm-info {
 /*------------------------------------------*/
 
 .hero-section h2 {
-    margin-bottom: 28px;
+    margin-bottom: 8px;
 }
 
 .hero-section h2.s-48,
@@ -3537,7 +3537,7 @@ span.sm-info {
 
 #hero-7 {
     padding-top:150px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 #hero-7 .quick-form {
@@ -3580,7 +3580,7 @@ span.sm-info {
     z-index: 999;
     background-color: #fff;
     border: 1px solid #f8f8f8;
-    padding: 45px 35px;
+    padding: 35px;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, .08);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, .08);
     box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, .08);
@@ -4507,6 +4507,7 @@ span.sm-info {
     border-radius: 10px;
     padding: 1.5rem 1rem; 
     margin-bottom: 20px;
+    position: relative;
 }
 .fbox-8.fbox--hover:hover {
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);

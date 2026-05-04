@@ -32,7 +32,6 @@
 <section id="features-4" class="py-80 features-section division">
     <div class="container">
         <div class="row justify-content-center">
-            
             <div class="col-md-6 col-lg-6 col-sm-12 align-items-center justify-content-center m-auto">
                 <div id="contacts" class="contacts-section division">
                     <div class="card">

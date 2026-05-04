@@ -9,10 +9,10 @@
 </style>
 @endpush
 @section('content')
-<section id="hero-7" class="bg--fixed hero-section pb-0">
+<section id="hero-7" class="bg--fixed hero-section">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-lg-6 order-2 order-md-1 order-lg-1">
+            <div class="col-md-6 col-lg-6 order-2 order-md-1 order-lg-1 m-auto">
                 <div class="d-flex justify-content-center align-items-start">
                     <div class="img-block">
                         <img src="{{ asset('front/images/offer/offer-page-img-2.png') }}" alt="selfapply nbfc list" class="img-fluid">
@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-6 self-apply-form order-1 order-md-2 order-lg-2">
+            <div class="col-md-6 col-lg-6 order-1 order-md-2 order-lg-2">
                 <div id="hero-8-form" class="r-06">
                     <h4 class="s-22 text-dark mb-1"> Get Loan up to <span class="color--green-500">&#8377;10 LAKHS</span> from Affiliate NBFCs!</h4>
                     <p class="s-14">Unlock Your Personalized Pre-Approved Loan Offers</p>
@@ -106,7 +106,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-12">
                     <div class="section-title mb-40">
-                        <h2 class="s-28 w-700 mb-5">Going Strong With Stronger Recommendations!</h2>
+                        <h2 class="s-28 w-700 mb-5">Going Strong With <span class="color--green-500">Stronger Recommendations!</span></h2>
                         <p class="s-16 color--grey mt-0">Our guidance will drive you towards the best NBFC personalized offers.</p>
                     </div>
                 </div>
@@ -130,12 +130,12 @@
 <hr class="divider" />
 
 <!-- Testimonials section start  -->
-<section id="reviews-1" class="py-80 features-section division">
+<section id="reviews-1" class="py-80 features-section division bg--green-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <div class="section-title text-center mb-40">
-                    <h2 class="s-28 w-700 mb-5">Our Happy Customer</h2>
+                    <h2 class="s-28 w-700 mb-5">Our <span class="color--green-500">Happy Customer</span></h2>
                     <p class="s-16 color--grey mt-0">We Give Many Reasons For Our Customers To Shower Praises On Us!</p>
                 </div>
             </div>

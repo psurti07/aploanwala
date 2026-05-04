@@ -5,11 +5,8 @@
 @section('content')
 <section id="contacts" class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="row mb-35">
-                <div class="col-lg-qw col-md-qw col-sm-12">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-md-7 col-lg-7 col-12">
+        <div class="row justify-content-center mb-35">
+         <div class="col-md-7 col-lg-7 col-12">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="text-center mb-20">
@@ -59,9 +56,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                  
+               
+            
         </div>
     </div>
 </section>
