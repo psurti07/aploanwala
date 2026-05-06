@@ -143,7 +143,7 @@
         <div class="row position-relative mb-3">
             <figure class="rounded position-absolute d-none d-lg-block text-end"
                 style="top: 50%; right:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2;"><img
-                    src="front/images/Img-22.png"></figure>
+                    src="{{ asset('front/images/Img-22.png') }}"></figure>
             <div class="col-lg-9 text-center">
                 <div class="bg--white-100  border rounded-3 shadow">
                     <div class="card-body p-3 m-lg-5 m-md-3 bg-none">
@@ -157,7 +157,7 @@
                                                 personalized
                                                 loan offers from our NBFC partners.</p>
                                         </div>
-                                        <a href="http://127.0.0.1:8000/self-apply"
+                                        <a href="{{ route('self.apply.main') }}"
                                             class="btn r-04 btn--theme hover--tra-black">
                                             Apply Now
                                         </a>
@@ -172,7 +172,7 @@
         <div class="row position-relative justify-content-end">
             <figure class="rounded position-absolute d-none d-lg-block"
                 style="top: 50%; left:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2"><img
-                    src="front/images/Img-23.png"></figure>
+                    src="{{ asset('front/images/Img-23.png') }}"></figure>
             <div class="col-lg-9 text-center">
                 <div class="bg--white-100  border rounded-3 shadow">
                     <div class="card-body p-3 m-lg-5 m-md-3 bg-none">
