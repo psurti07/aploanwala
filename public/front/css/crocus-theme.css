@@ -990,6 +990,9 @@ p.btns-group-txt span.txt-data a:hover {
     color: #353f4f!important;
     background-color:transparent!important;
     border-color: #353f4f!important;
+       box-shadow: 0 0 10px 0 #8d68bd inset, 0 0 6px 2px #362252;
+   
+
 }
 
 /*------------------------------------------*/
@@ -8736,7 +8739,7 @@ span.release-date span {
     outline: 0px none;
     box-shadow: none;
     background-color: #fcfdfd;
-    border-color: #198b8c;
+    border-color: #2c134d;
 }
 
 /*------------------------------------------*/

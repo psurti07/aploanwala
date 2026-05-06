@@ -1,63 +1,229 @@
-.navbar-dark .wsmenu > .wsmenu-list > li > a.h-link { color: #353f4f; }
-.navbar-dark .wsmenu-list > li > a.h-link:hover { color: #181818!important; }
-.navbar-dark.white-scroll .scroll .wsmenu-list > li > a.h-link:hover { color:#1d222f !important; }
-.navbar-dark .logo-black { display: none; }
-.navbar-dark .logo-white { display: block; }
-.tra-menu.navbar-dark .scroll .logo-black { display: block; }
-.tra-menu.navbar-dark .scroll .logo-white { display: none; }
-.role-box span,.role-box p  { color: #6c757d!important }
-.tra-menu.navbar-dark .btn--purple-500 { border-color: #3a3189!important; background-color: #3a3189!important; }
-.tra-menu.navbar-dark .btn--purple-500:hover { color:#fff!important; border-color: #fff!important; background-color: transparent!important; }
-.tra-menu.navbar-dark .scroll .btn--purple-500 { border-color: #3a3189!important; background-color: #3a3189!important; }
-.tra-menu.navbar-dark .scroll .btn--purple-500:hover { color:#353f4f!important; border-color: #353f4f!important; background-color: transparent!important; }
-
-@media(max-width: 991px){
-    .navbar-dark .wsmenu > .wsmenu-list > li > a.h-link { color: #666; }
+.navbar-dark .wsmenu>.wsmenu-list>li>a.h-link {
+  color: #353f4f;
 }
 
-.myModal .modal-content{border-radius:12px!important;}
-.calc-text-heading{ margin-bottom:2px!important; }
-.comment-form { margin-top: 25px!important; }
-.comment-form .form-control{ margin-bottom: 5px!important; }
-#loanamountslider, #loaninterestslider, #loantermslider{ top: 15px!important; }
-#loanterm{ border-top-right-radius: 0px!important;border-bottom-right-radius: 0px!important; }
-#loanmonths, #loanyears { height: 24px!important; }
-#loanmonths { border-top-left-radius: 0px!important;border-bottom-left-radius: 0px!important; }
-#emitotalamount{padding:0 15px!important;}
-.input-group-text { border-top-left-radius: 5px!important;border-bottom-left-radius: 5px!important; }
-.custm-box, .months-input{ border-top-right-radius: 5px!important;border-bottom-right-radius: 5px!important; }
-.months-input { border-top-left-radius: 0px!important;border-bottom-left-radius: 0px!important; }
-.months-input span.s-14 { font-size: 16px; }
+.navbar-dark .wsmenu-list>li>a.h-link:hover {
+  color: #181818 !important;
+}
+
+.navbar-dark.white-scroll .scroll .wsmenu-list>li>a.h-link:hover {
+  color: #1d222f !important;
+}
+
+.navbar-dark .logo-black {
+  display: none;
+}
+
+.navbar-dark .logo-white {
+  display: block;
+}
+
+.tra-menu.navbar-dark .scroll .logo-black {
+  display: block;
+}
+
+.tra-menu.navbar-dark .scroll .logo-white {
+  display: none;
+}
+
+.role-box span,
+.role-box p {
+  color: #6c757d !important
+}
+
+.tra-menu.navbar-dark .btn--purple-500 {
+  border-color: #3a3189 !important;
+  background-color: #3a3189 !important;
+}
+
+.tra-menu.navbar-dark .btn--purple-500:hover {
+  color: #fff !important;
+  border-color: #fff !important;
+  background-color: transparent !important;
+}
+
+.tra-menu.navbar-dark .scroll .btn--purple-500 {
+  border-color: #3a3189 !important;
+  background-color: #3a3189 !important;
+}
+
+.tra-menu.navbar-dark .scroll .btn--purple-500:hover {
+  color: #353f4f !important;
+  border-color: #353f4f !important;
+  background-color: transparent !important;
+}
+
+@media(max-width: 991px) {
+  .navbar-dark .wsmenu>.wsmenu-list>li>a.h-link {
+    color: #666;
+  }
+}
+
+.myModal .modal-content {
+  border-radius: 12px !important;
+}
+
+.calc-text-heading {
+  margin-bottom: 2px !important;
+}
+
+.comment-form {
+  margin-top: 25px !important;
+}
+
+.comment-form .form-control {
+  margin-bottom: 5px !important;
+}
+
+#loanamountslider,
+#loaninterestslider,
+#loantermslider {
+  top: 15px !important;
+}
+
+#loanterm {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+#loanmonths,
+#loanyears {
+  height: 24px !important;
+}
+
+#loanmonths {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+#emitotalamount {
+  padding: 0 15px !important;
+}
+
+.input-group-text {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+.custm-box,
+.months-input {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.months-input {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.months-input span.s-14 {
+  font-size: 16px;
+}
 
 @media screen and (min-width: 768px) {
-    .emi-details-response {
-        border-left: 1px solid #e3e3e3;
-    }
-    .emi-details{ padding-left:25px!important; }
-    #loaninterest, #loanamount{ width:115px!important;flex:0 0 115px!important; }
-    #loanterm { width:60px!important;flex:0 0 60px!important; }
+  .emi-details-response {
+    border-left: 1px solid #e3e3e3;
+  }
+
+  .emi-details {
+    padding-left: 25px !important;
+  }
+
+  #loaninterest,
+  #loanamount {
+    width: 115px !important;
+    flex: 0 0 115px !important;
+  }
+
+  #loanterm {
+    width: 60px !important;
+    flex: 0 0 60px !important;
+  }
 }
 
-.cbox-2-ico{ border: 2px solid #55ad82!important;}
-.emi-apply-btn { width:80%; }
-.emi-apply-btn:hover{ color:#fff!important; }
-.section-id{margin-bottom:10px!important;}
-.main-heading{margin-bottom:60px!important;}
-.type1{margin-bottom:15px!important;}
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background: #ffffff!important;border: 5px solid #2c134d !important; }
-.ui-widget-header{ background:#252525 !important }
-.input-group-text{color: #252525 !important;background-color: #f4f4f4 !important;}
-.custm-box, .custm-box-2{ color: #252525 !important;background-color: #f4f4f4 !important; }
-.company { display: none; opacity: 0; transition: opacity 0.5s ease;}
-.company.visible { display: block; opacity: 1;}
-.ui-slider-horizontal{ height:0.35rem!important; }
-.bc-1-wrapper{padding:80px 80px}
-.emi-details .card { border-radius: 10px;}
-.emi-details .card-body { padding: 2rem;}
-.emi-details .btn-info { background-color: #17a2b8; border-color: #17a2b8;}
-@media (max-width: 767px){
-    .d-my-none{ display:none!important; }
-    
+.cbox-2-ico {
+  border: 2px solid #55ad82 !important;
+}
+
+.emi-apply-btn {
+  width: 80%;
+}
+
+.emi-apply-btn:hover {
+  color: #fff !important;
+}
+
+.section-id {
+  margin-bottom: 10px !important;
+}
+
+.main-heading {
+  margin-bottom: 60px !important;
+}
+
+.type1 {
+  margin-bottom: 15px !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background: #ffffff !important;
+  border: 5px solid #2c134d !important;
+}
+
+.ui-widget-header {
+  background: #252525 !important
+}
+
+.input-group-text {
+  color: #252525 !important;
+  background-color: #f4f4f4 !important;
+}
+
+.custm-box,
+.custm-box-2 {
+  color: #252525 !important;
+  background-color: #f4f4f4 !important;
+}
+
+.company {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.company.visible {
+  display: block;
+  opacity: 1;
+}
+
+.ui-slider-horizontal {
+  height: 0.35rem !important;
+}
+
+.bc-1-wrapper {
+  padding: 80px 80px
+}
+
+.emi-details .card {
+  border-radius: 10px;
+}
+
+.emi-details .card-body {
+  padding: 2rem;
+}
+
+.emi-details .btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+@media (max-width: 767px) {
+  .d-my-none {
+    display: none !important;
+  }
+
 }
 
 .order-summary {
@@ -124,36 +290,58 @@
 }
 
 @media screen and (max-width:991px) {
- .hero-section{
-min-height: auto !important;
-} 
+  .hero-section {
+    min-height: auto !important;
+  }
 
-.feature-image .shape-ico {
+  .feature-image .shape-ico {
     width: 60px !important;
     height: 60px !important;
-}
-}
-.feature-image .fbox-ico{
-position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  }
 }
 
-.feature-image .shape-ico{
-      background: #2c134d;
-    border-radius: 100px;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.feature-image .fbox-ico {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.statistic-5-wrapper .staticts-1{
-border-right: 1px solid #dfd2ba;
+.feature-image .shape-ico {
+  background: #2c134d;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.statistic-5-wrapper .staticts-1:last-child{
+
+.statistic-5-wrapper .staticts-1 {
+  border-right: 1px solid #dfd2ba;
+
+}
+
+.statistic-5-wrapper .staticts-1:last-child {
   border-right: none;
 }
- 
+
+.feature-image.feature-image-01 .shape-ico {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+@media screen and (max-width:767px) {
+  .statistic-5-wrapper .staticts-1 {
+    padding-bottom: 30px;
+  }
+
+  .statistic-5-wrapper .staticts-1.staticts-border {
+    border-right: none !important;
+    border-bottom: 1px solid #dfd2ba;
+  }
+
+  .statistic-5-wrapper .staticts-1.staticts-border-top {
+    border-top: 1px solid #dfd2ba !important;
+  }
+}
