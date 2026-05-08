@@ -186,7 +186,7 @@ a#failed-btn:hover {
                                             </div>
 
                                             <button type="submit" class="btn btn-sm btn--theme hover--theme"
-                                                id="submit-btn"></button>
+                                                id="submit-btn">Buy Now</button>
                                         </div>
                                     </label>
                                 </div>
