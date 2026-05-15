@@ -12,13 +12,13 @@
 <section id="hero-7" class="hero-section  bg--scroll bg--green-100">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-md-5 col-lg-5 col-12 order-md-1 order-2">
-                <div class="hero-7-img">
-                    <img src="{{ asset('front/images/Compny-page-1.png') }}" alt="aploannwala"
-                        class="img-fluid p-0 w-100">
+            <div class="col-md-12 col-lg-5 col-12  order-2 order-md-2 order-lg-1 m-auto mt-lg-0 mt-4">
+                <div class="hero-7-img text-center mt-0">
+                    <img src="{{ asset('front/images/hero-img.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                 </div>
             </div>
-            <div class="col-md-7 col-lg-7 col-12 order-md-2 order-1">
+            <div class="col-md-12 col-lg-7 col-12 order-1 order-md-1 order-lg-2">
                 <div class="hero-7-txt">
                     <h1 class="s-40 w-700">Give Your Financial Dreams a <span class="color--green-500">Smart
                             Boost!</span></h1>
@@ -143,7 +143,7 @@
         <div class="row position-relative mb-3">
             <figure class="rounded position-absolute d-none d-lg-block text-end"
                 style="top: 50%; right:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2;"><img
-                    src="{{ asset('front/images/Img-22.png') }}"></figure>
+                    src="{{ asset('front/images/Quick-Self-Apply.png') }}"></figure>
             <div class="col-lg-9 text-center">
                 <div class="bg--white-100  border rounded-3 shadow">
                     <div class="card-body p-3 m-lg-5 m-md-3 bg-none">
@@ -172,7 +172,7 @@
         <div class="row position-relative justify-content-end">
             <figure class="rounded position-absolute d-none d-lg-block"
                 style="top: 50%; left:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2"><img
-                    src="{{ asset('front/images/Img-23.png') }}"></figure>
+                    src="{{ asset('front/images/Hire-Loan-Agent.png') }}"></figure>
             <div class="col-lg-9 text-center">
                 <div class="bg--white-100  border rounded-3 shadow">
                     <div class="card-body p-3 m-lg-5 m-md-3 bg-none">
@@ -218,7 +218,8 @@
                     <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border shadow">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico text-white">
-                                <span class="flaticon-layers-1"></span>
+                                <img src="{{ asset('front/images/Strategic-Lending-Network-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -231,7 +232,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border shadow">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico text-white">
-                                <span class="flaticon-computer-1"></span>
+                  <img src="{{ asset('front/images/Completely-Online-Process-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -244,7 +246,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border shadow">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico text-white">
-                                <span class="flaticon-click-1"></span>
+                                <img src="{{ asset('front/images/Self-Apply-Feature-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -257,7 +260,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border shadow">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico text-white">
-                                <span class="flaticon-tech-support"></span>
+                                <img src="{{ asset('front/images/Hire-Loan-Agent-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -287,10 +291,10 @@
 
         <div class="fbox-wrapper text-center">
             <div class="row align-items-center">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="col d-flex">
-                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
-                            <div class="fbox-ico ico-50">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow align-items-start">
+                            <div class="fbox-ico ico-40 mb-0">
                                 <div class="shape-ico color--theme">
                                     <span class="flaticon-mobile-search"></span>
                                 </div>
@@ -303,8 +307,8 @@
                     </div>
 
                     <div class="col d-flex">
-                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
-                            <div class="fbox-ico ico-50">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow align-items-start">
+                            <div class="fbox-ico ico-40 mb-0">
                                 <div class="shape-ico color--theme">
                                     <span class="flaticon-computer"></span>
                                 </div>
@@ -318,8 +322,8 @@
                     </div>
 
                     <div class="col d-flex">
-                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
-                            <div class="fbox-ico ico-50">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow align-items-start">
+                            <div class="fbox-ico ico-40 mb-0">
                                 <div class="shape-ico color--theme">
                                     <span class="flaticon-credit-card"></span>
                                 </div>
@@ -335,13 +339,13 @@
                 </div>
                 <div class="col-lg-4  d-none d-md-none d-lg-block">
                     <div class="img-block left-column">
-                        <img class="img-fluid" src="{{ asset('front/images/Compny-page-1.png') }}" alt="feature-image">
+                        <img class="img-fluid" src="{{ asset('front/images/feature-img.png') }}" alt="feature-image">
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="col d-flex">
-                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
-                            <div class="fbox-ico ico-50">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow align-items-start">
+                            <div class="fbox-ico ico-40 mb-0">
                                 <div class="shape-ico color--theme">
                                     <span class="flaticon-time"></span>
                                 </div>
@@ -355,8 +359,8 @@
                     </div>
 
                     <div class="col d-flex">
-                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
-                            <div class="fbox-ico ico-50">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow align-items-start">
+                            <div class="fbox-ico ico-40 mb-0">
                                 <div class="shape-ico color--theme">
                                     <span class="flaticon-check-1"></span>
                                 </div>
@@ -370,8 +374,8 @@
                     </div>
 
                     <div class="col d-flex">
-                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow">
-                            <div class="fbox-ico ico-50">
+                        <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100 d-flex mb-3 shadow align-items-start">
+                            <div class="fbox-ico ico-40 mb-0">
                                 <div class="shape-ico color--theme">
                                     <span class="flaticon-profits"></span>
                                 </div>
@@ -718,7 +722,7 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
-                                <p class="address-txt mt-0 s-16"> <span class="fw-bolder"> Address: </span>
+                                <p class="address-txt mt-0"> <span class="fw-bolder"> Address: </span><br>
                                     {{ env('COMPANY_ADDRESS') }}</p>
                             </div>
                         </div>
@@ -733,8 +737,8 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
-                                <p class="address-txt mt-0 s-16"><a href="tel:{{ str_ireplace(" ","",env('COMPANY_MOBILE')) }}">
-                                        <span class="fw-bolder"> Customer Support :</span>
+                                <p class="address-txt mt-0"><a href="tel:{{ str_ireplace(" ","",env('COMPANY_MOBILE')) }}">
+                                        <span class="fw-bolder"> Customer Support :</span> <br>
                                         {{ env('COMPANY_MOBILE') }}</a>
                                 </p>
                             </div>
@@ -750,9 +754,9 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
-                                <p class="address-txt mt-0 s-16"><a
+                                <p class="address-txt mt-0"><a
                                         href="mailto:{{ str_ireplace(" ","",env('COMPANY_SUPPORT_MAIL')) }}">
-                                        <span class="fw-bolder"> Mail Us :
+                                        <span class="fw-bolder"> Mail Us: <br>
                                         </span>{{ env('COMPANY_SUPPORT_MAIL') }}</a>
                                 </p>
                             </div>
@@ -768,8 +772,8 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
-                                <p class="address-txt mt-0"> <span class="fw-bolder"> Working Hours : </span>
-                                    Monday to Saturday: 10:00 AM - 5:00 PM<br>
+                                <p class="address-txt mt-0"> <span class="fw-bolder"> Working Hours : </span><br>
+                                    Monday to Saturday<br>10:00 AM - 5:00 PM<br>
                                     Sunday: Closed</p>
                             </div>
                         </div>

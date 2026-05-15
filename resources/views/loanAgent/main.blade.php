@@ -63,11 +63,11 @@
 </style>
 @endpush
 @section('content')
-<section id="hero-202" class="bg--white-100 bg--fixed hero-section pt-100 pb-80">
+<section id="hero-202" class="bg--white-100 bg--fixed pt-100 pb-80">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <div class="mt-30 mb-2">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-12 col-lg-6 order-md-2 order-lg-1">
+                <div class="mt-30 mb-2 text-start">
                     <h1 class="s-40 mb-2">Get Instant <span class="color--green-500">Cash</span></h1>
                     <h3 class="s-24 mb-2">Up to <span class="color--green-500">₹15 Lakhs</span> in 24 Hours</h3>
                     <p class="s-16 mb-3">India's fastest digital loan platform with instant pre-approval.</p>
@@ -79,7 +79,8 @@
                             <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
-                                        <span class="flaticon-shield"></span>
+                                        <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
@@ -93,7 +94,8 @@
                             <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
-                                        <span class="flaticon-coin"></span>
+                                       <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
@@ -107,7 +109,8 @@
                             <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
-                                        <span class="flaticon-bar-chart"></span>
+                             <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
@@ -131,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 align-items-center m-auto">
+            <div class="col-md-12 col-lg-6 align-items-center m-auto order-md-1 order-lg-2">
                 <div id="hero-8-form" class="border border-primary r-06">
                     <h4 class="s-20 w-700 mb-2">Apply in <span class="color--green-500">5 Minutes</span></h4>
                     <p class="s-16">Get instant pre-approved offers.</p>
@@ -249,7 +252,8 @@
                     <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                                <span class="flaticon-layers-1 text-white"></span>
+                                  <img src="{{ asset('front/images/Strategic-Lending-Network-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -262,7 +266,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                                <span class="flaticon-computer-1 text-white"></span>
+                                 <img src="{{ asset('front/images/Completely-Online-Process-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -275,7 +280,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                                <span class="flaticon-click-1 text-white"></span>
+                         <img src="{{ asset('front/images/Self-Apply-Feature-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -288,7 +294,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                                <span class="flaticon-tech-support text-white"></span>
+                            <img src="{{ asset('front/images/Hire-Loan-Agent-white.png') }}" alt="aploannwala"
+                        class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">

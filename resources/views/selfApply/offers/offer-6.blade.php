@@ -12,15 +12,12 @@
 <section id="hero-7" class="bg--fixed hero-section">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-lg-6 order-2 order-md-1 order-lg-1 m-auto">
-                <div class="d-flex justify-content-center align-items-start">
+            <div class="col-md-6 col-lg-6 order-2 order-md-1 order-lg-1 m-auto"> 
                     <div class="img-block">
-                        <img src="{{ asset('front/images/offer/offer-page-img-2.png') }}" alt="selfapply nbfc list" class="img-fluid">
+                        <img src="{{ asset('front/images/offer/self-apply-standard-offer.jpg') }}" alt="selfapply nbfc list" class="img-fluid rounded-3">
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6 order-1 order-md-2 order-lg-2">
+     <div class="col-md-6 col-lg-6 order-1 order-md-2 order-lg-2 mb-lg-0 mb-25">
                 <div id="hero-8-form" class="r-06">
                     <h4 class="s-22 text-dark mb-1"> Get Loan up to <span class="color--green-500">&#8377;10 LAKHS</span> from Affiliate NBFCs!</h4>
                     <p class="s-14">Unlock Your Personalized Pre-Approved Loan Offers</p>
@@ -93,7 +90,7 @@
                             </div>
                         </div>
                     </form>
-                    <p class="p-sm mt-3 mb-0">By submitting the form & proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms</a> and <a href="{{ route('front.privacy.policy') }}" target="_blank" class="text-dark text-decoration-none"> Privacy Policy</a> of APloannwala.</p>
+                    <p class="p-sm mt-3 mb-0 tetxt-start">By submitting the form & proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms</a> and <a href="{{ route('front.privacy.policy') }}" target="_blank" class="text-dark text-decoration-none"> Privacy Policy</a> of APloannwala.</p>
                 </div>
             </div>
         </div>

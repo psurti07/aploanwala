@@ -689,7 +689,8 @@ a {
 }
 
 a:hover {
-    color: #2c134d!important;
+    /* color: #2c134d!important; */
+     color: #f1cd82!important;
     text-decoration: none;
 }
 
@@ -2794,7 +2795,7 @@ span.sm-info {
 }
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a:hover {
-    background-color: rgba(244, 244, 249, 1);
+    background-color: #f5e6c5;
     padding: 11px 14px;
 }
 
@@ -3601,7 +3602,7 @@ span.sm-info {
 
 #hero-8-form p.p-sm {
     text-align: center;
-    padding: 0 5%!important;
+    padding: 0!important;
     margin-top: 5px;
     margin-bottom: 0;
 }
@@ -11096,7 +11097,7 @@ body.theme--dark {
 .wsmenu > .wsmenu-list.nav-theme > li > ul.sub-menu > li > a:hover,
 .wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.w-75 ul.link-list > li > a:hover,
 .wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.halfmenu ul.link-list > li > a:hover {
-    color: #2c134d!important;
+         color: #000 !important;
 }
 
 .hero-section .quick-form .form-control:focus {

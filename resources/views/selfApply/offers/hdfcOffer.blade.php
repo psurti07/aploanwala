@@ -15,7 +15,7 @@
                 <div class="row d-flex align-items-bottom">
                     <div class="col-md-5 order-2 order-md-1">
                         <div class="hero-7-img home-img d-flex justify-content-center align-items-start">
-                            <img src="{{ asset('front/images/offer/offer-img.webp') }}" alt="APloannwala" class="img-fluid">
+                            <img src="{{ asset('front/images/offer/offer-img.webp') }}" alt="APloannwala" class="img-fluid rounded-3">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 self-apply-form  form-container order-1 order-md-2">

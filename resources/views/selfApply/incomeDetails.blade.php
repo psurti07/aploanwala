@@ -22,7 +22,7 @@
 @endpush
 @section('content')
     <!-- main section starts -->
-    <section class="bg--white-100 bg--fixed hero-section personal-details-form pt-100 pb-80 min-vh-100 d-flex align-items-center">
+    <section class="bg--white-100 bg--fixed personal-details-form pt-100 pb-80 min-vh-100 d-flex align-items-center">
         <div class="container">
             <div class="row d-flex align-items-center mt-lg-0 mt-35">
                 <!-- <div class="col-md-6 col-lg-6">
@@ -78,9 +78,9 @@
                                 <div class="col-md-12 mt-4 mb-2">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">&#8377;</span>
+                                            <span class="input-group-text h-100" id="basic-addon1">&#8377;</span>
                                         </div>
-                                        <input type="text" name="monthly_income" id="monthly_income" class="numeric-input form-control mb-2" placeholder="Enter Monthly Income (&#8377;)" autocomplete="off" inputmode="numeric">
+                                        <input type="text" name="monthly_income" id="monthly_income" class="numeric-input form-control" placeholder="Enter Monthly Income (&#8377;)" autocomplete="off" inputmode="numeric">
                                     </div>
                                     @component('components.ajax-error',['field'=>'monthly_income'])@endcomponent
                                 </div>
@@ -88,9 +88,9 @@
                                 <div class="col-md-12 mb-2">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">&#8377;</span>
+                                            <span class="input-group-text h-100" id="basic-addon1">&#8377;</span>
                                         </div>
-                                        <input type="text" name="current_emi" id="current_emi" value="" class="numeric-input form-control mb-2" placeholder="Enter Current EMI (&#8377;) (If Any)" autocomplete="off" inputmode="numeric">
+                                        <input type="text" name="current_emi" id="current_emi" value="" class="numeric-input form-control" placeholder="Enter Current EMI (&#8377;) (If Any)" autocomplete="off" inputmode="numeric">
                                     </div>
                                 </div>
 
