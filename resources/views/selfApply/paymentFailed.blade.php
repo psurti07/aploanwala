@@ -1,11 +1,12 @@
 @extends('layouts.selfapply')
 @push('css')
+<link href="{{ asset('front/css/custom.css') }}" rel="stylesheet" type="text/css" />
 @endpush
 
 @section('content')
-<section id="contacts" class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
+<section id="contacts" class="bg--white-100 bg--fixed pb-80 personal-details-form d-flex align-items-center">
     <div class="container">
-        <div class="row mb-35">
+        <div class="row">
          <div class="col-md-7 col-lg-7 col-12 m-auto">
                             <div class="card">
                                 <div class="card-body">

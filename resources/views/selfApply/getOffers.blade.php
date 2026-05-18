@@ -1,5 +1,6 @@
 @extends('layouts.selfapply')
 @push('css')
+<link href="{{ asset('front/css/custom.css') }}" rel="stylesheet" type="text/css" />
 <style>
 .accordion-button {
     background-color: transparent !important;
@@ -20,9 +21,9 @@ body {
 
 @section('content')
 <section id="contacts"
-    class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
+    class="bg--white-100 bg--fixed hero-section personal-details-form pt-100 pb-80 min-vh-100 d-flex align-items-center">
     <div class="container">
-        <div class="row justify-content-center mb-35">
+        <div class="row justify-content-center">
             <div class="col-md-3 col-lg-3 col-12">
                 <div class="txt-block left-column gr--white border border-radius-10 p-2">
                     <div class="accordion accordion-flush mb-10" id="accordionFlushExample">

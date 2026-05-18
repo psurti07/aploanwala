@@ -22,9 +22,9 @@
 @endpush
 @section('content')
     <!-- main section starts -->
-    <section class="bg--white-100 bg--fixed personal-details-form pt-100 pb-80 min-vh-100 d-flex align-items-center">
+    <section class="bg--white-100 bg--fixed pb-80 personal-details-form d-flex align-items-center">
         <div class="container">
-            <div class="row d-flex align-items-center mt-lg-0 mt-35">
+            <div class="row d-flex align-items-center">
                 <!-- <div class="col-md-6 col-lg-6">
                    <div class="fbox-8 border-grey-1 fb-3 r-12">
                         <div class="fbox-ico ico-50">

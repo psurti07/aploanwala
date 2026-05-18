@@ -1,5 +1,6 @@
 @extends('layouts.selfapply')
 @push('css')
+    <link href="{{ asset('front/css/custom.css') }}" rel="stylesheet" type="text/css" />
 <style>
 .accordion-button {
     background-color: transparent !important;
@@ -17,9 +18,9 @@
 
 @section('content')
 <section
-    class="bg--white-100 personal-details-form pb-0 inner-page-hero contacts-section division min-vh-100 d-flex align-items-center">
+    class="bg--white-100 bg--fixed pb-80 personal-details-form d-flex align-items-center">
     <div class="container">
-        <div class="row justify-content-center mb-35">
+        <div class="row justify-content-center">
             <div class="col-md-3 col-lg-3 col-12">
                 <div class="txt-block left-column gr--white border border-radius-10 p-2">
                     <div class="accordion accordion-flush mb-10" id="accordionFlushExample">
@@ -102,7 +103,7 @@
                             <p class="mb-30 color--grey">For Our Experts To Analyze Your Loan Requirements.</p>
 
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 mb-3">
+                                <div class="col-md-6 col-sm-12 mb-2">
                                     <div class="form-group form-floating">
                                         <input id="firstname" name="firstname" type="text"
                                             class="form-control name mb-0" placeholder=""
@@ -111,7 +112,7 @@
                                     </div>
                                     @component('components.ajax-error',['field'=>'firstname'])@endcomponent
                                 </div>
-                                <div class="col-md-6 col-sm-12 mb-3">
+                                <div class="col-md-6 col-sm-12 mb-2">
                                     <div class="form-group form-floating">
                                         <input id="lastname" name="lastname" type="text" class="form-control name mb-0"
                                             placeholder="" value="{{ old('lastname') }}">
@@ -119,7 +120,7 @@
                                     </div>
                                     @component('components.ajax-error',['field'=>'lastname'])@endcomponent
                                 </div>
-                                <div class="col-md-6 col-sm-12 mb-3">
+                                <div class="col-md-6 col-sm-12 mb-2">
                                     <div class="form-group form-floating">
                                         <input id="email" name="email" type="email" class="form-control name mb-0"
                                             placeholder="" value="{{ old('email') }}">
@@ -127,7 +128,7 @@
                                     </div>
                                     @component('components.ajax-error',['field'=>'email'])@endcomponent
                                 </div>
-                                <div class="col-md-6 col-sm-12 mb-3">
+                                <div class="col-md-6 col-sm-12 mb-2">
                                     <div class="form-group form-floating">
                                         <input id="pincode" name="pincode" type="text"
                                             class="form-control name numeric-input mb-0" placeholder=""
@@ -140,7 +141,7 @@
                                 <div id="loader" style="display:none;">
                                     Loading...
                                 </div>
-                                <div class="col-md-6 col-sm-12 mb-3">
+                                <div class="col-md-6 col-sm-12 mb-2">
                                     <div class="form-group form-floating">
                                         <input id="city" name="city" type="text" class="form-control mb-0"
                                             placeholder="" value="{{ old('city') }}">
@@ -148,7 +149,7 @@
                                     </div>
                                     @component('components.ajax-error',['field'=>'city'])@endcomponent
                                 </div>
-                                <div class="col-md-6 col-sm-12 mb-3">
+                                <div class="col-md-6 col-sm-12 mb-2">
                                     <div class="form-group form-floating">
                                         <!--<input id="state" name="state" type="text" class="form-control mb-0" placeholder="" value="{{ old('state') }}">-->
                                         <select id="state" name="state" class="form-control mb-0"
