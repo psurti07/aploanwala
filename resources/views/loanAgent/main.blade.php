@@ -94,7 +94,7 @@
                             <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
-                                       <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
+                                       <img src="{{ asset('front/images/Instant-Approval.png') }}" alt="aploannwala"
                         class="img-fluid p-0">
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@
                             <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
-                             <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
+                             <img src="{{ asset('front/images/Low-Interest-Rate.png') }}" alt="aploannwala"
                         class="img-fluid p-0">
                                     </div>
                                 </div>
