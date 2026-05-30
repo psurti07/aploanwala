@@ -5,8 +5,8 @@
 
 @section('content')
     <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-        <div class="container-xxl " id="kt_content_container">
-            <div class="row g-3 g-xl-10 mb-xl-10 pt-10">
+        <div class="container-xxl" id="kt_content_container">
+            <div class="row g-8 g-xl-10 mb-xl-10 pt-10">
                 <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <div class="card h-md-100">
                         <div class="card-header border-0 pt-5">

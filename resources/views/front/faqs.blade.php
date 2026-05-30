@@ -8,11 +8,12 @@
 <section class="page-hero-section">
     <div class="page-hero-section-overlay bg--green-100 bg--scroll">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
+            <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="txt-block left-column">
+                    <div class="left-column">
                         <span class="section-id"></span>
-                        <h2 class="w-700 mb-5">Frequently Asked <span class="color--green-500">Questions</span></h2>
+                        <h2 class="s-28 mb-5">Frequently Asked Questions </h2>
+                        <p class="s-16 color--grey mt-0">Find answers to common questions about personal loans, eligibility, documents, approvals, and more.</p>
                     </div>
                 </div>
             </div>
@@ -27,9 +28,9 @@
                 <div class="col-lg-12 col-xl-12">
                     <div class="accordion-wrapper">
                         <ul class="accordion">
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">1. What can I use a personal loan for?</h6>
+                                    <h6 class="s-16 w-400">1. What can I use a personal loan for?</h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">
@@ -39,9 +40,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">2. What are the personal loan eligibility requirements?</h6>
+                                    <h6 class="s-16 w-400">2. What are the personal loan eligibility requirements?</h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">
@@ -63,9 +64,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">3. Which documents are required to apply for a personal loan? </h6>
+                                    <h6 class="s-16 w-400">3. Which documents are required to apply for a personal loan? </h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">
@@ -95,9 +96,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">4. Does credit score affect personal loan approval?</h6>
+                                    <h6 class="s-16 w-400">4. Does credit score affect personal loan approval?</h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">
@@ -107,9 +108,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">5. How can I improve my chances of getting approved for a personal loan?</h6>
+                                    <h6 class="s-16 w-400">5. How can I improve my chances of getting approved for a personal loan?</h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">
@@ -120,9 +121,9 @@
                                 </div>
                             </li>
 
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">6. Is there any tax benefit to personal loans? </h6>
+                                    <h6 class="s-16 w-400">6. Is there any tax benefit to personal loans? </h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">
@@ -132,9 +133,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="accordion-item mb-10">
+                            <li class="accordion-item mb-0">
                                 <div class="accordion-thumb">
-                                    <h6 class="w-600">7. In addition to credit scores, what other factors do lenders consider when approving personal loans?</h6>
+                                    <h6 class="s-16 w-400">7. In addition to credit scores, what other factors do lenders consider when approving personal loans?</h6>
                                 </div>
                                 <div class="accordion-panel">
                                     <div class="accordion-panel-item">

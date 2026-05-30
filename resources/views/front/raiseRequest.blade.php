@@ -17,11 +17,12 @@
 <section class="page-hero-section">
     <div class="page-hero-section-overlay bg--green-100 bg--scroll">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
+            <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="txt-block left-column">
+                    <div class="left-column">
                         <span class="section-id"></span>
-                        <h2 class="w-700">Raise a <span class="color--green-500">Request</span></h2>
+                        <h2 class="s-28 mb-5">Raise a Request</h2>
+                           <p class="s-16 color--grey mt-0">Have a concern or question? Raise a request and let us assist you with the right solution.</p>
                    </div>
                 </div>
             </div>
@@ -32,32 +33,40 @@
 <section id="features-4" class="py-80 features-section division">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-6 col-sm-12 align-items-center justify-content-center m-auto">
+            <div class="col-md-6 col-lg-6 col-sm-12">
                 <div id="contacts" class="contacts-section division">
                     <div class="card">
                         <div class="card-body">
                             <form method="post" action="{{ route('front.request.raised.post') }}" class="contact-form career-form" enctype="multipart/form-data">
                                 <div class="row g-3">
                                     <input type="hidden" name="ticketno" value="{{date('mdh').random_code_num(4)}}">
-                                    <!-- <div class="col-md-12">
+                                 
+                                       <div class="col-md-12 col-12">
                                         <div class="form-group">
                                             <label for="usertype">I am a,</label><br />
-                                            <div class="btn-group d-flex flex-wrap gap-2" role="group" aria-label="Basic radio toggle button group">
-                                                
-                                                <input type="radio" class="btn-check" name="usertype" value="usertype" id="inlineRadio1" autocomplete="off" checked>
-                                                <label class="btn btn-sm btn--yellow-200" for="inlineRadio1">Self Apply</label>
-                                    
-                                                <input type="radio" class="btn-check" name="usertype" value="3" id="inlineRadio3" autocomplete="off">
-                                                <label class="btn btn-sm btn--yellow-200" for="inlineRadio3">Hire Agent</label>
-                                    
-                                                <input type="radio" class="btn-check" name="usertype" value="2" id="inlineRadio2" autocomplete="off">
-                                                <label class="btn btn-sm btn--yellow-200" for="inlineRadio2">Guest User</label>
+                                            <div class="row" role="group"
+                                                aria-label="Basic radio toggle button group">
+                                                <div class="col-md-4 col-4">
+                                                    <input type="radio" name="usertype" value="usertype"
+                                                        id="inlineRadio1" autocomplete="off" checked>
+                                                    <label for="inlineRadio1">Self Apply</label>
+                                                </div>
+                                                <div class="col-md-4 col-4">
+                                                    <input type="radio" name="usertype" value="3" id="inlineRadio3"
+                                                        autocomplete="off">
+                                                    <label for="inlineRadio3">Hire Agent</label>
+                                                </div>
+                                                <div class="col-md-4 col-4">
+                                                    <input type="radio" name="usertype" value="2" id="inlineRadio2"
+                                                        autocomplete="off">
+                                                    <label for="inlineRadio2">Guest User</label>
+                                                </div>
                                             </div>
                                             @component('components.ajax-error',['field'=>'usertype'])@endcomponent
                                         </div>
-                                    </div> -->
+                                    </div> 
 
-                                    <div class="col-md-12">
+                                    <!-- <div class="col-md-6 col-12">
                                         <div class="form-group form-floating s-15">
                                             <select id="usertype" name="usertype" class="form-select s-15">
                                                 <option value="" selected>I am *</option>
@@ -67,29 +76,29 @@
                                             </select>
                                         </div>
                                         @component('components.ajax-error',['field'=>'usertype'])@endcomponent
-                                    </div>
-                                    <div class="col-md-12">
+                                    </div> -->
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group form-floating s-15">
                                             <input id="firstname" type="text" name="firstname" class="form-control s-15" placeholder="" />
                                             <label for="firstname">First Name *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'firstname'])@endcomponent
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group form-floating s-15">
                                             <input id="lastname" type="text" name="lastname" class="form-control s-15" placeholder="" />
                                             <label for="lastname">Last Name *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'lastname'])@endcomponent
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group form-floating s-15">
                                             <input id="mobile" type="text" name="mobile" class="form-control s-15" placeholder="" minlength="10" maxlength="10" inputmode="numeric">
                                             <label for="Mobile">Mobile *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'mobile'])@endcomponent
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group form-floating s-15">
                                             <input id="email" type="email" name="email" class="form-control s-15" placeholder="" />
                                             <label for="email">Email *</label>
@@ -114,7 +123,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-floating s-15">
-                                            <textarea id="message" name="message" style="height:100px" class="form-control s-15" placeholder=""></textarea>
+                                            <textarea id="message" name="message" style="height:150px" class="form-control s-15" placeholder=""></textarea>
                                             <label for="message">Request Message *</label>
                                         </div>
                                         @component('components.ajax-error',['field'=>'message'])@endcomponent

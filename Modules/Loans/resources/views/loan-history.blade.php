@@ -8,7 +8,7 @@
         <div class="container-xxl " id="kt_content_container">
             <div class="row g-3 pt-10">
                 @foreach($loanHistory as $row)
-                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                         <div class="card mb-5 mb-xl-10">
                             <div class="card-body">
                                 <div class=" mb-3">

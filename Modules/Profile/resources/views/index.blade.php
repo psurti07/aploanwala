@@ -6,7 +6,7 @@
 @section('content')
     <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
         <div class="container-xxl " id="kt_content_container">
-            <div class="row g-3 g-xl-10 mb-xl-10 pt-10">
+            <div class="row g-8 g-xl-8 mb-xl-10 pt-10">
                 <div class="col-md-6 col-lg-6 col-xl-6">
                     <div class="card">
                         <div class="card-header flex-nowrap pt-5">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6">
-                    <div class="row g-5">
+                    <div class="row g-8">
                     @if($profile->acc_type == 2)
                         <div class="col-md-12 col-lg-12 col-xl-12">
                             <div class="card">

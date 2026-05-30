@@ -67,7 +67,7 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-md-12 col-lg-6 order-md-2 order-lg-1">
-                <div class="mt-30 mb-2 text-start">
+                <div class="mt-0 mb-2 text-start">
                     <h1 class="s-40 mb-2">Get Instant <span class="color--green-500">Cash</span></h1>
                     <h3 class="s-24 mb-2">Up to <span class="color--green-500">₹15 Lakhs</span> in 24 Hours</h3>
                     <p class="s-16 mb-3">India's fastest digital loan platform with instant pre-approval.</p>
@@ -247,9 +247,9 @@
             </div>
         </div>
         <div class="fbox-wrapper text-center mt-40">
-            <div class="row gx-3 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="row gx-lg-3 gy-lg-2 g-5 row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <div class="col">
-                    <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border">
+                    <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
                                   <img src="{{ asset('front/images/Strategic-Lending-Network-white.png') }}" alt="aploannwala"
@@ -263,7 +263,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border">
+                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
                                  <img src="{{ asset('front/images/Completely-Online-Process-white.png') }}" alt="aploannwala"
@@ -277,7 +277,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border">
+                    <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
                          <img src="{{ asset('front/images/Self-Apply-Feature-white.png') }}" alt="aploannwala"
@@ -291,7 +291,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border">
+                    <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
                             <img src="{{ asset('front/images/Hire-Loan-Agent-white.png') }}" alt="aploannwala"

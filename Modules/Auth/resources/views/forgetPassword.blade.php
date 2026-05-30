@@ -59,7 +59,7 @@
                             <!-- TITLE -->
                             <div class="col-md-12">
                                 <div class="register-form-title">
-                                    <img src="{{ asset('front/images/logo/logo.png') }}" width="200" alt="{{ env('APP_NAME') }}">
+                                    <img src="{{ asset('front/images/logo/logo.png') }}" width="140" alt="{{ env('APP_NAME') }}">
                                     <h4 class="mt-20 w-700">Forgot Password</h4>
                                     <p>Please enter your Mobile number you have created at registration.</p>
                                 </div>
@@ -79,7 +79,7 @@
                                 </div>
                                 <!-- Sign Up Link -->
                                 <div class="col-md-12">
-                                    <p class="create-account text-center">
+                                    <p class="create-account text-center mt-0">
                                         Have an account? <a href="{{ route('customer.login') }}" class="color--theme">Sign In</a>
                                     </p>
                                 </div>

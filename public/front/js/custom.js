@@ -307,7 +307,7 @@
                 margin: 20,
 				responsive:{
 					0:{
-						items:2
+						items:3
 					},
 					550:{
 						items:3
@@ -319,7 +319,7 @@
 						items:4//5
 					},
 					991:{
-						items:5//5
+						items:6//5
 					},
 					1000:{
 						items:6//5

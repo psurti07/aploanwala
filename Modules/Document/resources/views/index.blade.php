@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-    <div class="container-xxl " id="kt_content_container">
+    <div class="container-xxl" id="kt_content_container">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-lg-3 col-xl-3 col-xxl-3" id="renderData"></div>
             <div class="col-md-6 col-sm-12 col-lg-9 col-xl-9 col-xxl-9">

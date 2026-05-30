@@ -238,7 +238,7 @@ a#failed-btn:hover {
                                             </div>
 
                                             <div class="pt-3">
-                                                <div id="rb-1-2" class="rbox-1">
+                                                <div id="rb-1-2" class="rbox-1 mb-0">
                                                     <!-- Brand Logo -->
                                                     <div class="rbox-1-img">
                                                         <img class="img-fluid"

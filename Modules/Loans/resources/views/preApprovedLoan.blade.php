@@ -60,7 +60,6 @@ body {
         <div class="container-xxl " id="kt_content_container">
             <div class="row g-8 mt-3 mb-10">
                 @if($message!=NULL)
-                    <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                             <div class="alert alert-dismissible bg-light-danger border border-danger d-flex flex-column flex-sm-row p-5">
                                 <i class="ki-duotone ki-information-5 fs-2hx text-danger me-4 mb-5 mb-sm-0"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
@@ -84,16 +83,15 @@ body {
                                 </button>
                             </div>
                         </div>
-                    </div>
                 @endif
 
                 @foreach($offers as $offer)
-                <div class="col-md-4 col-lg-4 col-xxl-4 mb-10">
+                <div class="col-md-6 col-lg-4 col-xxl-4 mb-10">
                     @if($isExpired)
                     <div class="offer-card locked">
                     @endif
                         <div class="card {{ $isExpired ? 'card-content' : '' }} h-md-100">
-                            <div class="card-header d-flex justify-content-center align-items-center border-0" style="{{ $loop->index != 0 ? 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #f94, #D9455A) 0 0 no-repeat;' : 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #198b8c, #2c134d) 0 0 no-repeat;' }}min-height:20px!important">
+                            <div class="card-header d-flex justify-content-center align-items-center border-0" style="{{ $loop->index != 0 ? 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #f94, #D9455A) 0 0 no-repeat;' : 'background: rgba(0, 0, 0, 0) linear-gradient(120deg, #2c134d, #2c134d) 0 0 no-repeat;' }}min-height:20px!important">
                                 <h3 class="card-title">
                                     <span class="card-label fw-semibold fs-base text-light">{{ $loop->index == 0 ? 'Highly Recommended' : 'Pre-Approved Offers' }}</span>
                                 </h3>

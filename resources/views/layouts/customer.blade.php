@@ -91,7 +91,7 @@
                             <i class="ki-duotone ki-abstract-14 fs-2x"><span class="path1"></span><span class="path2"></span></i>
                         </div>
                         <a href="javascript:;" class="d-flex align-items-center">
-                            <img alt="Logo" src="{{ asset('front/images/logo/apple-touch-icon-50x50.png') }}" class="h-40px"/>
+                            <img alt="Logo" src="{{ asset('front/images/logo/apple-touch-icon-60x60.png') }}" class="h-40px"/>
                         </a>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
             <div class="footer py-4 d-flex flex-lg-column bg-success" id="kt_footer">
                 <div class=" container-xxl">
                     <div class="text-white text-center">
-                        <span class="fw-semibold">{{ date('Y') }} &copy;</span> <a href="{{ route('front.home') }}" target="_blank" class="text-white text-hover-success fw-semibold fs-6">{{ env('COMPANY_NAME') }}</a>
+                        <span class="fw-semibold">{{ date('Y') }} &copy;</span> <a href="{{ route('front.home') }}" target="_blank" class="text-white fw-semibold fs-6">{{ env('COMPANY_NAME') }}</a>
                         <span class="fw-semibold">All Rights Reserved.</span>
                     </div>
                 </div>

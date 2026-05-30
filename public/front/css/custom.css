@@ -356,6 +356,9 @@
     padding-bottom: 140px;
   }
 
+  .brands-carousel-6.owl-carousel .owl-item img{
+    padding: 0 20px !important;
+  }
 }
 
 @media screen and (max-width:767px) {

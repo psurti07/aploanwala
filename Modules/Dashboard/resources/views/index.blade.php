@@ -80,9 +80,9 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class="g-3 mb-xl-10">
-                        <div class="card mb-xl-6">
-                            <div class="card-body pt-9 pb-2">
+                    <div class="g-8">
+                        <div class="card">
+                            <div class="card-body p-8">
                                 <div class="d-flex flex-wrap flex-sm-nowrap mb-3">
                                     <div class="me-7 mb-4">
                                         <div class="symbol symbol-80px symbol-lg-80px symbol-fixed position-relative">
@@ -149,7 +149,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class="row g-5 mb-xl-10">
+                    <div class="row g-8 mb-xl-10">
                         <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
                             @if($profile->acc_type == 2)
                                 <div class="card" data-bs-theme="light" style="background: linear-gradient(112.14deg, #3ca46c 0%, #4fcd89 100%)">
@@ -200,17 +200,17 @@
                                     </div>
                                 </div>
                             @else
-                                <div class="card" data-bs-theme="light" style="background: linear-gradient(112.14deg, #2c134d 0%, #198b8c 100%)">
+                                <div class="card" data-bs-theme="light" style="background: linear-gradient(112.14deg, #8168a0 0%, #3e3a32 100%);">
                                     <div class="card-body">
                                         <div class="row align-items-center h-100">
                                             <div class="col-12">
-                                                <img src="{{ asset('front/images/support.png') }}" width="90" height="90" alt="support">
+                                                <img src="{{ asset('front/images/support.png') }}" width="60" height="60" alt="support">
                                                 <div class="text-white mb-2 pt-6">
                                                     <span class="fs-4 fw-semibold me-2 d-block lh-1 pb-2 opacity-75"><u>Want Expert Consultation?</u></span>
                                                     <span class="fs-2qx fw-bold">Process Your Pre-Approved Offers Instantly with Our Experts.</span>
                                                 </div>
                                                 <div class="d-flex flex-column flex-sm-row mt-4 d-grid gap-2">
-                                                    <a href="{{ route('customer.renew.plan') }}" class="btn btn-dark flex-shrink-0 me-lg-2">Hire Agent Now</a>
+                                                    <a href="{{ route('customer.renew.plan') }}" class="btn btn-success flex-shrink-0 me-lg-2">Hire Agent Now</a>
                                                 </div>
                                             </div>
                                         </div>

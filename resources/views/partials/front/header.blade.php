@@ -13,13 +13,13 @@
                 <!-- HEADER BLACK LOGO -->
                 <div class="desktoplogo">
                     <a href="{{ route('front.home') }}" class="logo-black">
-                        <img src="{{ asset('front/images/logo/logo.png') }}" alt="{{ env('APP_NAME') }}" width="140" height="50" />
+                        <img src="{{ asset('front/images/logo/logo.png') }}" alt="{{ env('APP_NAME') }}"/>
                     </a>
                 </div>
                 <!-- HEADER WHITE LOGO -->
                 <div class="desktoplogo">
                     <a href="{{ route('front.home') }}" class="logo-white">
-                        <img src="{{ asset('front/images/logo/logo.png') }}" alt="{{ env('APP_NAME') }}" width="140"  height="50" />
+                        <img src="{{ asset('front/images/logo/logo.png') }}" alt="{{ env('APP_NAME') }}" />
                     </a>
                 </div>
                 <!-- MAIN MENU -->
