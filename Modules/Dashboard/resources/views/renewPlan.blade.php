@@ -288,59 +288,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="separator separator-dashed"></div>
-                                    <div class="py-1">
-                                        <div class="py-3 d-flex flex-stack flex-wrap">
-                                            <div class="d-flex align-items-center collapsible toggle collapsed" data-bs-toggle="collapse" data-bs-target="#kt_create_new_payment_method_3" aria-expanded="false">
-                                                <div class="btn btn-sm btn-icon btn-active-color-primary ms-n3 me-2">
-                                                    <i class="ki-duotone ki-minus-square toggle-on text-primary fs-2"><span class="path1"></span><span class="path2"></span></i>
-                                                    <i class="ki-duotone ki-plus-square toggle-off fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
-                                                </div>
-                                                <div class="me-3">
-                                                    <div class="d-flex align-items-center fw-bold">Loan Assistant</div>
-                                                    <div class="text-muted">Validity 1 Month</div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex my-3 ms-9">
-                                                <span class="text-primary fw-semibold fs-1">&#8377;{{ formatePriceIndia($planThree->inOffer ? $planThree->offeramount : $planThree->amount) }}&nbsp;&nbsp;&nbsp;</span>
-                                                <label class="form-check form-check-custom form-check-solid me-5">
-                                                    <input class="form-check-input" type="radio" name="payment_method" value="3">
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div id="kt_create_new_payment_method_3" class="fs-6 ps-10 collapse" style="">
-                                            <div class="flex-equal me-5">
-                                                <table class="table table-flush fw-semibold gy-1">
-                                                    <tbody>
-                                                        <tr>
-                                                                <td class="text-gray-800 min-w-400px">
-                                                                    <i class="ki-duotone ki-check fs-3 text-success"><span class="path1"></span><span class="path2"></span></i>
-                                                                    Get Dedicated Loan Agent for Expert Consultation
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="text-gray-800 min-w-400px">
-                                                                    <i class="ki-duotone ki-check fs-3 text-success"><span class="path1"></span><span class="path2"></span></i>
-                                                                    Unlock Your Personalized Pre-Approved Loan Offers
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="text-gray-800 min-w-400px">
-                                                                    <i class="ki-duotone ki-check fs-3 text-success"><span class="path1"></span><span class="path2"></span></i>
-                                                                    Expert On-Call Consultation
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="text-gray-800 min-w-400px">
-                                                                    <i class="ki-duotone ki-check fs-3 text-success"><span class="path1"></span><span class="path2"></span></i>
-                                                                    Access Your Personalized Portal
-                                                                </td>
-                                                            </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
