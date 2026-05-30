@@ -1,4 +1,4 @@
-@extends('layouts.front')
+ @extends('layouts.front')
 @push('css')
 <link rel="stylesheet" href="{{ asset('front/calc/commoncalculator.css') }}">
 <link rel="stylesheet" href="{{ asset('front/calc/emicalculator.css') }}">
@@ -346,19 +346,6 @@
                                             <label class="col-6 s-18 w-500 control-label" for="loaninterest">Interest
                                                 rate</label>
                                             <div class="col-6">
-     <div class="row">
-            <div class="col-md-7 order-first order-md-2">
-                <div id="emicalculatorinnerformwrapper">
-                    <form id="emicalculatorform" class="comment-form">
-                        <div class="form-horizontal" id="emicalculatorinnerform">
-                            <div class="row">
-                                <!-- Loan Amount slider section starts -->
-                                <div class="col-md-12">
-                                    <div class="row form-group lamount flex-display align-items-center">
-                                        <label class="col-6 control-label s-18 w-500" for="loanamount">Loan
-                                            amount</label>
-                                        <div class="col-6">
-                                            <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
                                                         <span class="input-group-text">%</span>
@@ -539,7 +526,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 </section>
