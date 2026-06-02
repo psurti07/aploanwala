@@ -733,7 +733,8 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
-                                <p class="address-txt mt-0"> <span class="fw-bolder"> Address: </span><br>
+                                <h6 class="color--green-500 mb-1 s-16">Address:</h6>
+                                <p class="address-txt mt-0">
                                     {{ env('COMPANY_ADDRESS') }}</p>
                             </div>
                         </div>
@@ -748,9 +749,10 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
+                                  <h6 class="color--green-500 mb-1 s-16"> Customer Support :</h6>
                                 <p class="address-txt mt-0"><a
                                         href="tel:{{ str_ireplace(" ","",env('COMPANY_MOBILE')) }}">
-                                        <span class="fw-bolder"> Customer Support :</span> <br>
+                           
                                         {{ env('COMPANY_MOBILE') }}</a>
                                 </p>
                             </div>
@@ -766,10 +768,10 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
+                                   <h6 class="color--green-500 mb-1 s-16"> Mail Us:</h6>
                                 <p class="address-txt mt-0"><a
                                         href="mailto:{{ str_ireplace(" ","",env('COMPANY_SUPPORT_MAIL')) }}">
-                                        <span class="fw-bolder"> Mail Us: <br>
-                                        </span>{{ env('COMPANY_SUPPORT_MAIL') }}</a>
+                                        {{ env('COMPANY_SUPPORT_MAIL') }}</a>
                                 </p>
                             </div>
                         </div>
@@ -784,7 +786,8 @@
                                 </div>
                             </div>
                             <div class="address-text ms-3">
-                                <p class="address-txt mt-0"> <span class="fw-bolder"> Working Hours : </span><br>
+                                   <h6 class="color--green-500 mb-1 s-16">  Working Hours :</h6>
+                                <p class="address-txt mt-0">   
                                     Monday to Saturday<br>10:00 AM - 5:00 PM<br>
                                     Sunday: Closed</p>
                             </div>

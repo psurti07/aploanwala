@@ -5,7 +5,7 @@
             <p class="p-md"><i>"I had a very positive experience. The team was knowledgeable and helped me understand everything in a simple manner."</i></p>
             <div class="author-data clearfix">
                 <div class="review-avatar">
-                    <img src="{{ asset('front/images/review/review-4.jpg') }}" alt="review-avatar" width="auto">
+                    <img src="{{ asset('front/images/review/review-6.jpg') }}" alt="review-avatar" width="auto">
                 </div>
                 <div class="review-author">
                     <h4 class="s-16 w-600">Priyanshu Gupta </h4>
