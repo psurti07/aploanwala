@@ -5062,7 +5062,7 @@ h5.h5-title {
     bottom: 20px;
     left: 50%;
     width: 2px;
-    background-color: #e4e4e4;
+    background-color: #2c134d;
     height: calc(100% - 90px);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
