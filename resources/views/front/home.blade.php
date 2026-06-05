@@ -714,7 +714,7 @@
  </section>
  <!-- Testimonioals section ends -->
 
- <section class="pt-0 pb-80 ct-04 content-section division">
+ <!-- <section class="pt-0 pb-80 ct-04 content-section division">
      <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-10 col-lg-10">
@@ -797,7 +797,7 @@
              </div>
          </div>
      </div>
- </section>
+ </section> -->
 
  <!-- Contact Start -->
  <section id="contact" class="py-80 bg--green-100">
