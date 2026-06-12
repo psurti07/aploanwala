@@ -693,7 +693,7 @@
  {{--<hr class="divider">--}}
 
  <!-- Testimonioals section starts -->
- <section id="reviews-1" class="pt-0 pb-80 reviews-section">
+ <section id="reviews-1" class="py-80 reviews-section bg--green-100">
      <div class="container">
          <div class="row justify-content-center">
              <div class="col-md-12 col-lg-12">
@@ -714,20 +714,21 @@
  </section>
  <!-- Testimonioals section ends -->
 
- <!-- <section class="pt-0 pb-80 ct-04 content-section division">
+ <section class="py-80 ct-04 content-section division">
      <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-10">
-                <div class="section-title mb-40">
-                    <h2 class="s-28 mb-5"> Get Your Loan Approved In <span class="color--green-500">5 Easy Steps</span>
-                    </h2>
-                    <p class="s-16 color--grey mt-0"> A quick and seamless journey to help you get the best loan offers
-                        without hassle.</p>
-                </div>
-            </div>
-        </div>
+         <div class="row justify-content-center">
+             <div class="col-md-10 col-lg-10">
+                 <div class="section-title mb-40">
+                     <h2 class="s-28 mb-5"> Get Access to the Right Loan in<span class="color--green-500">5 Easy
+                             Steps</span>
+                     </h2>
+                     <p class="s-16 color--grey mt-0"> From application to approval, enjoy a simple and transparent
+                         borrowing experience.</p>
+                 </div>
+             </div>
+         </div>
          <div class="row d-flex align-items-center">
-             <div class="col-lg-7 col-md-6 col-12 order-first order-md-2">
+             <div class="col-lg-6 col-md-6 col-12 order-first order-md-2">
                  <div class="txt-block left-column">
                      <div class="cbox-2 process-step">
                          <div class="ico-wrap">
@@ -735,8 +736,10 @@
                              <span class="cbox-2-line"></span>
                          </div>
                          <div class="cbox-2-txt">
-                             <h4 class="s-18 w-700">Loan Details</h4>
-                             <p>  Choose the required loan amount and basic preferences.
+                             <h4 class="s-18 w-700">Share Your Requirements</h4>
+                             <p class="mb-0">Tell us how much you need and your preferred repayment tenure.
+                             </p>
+                             <p class="mb-0">We’ll use this information to identify suitable loan options.
                              </p>
                          </div>
                      </div>
@@ -746,58 +749,63 @@
                              <span class="cbox-2-line"></span>
                          </div>
                          <div class="cbox-2-txt">
-                             <h4 class="s-18 w-700">Personal Details</h4>
-                            <p>
-                                Fill in personal and employment information securely.
-                            </p>
+                             <h4 class="s-18 w-700">Complete Your Profile</h4>
+                             <p class="mb-0">
+                                 Provide essential personal and employment information.
+                             </p>
+                             <p class="mb-0">This allows us to evaluate eligibility accurately.</p>
                          </div>
                      </div>
                      <div class="cbox-2 process-step">
                          <div class="ico-wrap">
                              <div class="cbox-2-ico bg--theme color--white">3</div>
-                              <span class="cbox-2-line"></span>
+                             <span class="cbox-2-line"></span>
                          </div>
                          <div class="cbox-2-txt">
-                             <h4 class="s-18 w-700">Unlock Offers</h4>
-                              <p>
-                                Instantly explore loan offers matched to your profile.
-                            </p>
+                             <h4 class="s-18 w-700">Discover Tailored Offers</h4>
+                             <p class="mb-0">
+                                 Browse loan offers curated according to your profile.
+                             </p>
+                             <p class="mb-0">Compare benefits, rates, and terms in one place.</p>
                          </div>
                      </div>
-                        <div class="cbox-2 process-step">
+                     <div class="cbox-2 process-step">
                          <div class="ico-wrap">
                              <div class="cbox-2-ico bg--theme color--white">4</div>
-                              <span class="cbox-2-line"></span>
+                             <span class="cbox-2-line"></span>
                          </div>
                          <div class="cbox-2-txt">
-                             <h4 class="s-18 w-700">Purchase Plan</h4>
-                              <p>
-                                Compare available repayment plans and choose wisely.
-                            </p>
+                             <h4 class="s-18 w-700">Choose the Best Option</h4>
+                             <p class="mb-0">
+                                 Select the loan plan that aligns with your budget and needs.
+                             </p>
+                             <p class="mb-0">Make an informed decision with complete transparency.</p>
                          </div>
                      </div>
-                        <div class="cbox-2 process-step">
+                     <div class="cbox-2 process-step">
                          <div class="ico-wrap">
                              <div class="cbox-2-ico bg--theme color--white">5</div>
-                              <span class="cbox-2-line"></span>
+                             <span class="cbox-2-line"></span>
                          </div>
                          <div class="cbox-2-txt">
-                             <h4 class="s-18 w-700">Personalized Offers</h4>
-                               <p>
-                                Receive customized loan offers with quick approval.
-                            </p>
+                             <h4 class="s-18 w-700">Get Approved & Disbursed</h4>
+                             <p class="mb-0">
+                                 Finalize the process with necessary verification steps.
+                             </p>
+                             <p class="mb-0">Receive approval and access your funds quickly.</p>
                          </div>
                      </div>
                  </div>
              </div>
-             <div class="col-lg-5 col-md-6 col-12 order-last order-md-2">
-                 <div class="img-block mb-0">
-                      <img class="img-fluid r-08 w-100" src="{{ asset('front/images/process-step.jpg') }}" alt="feature-image">
+             <div class="col-lg-6 col-md-6 col-12 order-last order-md-2">
+                 <div class="img-block mb-0 ms-0">
+                     <img class="img-fluid r-08 w-100" src="{{ asset('front/images/process-step.jpg') }}"
+                         alt="feature-image">
                  </div>
              </div>
          </div>
      </div>
- </section> -->
+ </section>
 
  <!-- Contact Start -->
  <section id="contact" class="py-80 bg--green-100">
