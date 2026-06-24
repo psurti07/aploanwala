@@ -79,8 +79,8 @@
                             <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 p-3">
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
-                                         <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">
+                                        <img src="{{ asset('front/images/Secure-&-Safe.png') }}" alt="aploannwala"
+                                            class="img-fluid p-0">
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
@@ -95,7 +95,7 @@
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
                                         <img src="{{ asset('front/images/Instant-Approval.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">
+                                            class="img-fluid p-0">
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
@@ -110,7 +110,7 @@
                                 <div class="fbox-ico ico-25 mb-2">
                                     <div class="shape-ico color--theme">
                                         <img src="{{ asset('front/images/Low-Interest-Rate.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">>
+                                            class="img-fluid p-0">>
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
@@ -252,8 +252,8 @@
                     <div class="fbox-8 feature-image fbox--hover fb-1 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                                       <img src="{{ asset('front/images/Strategic-Lending-Network-white.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">
+                                <img src="{{ asset('front/images/Strategic-Lending-Network-white.png') }}" alt="aploannwala"
+                                    class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -266,8 +266,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                                 <img src="{{ asset('front/images/Completely-Online-Process-white.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">
+                                <img src="{{ asset('front/images/Completely-Online-Process-white.png') }}" alt="aploannwala"
+                                    class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -281,7 +281,7 @@
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
                                 <img src="{{ asset('front/images/Self-Apply-Feature-white.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">
+                                    class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -294,8 +294,8 @@
                     <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
-                             <img src="{{ asset('front/images/Hire-Loan-Agent-white.png') }}" alt="aploannwala"
-                        class="img-fluid p-0">
+                                <img src="{{ asset('front/images/Hire-Loan-Agent-white.png') }}" alt="aploannwala"
+                                    class="img-fluid p-0">
                             </div>
                         </div>
                         <div class="fbox-txt mt-4">
@@ -339,14 +339,13 @@
                 <div class="form-holder">
                     <div class="contact-form-notice">
                         <p class="s-14">
-                            <strong>Important Disclosure :</strong> Repayment tenure may extend up to <strong>72 months</strong>, with <strong>annual interest rates typically ranging between 11.5% – 36%</strong>, depending on the applicant’s profile and the policies of the respective lending partner.
-                        </p>
-                        <p class="s-14">Processing charges may apply up to <strong>2%</strong> of the approved amount.</p>
-                        <p class="s-14">
-                            <strong>Illustration:</strong> For a credit amount of <strong>₹1,00,000</strong> at an <strong>interest rate of 11.5% per annum</strong> for a tenure of <strong>6 years</strong>, along with a <strong> 2% processing charge</strong>, the approximate <strong>APR may be around 12.26%</strong>.
+                            <strong>Disclosure :</strong> The Loan repayment tenure ranges from minimum of 6 months to maximum of 60 months (5 years), depending on the lender’s policies and applicant eligibility. The maximum APR (Annual Percentage Rate), inclusive of interest rate, processing fees, and applicable charges, may go up to 34% per annum depending on the applicant’s profile and the policies of the respective lending partner. the Processing fees may be charged up to 2% of the approved loan amount. Representative Example: For a loan amount of ₹1,00,000 at an interest rate of 11.5% per annum for a tenure of 60 months (5 years), with a processing fee of 2% (₹2,000): Approximate EMI: ₹2,301, Total Interest Payable: ₹38,059, Total Cost of the Loan: ₹1,38,059, Indicative APR: Approximately 14.41% per annum. *T&C Apply. All figures provided above are illustrative and indicative in nature. Actual loan terms may vary based on the applicant’s profile & lender policies.
                         </p>
                         <p class="s-14">
-                            All figures are indicative. Actual terms including approval, interest rate, tenure, processing charges, and disbursement are determined solely by the respective lending partner based on their eligibility criteria, internal policies, and regulatory guidelines.
+                            <strong>Important Note : </strong> BE AWARE! We ask our customers to make payments ONLY on our website https://aploannwala.com/ and NOT through any other source, directly or indirectly. Thanks!
+                        </p>
+                        <p class="s-14">
+                            <strong>Disclaimer:</strong> Aploannwala is a loan service aggregator and is authorised to provide services on behalf of its Lending Partners. The amount paid is only for the service charge. We are not lenders and do not guarantee any loan approval.
                         </p>
                         <p class="s-14">
                             <strong>Registered Office Address:</strong> {{ env('COMPANY_ADDRESS') }} <br /> Mobile: {{ env('COMPANY_MOBILE') }} | Email: {{ env('INFO_EMAIL') }}
