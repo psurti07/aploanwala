@@ -587,9 +587,9 @@
                                                                                                 +91-97242-06519
                                                                                                 </a>
                                                                                                 | Email:
-                                                                                                <a href="mailto:info@ailoans.com"
+                                                                                                <a href="mailto:info@aploannwala.com"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
-                                                                                                info@ailoans.com
+                                                                                                info@aploannwala.com
                                                                                                 </a>
                                                                                             </p>
                                                                                         </td>
