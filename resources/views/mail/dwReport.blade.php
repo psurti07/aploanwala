@@ -216,7 +216,7 @@
                                                                                             <tr>
                                                                                                 <td><h5 style="margin:0">{{ $agent->fullname ?? 'APloannwala Support' }}</h5></td>
                                                                                                 <td><h5 style="margin:0">+91 {{ $agent->mobile ?? '97242 06519' }}</h5></td>
-                                                                                                <td><h5 style="margin:0">{{ $agent->emailid ?? 'info@ailoans.com' }}</h5></td>
+                                                                                                <td><h5 style="margin:0">{{ $agent->emailid ?? 'info@aploannwala.com' }}</h5></td>
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>

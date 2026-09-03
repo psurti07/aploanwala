@@ -458,7 +458,7 @@
                                                                                             <a target="_blank" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;" href="tel:09724206519">
                                                                                                 {{ str_ireplace(' ','-',env('COMPANY_MOBILE')) }}
                                                                                                 </a> | Email:
-                                                                                            <a href="mailto:info@ailoans.com" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
+                                                                                            <a href="mailto:info@aploannwala.com" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
                                                                                                 {{ env('INFO_EMAIL') }}
                                                                                                 </a>
                                                                                         </p>
