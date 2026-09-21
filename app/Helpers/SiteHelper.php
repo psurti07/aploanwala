@@ -380,6 +380,8 @@ if (!function_exists('cookieHelper')) {
         Cookie::queue('utm_campaign', $utm_campaign, $lifetime, '/', null, false, true, false, 'lax');
         Cookie::queue('utm_referral', $utm_referral, $lifetime, '/', null, false, true, false, 'lax');
         Cookie::queue('sourceId', $sourceId, $lifetime, '/', null, false, true, false, 'lax');
+
+        session(['sourceId' => $sourceId]);
     }
 }
 

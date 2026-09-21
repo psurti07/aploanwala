@@ -127,7 +127,7 @@ class LoanAgentController extends Controller
                     'utm_campaign' => Cookie::get('utm_campaign'),
                     'utm_medium' => Cookie::get('utm_medium'),
                     'utm_referral' => Cookie::get('utm_referral'),
-                    'source_id' => Cookie::get('sourceId'),
+                    'source_id' => session('sourceId'),
                     'client_ip' => $request->ip()
                 ]);
 
@@ -136,7 +136,7 @@ class LoanAgentController extends Controller
                     DB::table('fb_ads_entry')->insertGetId([
                         'rec_date' => now(),
                         'userid' => $user->id,
-                        'fbclid' => Cookie::get('sourceId')
+                        'fbclid' => session('sourceId')
                     ]);
                 }
 
@@ -285,7 +285,7 @@ class LoanAgentController extends Controller
                     'utm_campaign' => Cookie::get('utm_campaign'),
                     'utm_medium' => Cookie::get('utm_medium'),
                     'utm_referral' => Cookie::get('utm_referral'),
-                    'source_id' => Cookie::get('sourceId'),
+                    'source_id' => session('sourceId'),
                     'client_ip' => $request->ip()
                 ]);
                 
@@ -293,7 +293,7 @@ class LoanAgentController extends Controller
             	$fbid = DB::table('fb_ads_entry')->insertGetId([
 			        'rec_date' => now(),
 					'userid' => $userid,
-					'fbclid' => Cookie::get('sourceId')
+					'fbclid' => session('sourceId')
 		        ]);
     			/* fb ends code */
                 //Cookie::queue('loan_type',$request->input('loan_amount') > 500000 ? 1 : 1,$this->lifetime,'/',null,false,true,false,'lax');
