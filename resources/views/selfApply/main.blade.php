@@ -173,13 +173,7 @@
 
                                     <div class="mb-2">
                                         <select name="user_type" id="user_type" class="form-control form-select">
-                                            <!-- Personal Options -->
-                                            <option value="1" data-loan="personal">Salaried</option>
-                                            <option value="2" data-loan="personal">Self Employed</option>
-
-                                            <!-- Business Options -->
-                                            <option value="3" data-loan="business" style="display:none;">Small Business</option>
-                                            <option value="4" data-loan="business" style="display:none;">Audited Report</option>
+                                            <!-- Options will be added by JavaScript -->
                                         </select>
                                     </div>
                                 </div>
@@ -407,41 +401,76 @@
 @endsection
 @push('scripts')
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    								
+    document.addEventListener("DOMContentLoaded", function () {
+
         const personalLoan = document.getElementById("personalloan");
         const businessLoan = document.getElementById("businessloan");
-
         const userTypeSelect = document.getElementById("user_type");
-        const options = userTypeSelect.querySelectorAll("option");
+
+        const personalOptions = [
+            {
+                value: "1",
+                text: "Salaried"
+            },
+            {
+                value: "2",
+                text: "Self Employed"
+            }
+        ];
+
+        const businessOptions = [
+            {
+                value: "3",
+                text: "Small Business"
+            },
+            {
+                value: "4",
+                text: "Audited Report"
+            }
+        ];
 
         function toggleUserTypeOptions() {
+
             let type = "personal";
-            if (businessLoan && businessLoan.checked) type = "business";
 
-            // Show/Hide options based on loan type
-            options.forEach(option => {
-                if (option.dataset.loan === type) {
-                    option.style.display = "block";
-                } else {
-                    option.style.display = "none";
-                }
-            });
-
-            // If current selected option is hidden, select first visible one
-            const selectedOption = userTypeSelect.options[userTypeSelect.selectedIndex];
-            if (selectedOption.style.display === "none") {
-                const firstVisible = [...options].find(opt => opt.style.display !== "none");
-                if (firstVisible) userTypeSelect.value = firstVisible.value;
+            if (businessLoan && businessLoan.checked) {
+                type = "business";
             }
+
+            // Clear existing options
+            userTypeSelect.innerHTML = "";
+
+            // Select correct options
+            const options = type === "business"
+                ? businessOptions
+                : personalOptions;
+
+            // Add options
+            options.forEach(function (option) {
+
+                const newOption = document.createElement("option");
+
+                newOption.value = option.value;
+                newOption.textContent = option.text;
+
+                userTypeSelect.appendChild(newOption);
+            });
         }
 
-        // Run on load
+        // Initial load
         toggleUserTypeOptions();
 
-        // Run on change
-        if (personalLoan) personalLoan.addEventListener("change", toggleUserTypeOptions);
-        if (businessLoan) businessLoan.addEventListener("change", toggleUserTypeOptions);
-    });
+        // Personal / Business change
+        if (personalLoan) {
+            personalLoan.addEventListener("change", toggleUserTypeOptions);
+        }
+
+        if (businessLoan) {
+            businessLoan.addEventListener("change", toggleUserTypeOptions);
+        }
+
+    });									
 </script>
 
 <script>
