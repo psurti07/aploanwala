@@ -24,9 +24,9 @@
                      <p class="mb-20">Get expert guidance and discover the right loan options tailored to your
                          financial needs, with a simple process and trusted support at every step of your journey.
                      </p>
-                     <a href="{{ route('self.apply.main') }}"
+                     {{-- <a href="{{ route('self.apply.main') }}"
                          class="btn r-04 btn--theme hover--tra-black last-link me-2 mb-md-0 mb-0">Self
-                         Apply</a>
+                         Apply</a> --}}
                      <a href="{{ route('loan.agent.main') }}"
                          class="btn r-04 btn--theme hover--tra-black last-link">Hire
                          an Agent</a>
@@ -213,7 +213,7 @@
                  </div>
              </div>
          </div>
-         <div class="row position-relative mb-3">
+         {{-- <div class="row position-relative mb-3">
              <figure class="rounded position-absolute d-none d-lg-block text-end"
                  style="top: 50%; right:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2;"><img
                      src="{{ asset('front/images/Quick-Self-Apply.png') }}"></figure>
@@ -241,7 +241,7 @@
                      </div>
                  </div>
              </div>
-         </div>
+         </div> --}}
          <div class="row position-relative justify-content-end">
              <figure class="rounded position-absolute d-none d-lg-block"
                  style="top: 50%; left:0; width: 45%; height: auto; transform: translateY(-50%); z-index:2"><img
@@ -996,7 +996,6 @@ $(document).ready(function() {
 
  <script>
 const routes = {
-    'selfapply': "{{ route('self.apply.send.otp') }}",
     'loan-agent': "{{ route('loan.agent.send.otp') }}"
 };
 

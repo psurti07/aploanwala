@@ -40,14 +40,14 @@
                         @if(false)
                         <li aria-haspopup="true"><a href="javascript:;" class="h-link">Apply Now <span class="wsarrow"></span></a>
                             <ul class="sub-menu">
-                                <li aria-haspopup="true"><a href="{{ route('self.apply.main') }}">Self Apply</a></li>
+                                {{-- <li aria-haspopup="true"><a href="{{ route('self.apply.main') }}">Self Apply</a></li> --}}
                                 <li aria-haspopup="true"><a href="{{ route('loan.agent.main') }}">Hire an Agent</a></li>
                             </ul>
                         </li>
                         @endif
                          <li aria-haspopup="true"><a href="javascript:;" class="h-link">Apply Now <span class="wsarrow"></span></a>
                             <ul class="sub-menu">
-                                <li aria-haspopup="true"><a href="{{ route('self.apply.main') }}">Self Apply</a></li>
+                                {{-- <li aria-haspopup="true"><a href="{{ route('self.apply.main') }}">Self Apply</a></li> --}}
                                 <li aria-haspopup="true"><a href="{{ route('loan.agent.main') }}">Hire an Agent</a></li>
                             </ul>
                         </li>

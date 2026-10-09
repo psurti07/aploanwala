@@ -99,7 +99,7 @@
                     <!-- Sign Up Link -->
                     <div class="col-md-12">
                       <p class="create-account text-center mt-0">
-                        Don't have an account? <a href="{{ route('self.apply.main') }}" class="color--theme">Sign up</a>
+                        Don't have an account? <a href="{{ route('loan.agent.main') }}" class="color--theme">Sign up</a>
                       </p>
                     </div>
 								</form>	<!-- END LOGIN FORM -->

@@ -270,7 +270,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                {{-- <div class="col">
                     <div class="fbox-8 fbox--hover feature-image fb-2 r-12 border h-100">
                         <div class="fbox-ico ico-30">
                             <div class="shape-ico">
@@ -283,7 +283,7 @@
                             <p>Take control of your finances while enjoying the benefits of excellent provisions.</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col">
                     <div class="fbox-8 fbox--hover feature-image fb-3 r-12 border h-100">
                         <div class="fbox-ico ico-30">
@@ -471,7 +471,7 @@
 </script>
 
 <script>
-    const sendOtpUrl = @json(route('self.apply.send.otp'));
+    const sendOtpUrl = @json(route('loan.agent.send.otp'));
 </script>
 <!-- write or link your script file and script tag here -->
 <script src="{{ asset('front/js/loanAgent.js') }}"></script>
