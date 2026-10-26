@@ -120,7 +120,7 @@ body {
                                             <div class="fbox-ico">
                                                 <div class="shape-ico">
                                                     <img class="p-0"
-                                                        src="https://manage.aploannwala.com/upload/banks/{{ $offersData[0]['bank_image'] }}"
+                                                        src="https://manage.aploannwala.com/public/upload/banks/{{ $offersData[0]['bank_image'] }}"
                                                         alt="bank" width="160">
                                                 </div>
                                             </div> <!-- End Icon -->
@@ -163,7 +163,7 @@ body {
                                             <div class="fbox-ico">
                                                 <div class="shape-ico">
                                                     <img class="p-0"
-                                                        src="https://manage.aploannwala.com/upload/banks/{{ $item['bank_image'] }}"
+                                                        src="https://manage.aploannwala.com/public/upload/banks/{{ $item['bank_image'] }}"
                                                         alt="bank" width="160">
                                                 </div>
                                             </div> <!-- End Icon -->
