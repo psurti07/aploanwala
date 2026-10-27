@@ -9,7 +9,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\DB;
 
-class LALeadWhatsappServices
+class LALeadWhatsappServicesaisensy
 {
     public function run()
     {
