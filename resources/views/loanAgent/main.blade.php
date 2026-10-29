@@ -381,6 +381,7 @@
                         </div>
                         <span class="mt-2 s-12 text-success" id="msg">
                             <input type="hidden" id="verificationCode" name="otp" readonly>
+                            <input type="hidden" name="user_type" value="1" checked>
                             <input class="form-check-input" value="1" type="hidden" id="flexCheckDefault1" checked name="allow_sms" />
                             <input class="form-check-input" value="1" type="hidden" id="flexCheckDefault" checked name="accept_tnc" />
                             <span class="text-danger f-w-400" id="invalidOtp" style="font-size:14px"></span>
