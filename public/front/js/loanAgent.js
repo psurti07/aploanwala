@@ -260,15 +260,17 @@ $(document).ready(function(){
         let allow_sms = $("input[name='allow_sms']:checked").val();
         let accept_tnc = $("input[name='accept_tnc']:checked").val();
         let acc_type = $("input[name='acc_type']").val();
+        let loan_type = $("input[name='loan_type']").val();
         var formData = new FormData();
         formData.append('mobile', mobile);
         formData.append('user_type', user_type);
         formData.append('allow_sms', allow_sms);
         formData.append('accept_tnc', accept_tnc);
         formData.append('acc_type', acc_type);
+        formData.append('loan_type', loan_type);
         /* ajax start */
         $.ajax({
-            url: `{!! route('loan.agent.send.otp') !!}`,
+            url: sendOtpUrl,
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
