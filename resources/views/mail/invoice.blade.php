@@ -2694,7 +2694,7 @@
                     <div class="tm_invoice_right" style="width:37%;">
                         <div class="tm_f14">
                             <p class="tm_mb0">
-                                <b class="tm_primary_color">CIN No: </b> {{ env('CIN_NO') }}<br />
+                                {{-- <b class="tm_primary_color">CIN No: </b> {{ env('CIN_NO') }}<br /> --}}
                                 <b class="tm_primary_color">GST No: </b> {{ env('GST_NO') }}
                             </p>
                         </div>
