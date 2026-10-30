@@ -814,7 +814,7 @@ if (!function_exists('getFacebookPixelKey')) {
     function getFacebookPixelKey()
     {
         $url = request()->segment(1);
-        $pxKey = ($url == 'loan-agent') ? 'la_facebookpixelkey' : 'sa_facebookpixelkey';
+        $pxKey = ($url == 'agent') ? 'la_facebookpixelkey' : 'sa_facebookpixelkey';
         return InfoPages::where('slug', $pxKey)->first()->content;
     }
 }
