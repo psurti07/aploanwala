@@ -806,7 +806,7 @@ if (!function_exists('sendForgetPassword')) {
 if (!function_exists('getFacebookDomainVerificationId')) {
     function getFacebookDomainVerificationId()
     {
-        return InfoPages::where('slug', 'sa_facebookdomain')->first()->content;
+        return InfoPages::where('slug', 'la_facebookdomain')->first()->content;
     }
 }
 
@@ -814,7 +814,7 @@ if (!function_exists('getFacebookPixelKey')) {
     function getFacebookPixelKey()
     {
         $url = request()->segment(1);
-        $pxKey = ($url == 'agent') ? 'la_facebookpixelkey' : 'sa_facebookpixelkey';
+        $pxKey = ($url == 'self-apply') ? 'sa_facebookpixelkey' : 'la_facebookpixelkey';
         return InfoPages::where('slug', $pxKey)->first()->content;
     }
 }
