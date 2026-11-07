@@ -23,7 +23,7 @@ class Kernel extends ConsoleKernel
         // $schedule->command('sms:la-lead-cycle')->everyFifteenMinutes();
         // $schedule->command('sms:sa-customer-cycle')->everyFifteenMinutes();
        
-        $schedule->command('whatsapp:la-lead-cycle')->everyFifteenMinutes();
+        // $schedule->command('whatsapp:la-lead-cycle')->everyFifteenMinutes();
         // $schedule->command('whatsapp:sa-lead-cycle')->everyFifteenMinutes();
         // $schedule->command('whatsapp:blog-remarketing-cycle')->everyFifteenMinutes();
         

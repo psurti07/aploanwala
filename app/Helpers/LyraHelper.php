@@ -26,6 +26,11 @@ if(!function_exists('getlyrapaymenturl')){
         $response = curl_exec($curl);
         
         $err = curl_error($curl);
+
+        Log::info('Lyra Payment URL: '.$peurl);
+        Log::info('Lyra Payment Data: '.$data_json);
+        Log::info('Lyra Payment Response: '.$response);
+        Log::info('Lyra Payment Error: '.$err);
     
         curl_close($curl);
        
