@@ -1364,6 +1364,186 @@ class LoanAgentController extends Controller
             $inputs = $request->all();
             $request->validate([
                 'first_name' => 'required',
+                'last_name'  => 'required',
+                'email'      => 'required|email',
+                'mobile'     => ['required', 'numeric', 'regex:/^[6-9]\d{9}$/']
+            ]);
+
+            $profile = $this->checkUserProcess($inputs);
+            if ($profile) {
+                return response()->json($profile);
+            } else {
+                $buyerFirstName = $inputs['first_name'];
+                $buyerLastName  = $inputs['last_name'];
+                $buyerPhone     = $inputs['mobile'];
+                $buyerEmail     = $inputs['email'];
+            }
+
+            $products = Product::where('productslug', config('constant.LA_OFFER_2'))->first();
+
+            $amount = ($products->inOffer == 1) ? $products->offeramount : $products->amount;
+            $grandAmount = $amount + ($amount * 0.18);
+
+            $uatNumbers = explode(',', env('UAT_MOBILE_NUMBERS', '')); // Convert the string into an array
+
+            foreach ($uatNumbers as $uatNum) {
+                if ($uatNum == $buyerPhone) {
+                    $grandAmount = 1;
+                    break; // Exit the loop once a match is found
+                }
+            }
+
+            // Razorpay works in paise
+            $razorAmount = (int) round($grandAmount * 100);
+
+            // Create Razorpay Order
+            $orderData = [
+                'receipt' => 'order_' . time(),
+                'amount' => $razorAmount,
+                'currency' => 'INR'
+            ];
+
+            $razor = generateRazorpayOrder($orderData);
+            $orderId = $razor->id;
+
+            // Keep SAME route (IMPORTANT)
+            $returnUrl = route('api.loan.agent.offer2Response');
+
+            // Save DB (same as your logic)
+            $offer = DB::table('cardoffer')->updateOrInsert(
+                ['mobile' => $buyerPhone],
+                [
+                    'rec_date'   => now(),
+                    'offerpage'  => 2,
+                    'first_name' => $buyerFirstName,
+                    'last_name'  => $buyerLastName,
+                    'emailid'    => $buyerEmail,
+                    'amount'     => $grandAmount,
+                ]
+            );
+
+            // Get the inserted/updated record ID
+            $cardofferRecord = DB::table('cardoffer')->where('mobile', $buyerPhone)->first();
+
+            // ✅ CREATE RAZORPAY ENTRY RECORD
+            $razorpayEntry = RazorpayEntry::create([
+                'rec_date'     => now(),
+                'entryfor'     => 4,
+                'userid'       => $cardofferRecord->id,
+                'orderid'      => $orderId,
+                'orderamount'  => $grandAmount,
+                'ordernote'    => 'elite-offer',
+                'referenceid'  => null,
+                'txstatus'     => 'PENDING',
+                'paymentmode'  => null,
+            ]);
+
+            return response()->json([
+                'type' => 'SUCCESS',
+                'message' => 'Redirecting...',
+                'url' => route('razorpay.page', [
+                    'order_id' => $orderId,
+                    'amount'   => $razorAmount,
+                    'name'     => $buyerFirstName . ' ' . $buyerLastName,
+                    'email'    => $buyerEmail,
+                    'mobile'   => $buyerPhone,
+                    'returnUrl' => $returnUrl
+                ])
+            ]);
+        } catch (ValidationException $e) {
+            return response()->json(array('type' => 'ERROR', 'errors' => $e->errors()), 422);
+        } catch (\Exception $e) {
+            Log::info($e->getMessage());
+            return response()->json(['type' => 'ERROR', 'message' => 'Oops! Something went wrong.']);
+        }
+    }
+
+    public function offer2Response(Request $request)
+    {
+        try {
+
+            $input = $request->all();
+            $meta = selfApplyMeta();
+
+            // Razorpay credentials
+            $api = new Api(config('services.razorpay.key'), config('services.razorpay.secret'));
+
+            $razorpay_payment_id = $input['razorpay_payment_id'] ?? null;
+            $razorpay_order_id   = $input['razorpay_order_id'] ?? null;
+            $razorpay_signature  = $input['razorpay_signature'] ?? null;
+
+            if (!$razorpay_payment_id || !$razorpay_order_id || !$razorpay_signature) {
+                Log::error('Missing Razorpay Data', $input);
+
+                return view('cardoffer-response', [
+                    'meta' => $meta,
+                    'response' => FALSE,
+                ]);
+            }
+
+            // ✅ Verify Signature
+            $attributes = [
+                'razorpay_order_id' => $razorpay_order_id,
+                'razorpay_payment_id' => $razorpay_payment_id,
+                'razorpay_signature' => $razorpay_signature
+            ];
+
+            try {
+                $api->utility->verifyPaymentSignature($attributes);
+                $status = 'SUCCESS';
+            } catch (\Exception $e) {
+                $status = 'FAILED';
+            }
+
+            $paymentdata = RazorpayEntry::where('orderid', $razorpay_order_id)->first();
+
+            // Update Paygic log
+            RazorpayEntry::where('id', $paymentdata->id)->update([
+                'rec_date'     => now(),
+                'referenceid'  => $razorpay_payment_id,
+                'txstatus'     => $status,
+                'paymentmode'  => '',
+            ]);
+
+            if ($status == 'SUCCESS') {
+                $userData = Cardoffer::where('id', $paymentdata->userid)->first();
+                $cardno = random_code_num(16);
+
+                $data = array(
+                    'rec_date' => date('Y-m-d H:i:s'),
+                    'card_number' => $cardno,
+                    'registration_date' => date('Y-m-d'),
+                    'expiry_date' => date('Y-m-d', strtotime('+9 months')),
+                    'paymentid' => $razorpay_payment_id,
+                    'isActive' => 1
+                );
+
+                $response = Cardoffer::where('id', $paymentdata->userid)->update($data);
+
+                $sent = sendPaymentGreetings($userData->first_name . ' ' . $userData->last_name, $userData->mobile, $userData->emailid);
+
+                return view('cardoffer-response', [
+                    'meta' => $meta,
+                    'response' => TRUE,
+                ]);
+            } else {
+                return view('cardoffer-response', [
+                    'meta' => $meta,
+                    'response' => FALSE,
+                ]);
+            }
+        } catch (\Exception $e) {
+            Log::info($e->getMessage());
+            dd('Ops! Something went wrong.');
+        }
+    }
+
+    public function getOffer2_lyra(Request $request)
+    {
+        try {
+            $inputs = $request->all();
+            $request->validate([
+                'first_name' => 'required',
                 'last_name' => 'required',
                 'email' => 'required|email',
                 'mobile' => ['required', 'numeric', 'regex:/^[6-9]\d{9}$/']
@@ -1480,7 +1660,7 @@ class LoanAgentController extends Controller
         }
     }
 
-    public function offer2Response(Request $request)
+    public function offer2Response_lyra(Request $request)
     {
         try {
             $inputs = $request->all();

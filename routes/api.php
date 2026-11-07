@@ -34,7 +34,7 @@ Route::middleware(['web'])->post('/buyDigitalAssistantPlan', [\App\Http\Controll
 // Route::post('/paymentSuccess', [SelfApplyController::class, 'paymentSuccess'])->name('payment.success');
 // Route::post('/paymentFailed', [SelfApplyController::class, 'paymentFailed'])->name('payment.failed');
 Route::post('/loan-agent/great-deal-offer-response',[LoanAgentController::class, 'offer1Response']);
-Route::post('/loan-agent/elite-offer-response',[LoanAgentController::class, 'offer2Response']);
+Route::post('/loan-agent/elite-offer-response',[LoanAgentController::class, 'offer2Response'])->name('api.loan.agent.offer2Response');
 Route::post('/loan-agent/ultra-saver-offer-response',[LoanAgentController::class, 'offer3Response']);
 Route::get('/loan-agent/big-offer-response/{orderId}/{token}',[LoanAgentController::class, 'offer4Response'])->name('api.loan.agent.offer4Response');
 Route::post('/loan-agent/big-benefit-response',[LoanAgentController::class, 'offer5Response'])->name('api.loan.agent.offer5Response');
