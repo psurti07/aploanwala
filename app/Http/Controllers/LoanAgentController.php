@@ -1474,11 +1474,11 @@ class LoanAgentController extends Controller
 
             if (!$razorpay_payment_id || !$razorpay_order_id || !$razorpay_signature) {
                 Log::error('Missing Razorpay Data', $input);
-
-                return view('cardoffer-response', [
-                    'meta' => $meta,
-                    'response' => FALSE,
-                ]);
+                return redirect()->route('loan.agent.offer2');
+                // return view('cardoffer-response', [
+                //     'meta' => $meta,
+                //     'response' => FALSE,
+                // ]);
             }
 
             // ✅ Verify Signature
