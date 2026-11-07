@@ -1527,10 +1527,11 @@ class LoanAgentController extends Controller
                     'response' => TRUE,
                 ]);
             } else {
-                return view('cardoffer-response', [
-                    'meta' => $meta,
-                    'response' => FALSE,
-                ]);
+                return redirect()->route('loan.agent.offer2');
+                // return view('cardoffer-response', [
+                //     'meta' => $meta,
+                //     'response' => FALSE,
+                // ]);
             }
         } catch (\Exception $e) {
             Log::info($e->getMessage());
